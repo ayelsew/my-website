@@ -1,5 +1,7 @@
 import Head from 'next/head'
 
+import * as S from "./styles";
+
 export default function Home() {
   return (
     <>
@@ -9,7 +11,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      Initial
+      <S.Section id="who-am-I" $bgColor='red'></S.Section>
+      <S.Section id="skills" $bgColor='green'></S.Section>
+      <S.Section id="portfolio" $bgColor='blue'></S.Section>
     </>
   )
 }

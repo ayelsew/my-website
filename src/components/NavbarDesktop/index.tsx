@@ -12,7 +12,7 @@ const NavbarDesktop: FC<NavbarDesktopProps> = (props) => {
 
   const renderNavigationItems = useCallback(() => {
     return [
-      { path: "/#", label: "Sobre mim" },
+      { path: "/#who-am-I", label: "Sobre mim" },
       { path: "/#skills", label: "Habilidades" },
       { path: "/#portfolio", label: "Portfólio" },
     ].map(({ path, label }) => (
