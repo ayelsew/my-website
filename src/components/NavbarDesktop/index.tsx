@@ -9,7 +9,7 @@ interface NavbarDesktopProps {
 const NavbarDesktop: FC<NavbarDesktopProps> = (props) => {
   return (
     <S.NavbarDesktopWrapper>
-      
+      Navbar
     </S.NavbarDesktopWrapper>
   );
 }
