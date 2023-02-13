@@ -1,3 +1,4 @@
+import Section1 from '@/components/Section1';
 import Head from 'next/head'
 import { useRouter } from 'next/router';
 import { useEffect } from 'react';
@@ -40,7 +41,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <S.Section id="who-am-I" $bgColor='red'></S.Section>
+      <S.Section id="who-am-I">
+        <Section1 />
+      </S.Section>
       <S.Section id="skills" $bgColor='green'></S.Section>
       <S.Section id="portfolio" $bgColor='blue'></S.Section>
     </>

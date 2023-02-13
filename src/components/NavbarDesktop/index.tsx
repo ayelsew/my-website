@@ -4,7 +4,7 @@ import { FC, useEffect, useState } from "react";
 import ProfileImage from "../../../public/profile.png"
 
 import * as S from "./styles";
-import { Discord, Email, Linkedin } from "@/components/images/vectors";
+import { Discord, Email, Linkedin } from "@/components/images/icons/vectors";
 
 interface NavbarDesktopProps {
 
