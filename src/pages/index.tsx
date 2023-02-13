@@ -8,14 +8,19 @@ export default function Home() {
   const router = useRouter();
 
   useEffect(() => {
+    let timerID: number = 0;
     const options: IntersectionObserverInit = {
       root: document.querySelector("main"), rootMargin: "40px", threshold: 1
     };
+
     const observer = new IntersectionObserver(elements => {
       const [element] = elements;
-      
-      if (element.isIntersecting)
-        router.replace(`/#${element.target.id}`, undefined, { shallow: true })
+      clearTimeout(timerID);
+
+      timerID = setTimeout(() => {
+        if (element.isIntersecting)
+          router.replace(`/#${element.target.id}`, undefined, { shallow: true })
+      }, 3500) as unknown as number;
     }, options);
 
     Array.from(document.querySelectorAll("main > section")).forEach((element) => {
