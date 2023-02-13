@@ -58,50 +58,50 @@ export default function Home() {
             title="IP Sync Cloudflare"
             description="Scheduler para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare"
             background="/images/ip_sync_cloudflare.png"
-            buttons={[
+            buttons={<>
               <Button text='Vizualizar' icon={<Eye size='20' />} />,
               <Button text='Vizualizar' icon={<Eye size='20' />} />
-            ]}
+            </>}
             profilePicture={<Eye size='29' color='white' />}
           />
           <Card
             title="IP Sync Cloudflare"
             description="Scheduler para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare"
             background="/images/ip_sync_cloudflare.png"
-            buttons={[
+            buttons={<>
               <Button text='Vizualizar' icon={<Eye size='20' />} />,
               <Button text='Vizualizar' icon={<Eye size='20' />} />
-            ]}
+            </>}
             profilePicture={<Eye size='29' color='white' />}
           />
           <Card
             title="IP Sync Cloudflare"
             description="Scheduler para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare"
             background="/images/ip_sync_cloudflare.png"
-            buttons={[
+            buttons={<>
               <Button text='Vizualizar' icon={<Eye size='20' />} />,
               <Button text='Vizualizar' icon={<Eye size='20' />} />
-            ]}
+            </>}
             profilePicture={<Eye size='29' color='white' />}
           />
           <Card
             title="IP Sync Cloudflare"
             description="Scheduler para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare"
             background="/images/ip_sync_cloudflare.png"
-            buttons={[
+            buttons={<>
               <Button text='Vizualizar' icon={<Eye size='20' />} />,
               <Button text='Vizualizar' icon={<Eye size='20' />} />
-            ]}
+            </>}
             profilePicture={<Eye size='29' color='white' />}
           />
           <Card
             title="IP Sync Cloudflare"
             description="Scheduler para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare"
             background="/images/ip_sync_cloudflare.png"
-            buttons={[
+            buttons={<>
               <Button text='Vizualizar' icon={<Eye size='20' />} />,
               <Button text='Vizualizar' icon={<Eye size='20' />} />
-            ]}
+            </>}
             profilePicture={<Eye size='29' color='white' />}
           />
         </Carousel>
