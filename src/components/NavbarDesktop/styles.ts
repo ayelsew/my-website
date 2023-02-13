@@ -11,11 +11,16 @@ export const Content = styled.div`
   padding: 40px;
   width: 100%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 `;
 
 export const Navgation = styled.nav`
   display: flex;
   flex-direction: column;
+  width: 100%;
 `;
 
 interface NavItemProps {
@@ -35,7 +40,29 @@ export const ProfilePicture = styled.div`
   width: 170px;
   height: 170px;
   position: relative;
-  margin: auto;
   border: 9px solid #FFFFFF;
   border-radius: 127px;
 `;
+
+export const ContactArea = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  a:nth-child(2) {
+    padding: 5px 0;
+  }
+`;
+
+export const Contact = styled.a`
+  display: flex;
+  font-weight: 500;
+  font-size: .8em;
+  color: ${({ theme }) => theme.color.text };
+  align-items: center;
+  
+  svg {
+    margin-right: 13px;
+  }
+`;
+

@@ -4,6 +4,7 @@ import { FC, useEffect, useState } from "react";
 import ProfileImage from "../../../public/profile.png"
 
 import * as S from "./styles";
+import { Discord, Email, Linkedin } from "../icons/vectors";
 
 interface NavbarDesktopProps {
 
@@ -48,6 +49,20 @@ const NavbarDesktop: FC<NavbarDesktopProps> = (props) => {
             Portfólio
           </S.NavItem>
         </S.Navgation>
+        <S.ContactArea>
+          <S.Contact href="https://www.linkedin.com/in/wesley-a/">
+            <Linkedin color="#7D7D7D" size="18" />
+            /wesley-a
+          </S.Contact>
+          <S.Contact href="https://discordapp.com/users/266586838410461184">
+            <Discord color="#7D7D7D" size="18" />
+            leydev#8372
+          </S.Contact>
+          <S.Contact href="mailto://contato@leydev.com.br">
+            <Email color="#7D7D7D" size="18" />
+            contato@leydev.com.br
+          </S.Contact>
+        </S.ContactArea>
       </S.Content>
     </S.NavbarDesktopWrapper>
   );
