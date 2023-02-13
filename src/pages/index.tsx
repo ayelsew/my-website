@@ -1,5 +1,6 @@
 import Button from '@/components/Button';
 import Card from '@/components/Card';
+import { Carousel } from '@/components/Carousel';
 import { Eye } from '@/components/images/icons/vectors';
 import Section1 from '@/components/Section1';
 import Section2 from '@/components/Section2';
@@ -52,16 +53,59 @@ export default function Home() {
         <Section2 />
       </S.Section>
       <S.Section id="portfolio">
-        <Card
-          title="IP Sync Cloudflare"
-          description="Scheduler para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare"
-          background="/images/ip_sync_cloudflare.png"
-          buttons={[
-            <Button text='Vizualizar' icon={<Eye size='20' />} />,
-            <Button text='Vizualizar' icon={<Eye size='20' />} />
-          ]}
-          profilePicture={<Eye size='29' color='white'/>}
-        />
+        <Carousel>
+          <Card
+            title="IP Sync Cloudflare"
+            description="Scheduler para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare"
+            background="/images/ip_sync_cloudflare.png"
+            buttons={[
+              <Button text='Vizualizar' icon={<Eye size='20' />} />,
+              <Button text='Vizualizar' icon={<Eye size='20' />} />
+            ]}
+            profilePicture={<Eye size='29' color='white' />}
+          />
+          <Card
+            title="IP Sync Cloudflare"
+            description="Scheduler para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare"
+            background="/images/ip_sync_cloudflare.png"
+            buttons={[
+              <Button text='Vizualizar' icon={<Eye size='20' />} />,
+              <Button text='Vizualizar' icon={<Eye size='20' />} />
+            ]}
+            profilePicture={<Eye size='29' color='white' />}
+          />
+          <Card
+            title="IP Sync Cloudflare"
+            description="Scheduler para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare"
+            background="/images/ip_sync_cloudflare.png"
+            buttons={[
+              <Button text='Vizualizar' icon={<Eye size='20' />} />,
+              <Button text='Vizualizar' icon={<Eye size='20' />} />
+            ]}
+            profilePicture={<Eye size='29' color='white' />}
+          />
+          <Card
+            title="IP Sync Cloudflare"
+            description="Scheduler para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare"
+            background="/images/ip_sync_cloudflare.png"
+            buttons={[
+              <Button text='Vizualizar' icon={<Eye size='20' />} />,
+              <Button text='Vizualizar' icon={<Eye size='20' />} />
+            ]}
+            profilePicture={<Eye size='29' color='white' />}
+          />
+          <Card
+            title="IP Sync Cloudflare"
+            description="Scheduler para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare"
+            background="/images/ip_sync_cloudflare.png"
+            buttons={[
+              <Button text='Vizualizar' icon={<Eye size='20' />} />,
+              <Button text='Vizualizar' icon={<Eye size='20' />} />
+            ]}
+            profilePicture={<Eye size='29' color='white' />}
+          />
+        </Carousel>
+
       </S.Section>
     </>
   )
