@@ -1,8 +1,32 @@
 import Head from 'next/head'
+import { useRouter } from 'next/router';
+import { useEffect } from 'react';
 
 import * as S from "./styles";
 
 export default function Home() {
+  const router = useRouter();
+
+  useEffect(() => {
+    const options: IntersectionObserverInit = {
+      root: document.querySelector("main"), rootMargin: "40px", threshold: 1
+    };
+    const observer = new IntersectionObserver(elements => {
+      const [element] = elements;
+      
+      if (element.isIntersecting)
+        router.replace(`/#${element.target.id}`, undefined, { shallow: true })
+    }, options);
+
+    Array.from(document.querySelectorAll("main > section")).forEach((element) => {
+      observer.observe(element);
+    })
+
+    return () => {
+      observer.disconnect()
+    }
+  }, []);
+
   return (
     <>
       <Head>
