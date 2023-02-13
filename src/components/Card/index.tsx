@@ -14,7 +14,7 @@ const Card: FC<CardProps> = ({
   background,
   title,
   description,
-  buttons = [],
+  buttons,
   profilePicture
 }) => {
 
