@@ -29,16 +29,16 @@ interface NavItemProps {
 
 export const NavItem = styled(Link) <NavItemProps>`
   color: ${({ $active, theme: { color } }) => $active ? color.title : color.text};
-  font-size: 1.4em;
+  font-size: 1em;
   line-height: 33.98px;
-  padding: 11px 0 11px 30px;
+  padding: 2px 0 2px 30px;
   border-bottom: 1px solid;
   border-color: ${({ $active, theme: { color } }) => $active ? color.highlight : color.text};
 `;
 
 export const ProfilePicture = styled.div`
-  width: 170px;
-  height: 170px;
+  width: 150px;
+  height: 150px;
   position: relative;
   border: 9px solid #FFFFFF;
   border-radius: 127px;
