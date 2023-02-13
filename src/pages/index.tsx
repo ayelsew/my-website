@@ -59,7 +59,7 @@ export default function Home() {
             description="Scheduler para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare"
             background="/images/ip_sync_cloudflare.png"
             buttons={<>
-              <Button text='Vizualizar' icon={<Eye size='20' />} />,
+              <Button text='Vizualizar' icon={<Eye size='20' />} />
               <Button text='Vizualizar' icon={<Eye size='20' />} />
             </>}
             profilePicture={<Eye size='29' color='white' />}
@@ -69,7 +69,7 @@ export default function Home() {
             description="Scheduler para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare"
             background="/images/ip_sync_cloudflare.png"
             buttons={<>
-              <Button text='Vizualizar' icon={<Eye size='20' />} />,
+              <Button text='Vizualizar' icon={<Eye size='20' />} />
               <Button text='Vizualizar' icon={<Eye size='20' />} />
             </>}
             profilePicture={<Eye size='29' color='white' />}
@@ -79,7 +79,7 @@ export default function Home() {
             description="Scheduler para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare"
             background="/images/ip_sync_cloudflare.png"
             buttons={<>
-              <Button text='Vizualizar' icon={<Eye size='20' />} />,
+              <Button text='Vizualizar' icon={<Eye size='20' />} />
               <Button text='Vizualizar' icon={<Eye size='20' />} />
             </>}
             profilePicture={<Eye size='29' color='white' />}
@@ -89,7 +89,7 @@ export default function Home() {
             description="Scheduler para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare"
             background="/images/ip_sync_cloudflare.png"
             buttons={<>
-              <Button text='Vizualizar' icon={<Eye size='20' />} />,
+              <Button text='Vizualizar' icon={<Eye size='20' />} />
               <Button text='Vizualizar' icon={<Eye size='20' />} />
             </>}
             profilePicture={<Eye size='29' color='white' />}
@@ -99,7 +99,7 @@ export default function Home() {
             description="Scheduler para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare"
             background="/images/ip_sync_cloudflare.png"
             buttons={<>
-              <Button text='Vizualizar' icon={<Eye size='20' />} />,
+              <Button text='Vizualizar' icon={<Eye size='20' />} />
               <Button text='Vizualizar' icon={<Eye size='20' />} />
             </>}
             profilePicture={<Eye size='29' color='white' />}
