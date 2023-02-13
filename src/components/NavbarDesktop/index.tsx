@@ -1,6 +1,7 @@
-import { GetServerSideProps, GetStaticProps } from "next";
 import { useRouter } from "next/router";
-import { FC, useCallback, useEffect, useState } from "react";
+import Image from 'next/image'
+import { FC, useEffect, useState } from "react";
+import ProfileImage from "../../../public/profile.png"
 
 import * as S from "./styles";
 
@@ -19,10 +20,18 @@ const NavbarDesktop: FC<NavbarDesktopProps> = (props) => {
   return (
     <S.NavbarDesktopWrapper>
       <S.Content>
+        <S.ProfilePicture>
+          <Image
+            src={ProfileImage}
+            alt="Wesley"
+            fill
+          />
+        </S.ProfilePicture>
         <S.Navgation>
           <S.NavItem
             $active={currentPath === "/#who-am-I"}
             href={"/#who-am-I"}
+
           >
             Sobre mim
           </S.NavItem>
