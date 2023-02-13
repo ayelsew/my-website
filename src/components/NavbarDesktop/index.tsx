@@ -1,5 +1,6 @@
+import { GetServerSideProps, GetStaticProps } from "next";
 import { useRouter } from "next/router";
-import { FC, useCallback } from "react";
+import { FC, useCallback, useEffect, useState } from "react";
 
 import * as S from "./styles";
 
@@ -9,28 +10,34 @@ interface NavbarDesktopProps {
 
 const NavbarDesktop: FC<NavbarDesktopProps> = (props) => {
   const router = useRouter()
+  const [currentPath, setPath] = useState("/#who-am-I");
 
-  const renderNavigationItems = useCallback(() => {
-    return [
-      { path: "/#who-am-I", label: "Sobre mim" },
-      { path: "/#skills", label: "Habilidades" },
-      { path: "/#portfolio", label: "Portfólio" },
-    ].map(({ path, label }) => (
-      <S.NavItem
-        key={`${path}${label}`}
-        $active={router.asPath === path}
-        href={path}
-      >
-        {label}
-      </S.NavItem>
-    ))
-  }, [router]);
+  useEffect(() => {
+    setPath(router.asPath);
+  }, [router.asPath]);
 
   return (
     <S.NavbarDesktopWrapper>
       <S.Content>
         <S.Navgation>
-         {renderNavigationItems()}
+          <S.NavItem
+            $active={currentPath === "/#who-am-I"}
+            href={"/#who-am-I"}
+          >
+            Sobre mim
+          </S.NavItem>
+          <S.NavItem
+            $active={currentPath === "/#skills"}
+            href={"/#skills"}
+          >
+            Habilidades
+          </S.NavItem>
+          <S.NavItem
+            $active={currentPath === "/#portfolio"}
+            href={"/#portfolio"}
+          >
+            Portfólio
+          </S.NavItem>
         </S.Navgation>
       </S.Content>
     </S.NavbarDesktopWrapper>

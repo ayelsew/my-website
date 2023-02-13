@@ -5,7 +5,6 @@ export const LayoutDefualt = styled.div`
 `;
 
 export const MainWrapper = styled.main`
-  flex-grow: 1;
   width: 75vw;
   display: grid;
   grid-auto-flow: column;
