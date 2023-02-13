@@ -1,5 +1,5 @@
 import * as S from "./styles";
-import { Background1, TimelineDesktop } from "@/components/images/backgrounds/vectors";
+import { Background1, TimelineDesktop, Selo } from "@/components/images/backgrounds/vectors";
 
 const Section1 = () => {
   return (
@@ -18,6 +18,9 @@ const Section1 = () => {
           <span>Veja minhas experiências</span>
           <TimelineDesktop />
         </S.Timeline>
+        <S.Selo>
+          <Selo />
+        </S.Selo>
       </S.Content>
     </S.Section1Wrapper>
   )

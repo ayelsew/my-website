@@ -91,3 +91,13 @@ export const Timeline = styled.div`
     }
   }
 `;
+
+export const Selo = styled.span`
+  position: absolute;
+  right: 40px;
+  bottom: 20px;
+
+  svg {
+    width: 180px;
+  }
+`;
