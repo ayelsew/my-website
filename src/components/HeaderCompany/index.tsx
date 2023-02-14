@@ -24,9 +24,6 @@ const HeaderCompany: FC<HeaderCompanyProps> = ({ }) => {
           <S.PeriodStart>Fev 2022</S.PeriodStart> até <S.PeriodEnd>Fev 2023</S.PeriodEnd>
         </S.Period>
       </S.HeaderContent>
-      <S.BackButtonContainer>
-
-      </S.BackButtonContainer>
     </S.HeaderCompanyWrapper>
   )
 }
