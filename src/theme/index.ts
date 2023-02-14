@@ -31,6 +31,10 @@ export const GlobalStyle = createGlobalStyle`
 export const theme: DefaultTheme = {
   bgMenu: "#212121",
   bgPages: "#202123",
+  button: {
+    fill: "#2FB5FF",
+    text: "#000"
+  },
   color: {
     title: "#ffffff",
     text: "#D4D4D4",

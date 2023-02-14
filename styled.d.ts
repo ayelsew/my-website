@@ -8,6 +8,10 @@ declare module "styled-components" {
       title: string
       text: string
       highlight: string
+    },
+    button: {
+      fill: string;
+      text: string 
     }
   }  
 }
