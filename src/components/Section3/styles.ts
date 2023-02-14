@@ -23,7 +23,7 @@ export const Content = styled.div`
   width: 100%;
   height: 100%;
   display: grid;
-  padding: 50px 40px;
+  padding: 80px 40px;
   grid-template-columns: repeat(12, auto);
   grid-template-rows: auto auto;
   align-content: center;

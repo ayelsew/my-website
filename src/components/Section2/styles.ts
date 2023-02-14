@@ -23,12 +23,13 @@ export const Content = styled.div`
   width: 100%;
   height: 100%;
   display: grid;
-  padding: 40px;
+  padding: 80px 40px;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
   align-content: center;
   justify-items: center;
   grid-row-gap: 60px;
+  align-content: space-between;
 `
 
 export const Snippet = styled.article``
