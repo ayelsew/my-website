@@ -1,4 +1,5 @@
 import Section1 from '@/components/Section1';
+import Section2 from '@/components/Section2';
 import Head from 'next/head'
 import { useRouter } from 'next/router';
 import { useEffect } from 'react';
@@ -44,7 +45,9 @@ export default function Home() {
       <S.Section id="who-am-I">
         <Section1 />
       </S.Section>
-      <S.Section id="skills" $bgColor='green'></S.Section>
+      <S.Section id="skills">
+        <Section2 />
+      </S.Section>
       <S.Section id="portfolio" $bgColor='blue'></S.Section>
     </>
   )

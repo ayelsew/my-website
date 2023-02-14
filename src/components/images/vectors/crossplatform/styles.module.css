@@ -1,0 +1,165 @@
+path.gear0 {
+  animation: spin 3s linear 4.4s infinite reverse;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+path.gear1 {
+  /* 6 */
+  animation: spinGear1 3s linear 4.4s infinite reverse;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes spinGear1 {
+  100% {
+    transform: rotate(720deg)
+  }
+}
+
+path.gear2 {
+  /* 12 */
+  animation: spin 3s linear 4.4s infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg)
+  }
+}
+
+.pipe3 {
+  animation: anime_pipe15 3s linear 3.26s backwards infinite;
+
+  stroke-dasharray: 100 400;
+  stroke-dashoffset: 250;
+}
+
+@keyframes anime_pipe3 {
+  100% {
+    stroke-dashoffset: -250;
+  }
+
+  50% {
+    stroke-dashoffset: 0;
+  }
+
+  0% {
+    stroke-dashoffset: 250;
+  }
+}
+
+
+.pipe2 {
+  animation: anime_pipe15 3s linear 3.26s backwards infinite;
+
+  stroke-dasharray: 100 400;
+  stroke-dashoffset: 250;
+}
+
+.pipe4 {
+  animation: anime_pipe15 3s linear 3.26s backwards infinite;
+
+  stroke-dasharray: 100 400;
+  stroke-dashoffset: 250;
+}
+
+@keyframes anime_pipe24 {
+  100% {
+    stroke-dashoffset: -250;
+  }
+
+  50% {
+    stroke-dashoffset: 0;
+  }
+
+  0% {
+    stroke-dashoffset: 250;
+  }
+}
+
+
+.pipe1 {
+  animation: anime_pipe15 3s linear 2.7s backwards infinite;
+
+  stroke-dasharray: 100 400;
+  stroke-dashoffset: 250;
+}
+
+
+.pipe5 {
+  animation: anime_pipe15 3s linear 2.7s backwards infinite;
+
+  stroke-dasharray: 100 400;
+  stroke-dashoffset: 250;
+}
+
+@keyframes anime_pipe15 {
+  100% {
+    stroke-dashoffset: -250;
+  }
+
+  50% {
+    stroke-dashoffset: 0;
+  }
+
+  0% {
+    stroke-dashoffset: 250;
+  }
+}
+
+
+.pipe6 {
+  animation: anime_pipe68 3s linear 5.7s backwards infinite reverse;
+
+  stroke-dasharray: 100 400;
+  stroke-dashoffset: 200;
+}
+
+
+.pipe8 {
+  animation: anime_pipe68 3s linear 5.3s backwards infinite;
+
+  stroke-dasharray: 100 400;
+  stroke-dashoffset: 200;
+}
+
+
+@keyframes anime_pipe68 {
+  100% {
+    stroke-dasharray: 100 400;
+    stroke-dashoffset: -200;
+  }
+
+  50% {
+    stroke-dashoffset: 0;
+  }
+
+  0% {
+    stroke-dasharray: 100 400;
+    stroke-dashoffset: 200;
+  }
+}
+
+.pipe7 {
+  animation: anime_pipe7 3s linear 5.3s backwards infinite reverse;
+
+  stroke-dasharray: 100 400;
+  stroke-dashoffset: 200;
+}
+
+@keyframes anime_pipe7 {
+  100% {
+    stroke-dashoffset: -200;
+  }
+
+  50% {
+    stroke-dashoffset: 0;
+  }
+
+  0% {
+    stroke-dashoffset: 200;
+  }
+}
