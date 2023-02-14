@@ -6,8 +6,8 @@ interface CardWrapperProps {
 
 export const CardWrapper = styled.article<CardWrapperProps>`
   box-shadow: 4px 7px 0px rgba(0, 0, 0, 0.05);
-  width: 360px;
-  height: 216px;
+  width: 21rem;
+  height: 12.8rem;
   border-radius: 10px;
   background: ${({ $background }) => `url(${$background})` || "#383838"};
   background-position: center;
