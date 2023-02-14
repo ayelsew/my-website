@@ -37,11 +37,11 @@ export const NavItem = styled(Link) <NavItemProps>`
 `;
 
 export const ProfilePicture = styled.div`
-  width: 150px;
-  height: 150px;
+  width: 11rem;
+  height: 11rem;
   position: relative;
-  border: 9px solid #FFFFFF;
-  border-radius: 127px;
+  border: 0.4rem solid #FFFFFF;
+  border-radius: 100px;
 `;
 
 export const ContactArea = styled.div`
