@@ -50,7 +50,7 @@ export const Content = styled.div`
   scroll-behavior: smooth;
   scroll-snap-stop: always;
   grid-column-gap: 40px;
-
+  scroll-snap-align: center;
   grid-column-start: 1;
   grid-column-end: 13;
   grid-row-start: 1;

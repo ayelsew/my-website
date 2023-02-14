@@ -15,13 +15,13 @@ export const Carousel: FC<CarouselProps> = ({ children }) => {
   const goToNext = useCallback(() => {
     if (containerRef.current === null) return;
 
-    containerRef.current?.scrollBy({ left: 500 })
+    containerRef.current?.scrollBy({ left: 700 })
   }, [])
 
   const goToPrev = useCallback(() => {
     if (containerRef === null) return;
 
-    containerRef.current?.scrollBy({ left: -500 })
+    containerRef.current?.scrollBy({ left: -700 })
   }, [])
 
   useEffect(() => {
