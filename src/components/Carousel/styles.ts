@@ -45,16 +45,19 @@ export const Content = styled.div`
   display: grid;
   grid-auto-flow: column;
   overflow-x: hidden;
-  overflow-y: hidden;
+  overflow-y: unset;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   scroll-snap-stop: always;
-  grid-column-gap: 40px;
-  scroll-snap-align: center;
+  grid-column-gap: 20px;
   grid-column-start: 1;
   grid-column-end: 13;
   grid-row-start: 1;
   grid-row-end: 3;
+
+  > * {
+    scroll-snap-align: center;
+  }
 `
 
 export const Button = styled.button`

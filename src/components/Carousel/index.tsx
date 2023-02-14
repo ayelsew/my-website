@@ -13,15 +13,19 @@ export const Carousel: FC<CarouselProps> = ({ children }) => {
   const [hideRightButton, setRightButton] = useState<boolean>(false);
 
   const goToNext = useCallback(() => {
-    if (containerRef.current === null) return;
+    const { current: container } = containerRef;
+    if (container === null) return;
+    const fisrtItem = container.children.item(0);
 
-    containerRef.current?.scrollBy({ left: 700 })
+    containerRef.current?.scrollBy({ left: Number(fisrtItem?.clientWidth) })
   }, [])
 
   const goToPrev = useCallback(() => {
-    if (containerRef === null) return;
+    const { current: container } = containerRef;
+    if (container === null) return;
+    const fisrtItem = container.children.item(0);
 
-    containerRef.current?.scrollBy({ left: -700 })
+    container.scrollBy({ left: -Number(fisrtItem?.clientWidth) })
   }, [])
 
   useEffect(() => {
