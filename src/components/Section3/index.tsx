@@ -4,7 +4,7 @@ import { CrossPlatform, Syncronism } from "@/components/images/vectors";
 import { Carousel } from "../Carousel";
 import Card from "../Card";
 import Button from "../Button";
-import { Eye } from "../images/icons/vectors";
+import { Eye, Github } from "../images/icons/vectors";
 
 const Section3 = () => {
   return (
@@ -13,7 +13,11 @@ const Section3 = () => {
         <Background2 />
       </S.Background>
       <S.Content>
+
         <S.CarouselArea>
+          <S.SnippetTitle>
+            Projetos concluÍdos
+          </S.SnippetTitle>
           <Carousel>
             <Card
               title="IP Sync Cloudflare"
@@ -68,15 +72,24 @@ const Section3 = () => {
           </Carousel>
         </S.CarouselArea>
 
-        <S.Snippet>
+        <S.Snippet className="open-source">
           <S.SnippetTitle>
-            Centralização e sincronismo
+            Open source & experimentos
           </S.SnippetTitle>
           <S.SnippetParagraph>
-            Desenvolvimento de APIs sobre HTTP, permitindo fácil integração com outros sistemas, usando Nginx, MySQL MongoBD e outros. Combinado com fatores para aumentar a segurança do armazenamento e tráfego dos dados como Firewall, SSL, Bcrypt e JWT.
+            De tempos em tempos, testo algumas tecnologias para entender seu funcionamento, ou para ajudar no desenvolvimento de portifólio para amigos que querem ingressar em desenvolvimento.
           </S.SnippetParagraph>
+
+          <Button
+            text="Ver Github"
+            icon={<Github size="18" color="#fff" />}
+            outline
+            color="#fff"
+            size="medium"
+            stretch="70%"
+          />
         </S.Snippet>
-        
+
         <S.FavCard>
           <Card
             title="IP Sync Cloudflare"

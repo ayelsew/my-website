@@ -23,13 +23,14 @@ export const Content = styled.div`
   width: 100%;
   height: 100%;
   display: grid;
-  padding: 40px;
+  padding: 50px 40px;
   grid-template-columns: repeat(12, auto);
   grid-template-rows: auto auto;
   align-content: center;
   justify-items: center;
   grid-row-gap: 60px;
-  grid-column-gap: 8px;
+  grid-column-gap: 0px;
+  align-content: space-between;
 `
 
 export const CarouselArea = styled.div`
@@ -40,7 +41,13 @@ export const CarouselArea = styled.div`
 
 export const Snippet = styled.article`
   grid-row-start: 2;
-  grid-column-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 10;
+
+  &.open-source {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+  }
 `
 
 export const SnippetTitle = styled.h2`
@@ -60,6 +67,6 @@ export const SnippetParagraph = styled.p`
 
 export const FavCard = styled.div`
  grid-row-start: 2;
- grid-column-start: 3;
- grid-column-start: 13;
+ grid-column-start: 12;
+ /* padding-right: 35px; */
 `

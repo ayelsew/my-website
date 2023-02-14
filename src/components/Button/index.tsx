@@ -4,17 +4,23 @@ import * as S from "./styles"
 
 interface ButtonProps {
   outline?: boolean
-  text: string,
+  text: string
   icon?: ReactElement
+  color?: string
+  size?: "medium" | "large"
+  stretch?: string
 }
 
 const Button: FC<ButtonProps> = ({
   outline,
   text,
-  icon
+  icon,
+  color,
+  size,
+  stretch
 }) => {
   return (
-    <S.ButtonWrapper $fill={!outline}>
+    <S.ButtonWrapper className={`${size}`} $stretch={stretch} $fill={!outline} $color={color}>
       {icon}
       {text}
     </S.ButtonWrapper>
