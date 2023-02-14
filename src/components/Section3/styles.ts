@@ -67,6 +67,5 @@ export const SnippetParagraph = styled.p`
 
 export const FavCard = styled.div`
  grid-row-start: 2;
- grid-column-start: 12;
- /* padding-right: 35px; */
+ grid-column-start: 11;
 `
