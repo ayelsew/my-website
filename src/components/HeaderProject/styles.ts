@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const HeaderProjectWrapper = styled.header`
   width: 100%;
-  height: 18rem;
+  height: 20rem;
   position: relative;
 `
 
@@ -33,11 +33,11 @@ export const Content = styled.div`
   position: absolute;
   width: 100%;
   height: 100%;
-  padding: 9.5rem 40px 0 40px;
+  padding: 11.5rem 40px 0 40px;
   display: grid;
   grid-template-columns: auto 1fr;
   align-items: start;
-  grid-column-gap: 3rem;
+  grid-column-gap: 2rem;
 `;
 
 export const ProfilePictureContent = styled.div`
