@@ -17,23 +17,43 @@ const Project = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <S.SectionWrapper>
-        <HeaderProject /> 
+        <HeaderProject />
         <S.Content>
-          
 
-          <S.Snippet>
-            <S.SnippetTitle>
-              Sobre a experiência
-            </S.SnippetTitle>
-            <S.SnippetParagraph>
-              Lorem linguiça é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica,
-            </S.SnippetParagraph>
-          </S.Snippet>
 
-          <S.CarouselArea>
-            <S.SnippetTitle>
-              Projetos
-            </S.SnippetTitle>
+          <S.ColumnOne>
+            <S.TitleH2>
+              Tecnologias
+            </S.TitleH2>
+            <S.ListTechnologies>
+              <S.Technology>
+                <S.TechnologyIcon src="/images/vectors/react.svg" />
+                <S.TechnologyDescription>
+                  React é uma biblioteca JavaScript para criar interfaces de usuário.
+                </S.TechnologyDescription>
+              </S.Technology>
+              <S.Technology>
+                <S.TechnologyIcon src="/images/vectors/react.svg" />
+                <S.TechnologyDescription>
+                  React é uma biblioteca JavaScript para criar interfaces de usuário.
+                </S.TechnologyDescription>
+              </S.Technology>
+              <S.Technology>
+                <S.TechnologyIcon src="/images/vectors/react.svg" />
+                <S.TechnologyDescription>
+                  React é uma biblioteca JavaScript para criar interfaces de usuário.
+                </S.TechnologyDescription>
+              </S.Technology>
+              <S.Technology>
+                <S.TechnologyIcon src="/images/vectors/react.svg" />
+                <S.TechnologyDescription>
+                  React é uma biblioteca JavaScript para criar interfaces de usuário.
+                </S.TechnologyDescription>
+              </S.Technology>
+            </S.ListTechnologies>
+          </S.ColumnOne>
+
+          <S.ColumnTwo>
             <Carousel>
               <Card
                 title="IP Sync Cloudflare"
@@ -76,7 +96,15 @@ const Project = () => {
                 </>}
               />
             </Carousel>
-          </S.CarouselArea>
+            <S.Snippet>
+              <S.TitleH2>
+                Sobre a experiência
+              </S.TitleH2>
+              <S.SnippetParagraph>
+                Lorem linguiça é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica,
+              </S.SnippetParagraph>
+            </S.Snippet>
+          </S.ColumnTwo>
         </S.Content>
       </S.SectionWrapper>
     </>

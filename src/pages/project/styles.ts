@@ -12,20 +12,16 @@ export const Content = styled.div`
   width: 100%;
   height: 100%;
   display: grid;
-  padding: 80px 40px;
-  grid-template-rows: auto 1fr 1fr;
-  align-content: space-between;
-  grid-row-gap: 1rem;
+  padding: 1rem 40px;
+  grid-template-columns: auto 1fr;
+  grid-column-gap: 2rem;
 `
 
-export const Snippet = styled.article`
+export const Snippet = styled.article``
 
-`
-
-export const SnippetTitle = styled.h2`
+export const TitleH2 = styled.h2`
   font-weight: 700;
   font-size: 1.5em;
-  line-height: 41px;
   color: ${({ theme }) => theme.color.title};
   margin-bottom: 20px;
 `
@@ -37,6 +33,31 @@ export const SnippetParagraph = styled.p`
   color: ${({ theme }) => theme.color.text};
 `
 
-export const CarouselArea = styled.div`
+export const ColumnTwo = styled.div`
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-row-gap: 2rem;
+`
 
+export const ColumnOne = styled.div`
+  width: 20rem;
+`
+
+export const ListTechnologies = styled.ul`
+  list-style: none;
+`
+
+export const Technology = styled.li`
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-column-gap: 1rem;
+  margin-bottom: 1rem;
+`
+
+export const TechnologyIcon = styled.img``
+
+export const TechnologyDescription = styled.p`
+  font-weight: 400;
+  font-size: 1em;
+  color: ${({ theme }) => theme.color.text};
 `
