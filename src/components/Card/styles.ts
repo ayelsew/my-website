@@ -27,7 +27,6 @@ export const Content = styled.div`
 export const Title = styled.h3`
   grid-column-start: 1;
   grid-column-end: 3;
-  grid-row-end: 200px;
   font-weight: 700;
   font-size: 1.2em;
   color: ${({ theme }) => theme.color.title};
