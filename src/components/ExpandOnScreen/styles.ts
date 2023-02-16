@@ -34,3 +34,25 @@ export const Content = styled.div`
     position: absolute;
   }
 `
+
+export const CloseButton = styled.button`
+  --color-close: #1B1C1C;
+  --size-close: 2.5rem;
+  background-color: var(--color-close);
+  width: var(--size-close);
+  height: var(--size-close);
+  border-radius: 100px;
+  border-style: solid;
+  border-color: var(--color-close);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  transition-delay: .3s;
+
+  ${ExpandOnScreenWrapper}.expand & {
+    display: flex;
+    position: absolute;
+    top: 1rem;
+    left: calc((100vw / 2) - (var(--size-close) / 2));
+  }
+`

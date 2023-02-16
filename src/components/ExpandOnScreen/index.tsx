@@ -1,4 +1,5 @@
 import { FC, ReactElement, useEffect, useRef, useState } from "react";
+import { Close } from "../images/icons/vectors";
 
 import * as S from "./styles"
 
@@ -26,10 +27,13 @@ const ExpandOnScreeen: FC<ExpandOnScreeenProps> = ({ children, expand, onClose }
 
   return (
     <S.ExpandOnScreenWrapper ref={wrapperRef} className={`${expand ? "expand" : ""}`} style={XY} >
-      <S.BackLayer onClick={onClose} ></S.BackLayer>
+      <S.BackLayer onClick={onClose} />
       <S.Content>
         {children}
       </S.Content>
+      <S.CloseButton type="button" aria-label="Close viewer" onClick={onClose}>
+        <Close size="16" />
+      </S.CloseButton>
     </S.ExpandOnScreenWrapper>
   )
 }
