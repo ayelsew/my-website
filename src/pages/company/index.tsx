@@ -8,6 +8,7 @@ import Card from '@/components/Card'
 import Button from '@/components/ButtonLink'
 import { Eye } from '@/components/images/icons/vectors'
 import Paragraph from '@/components/Paragraph'
+import TitleH2 from '@/components/TitleH2'
 
 const Company = () => {
   return (
@@ -23,18 +24,18 @@ const Company = () => {
           <HeaderCompany />
 
           <S.Snippet>
-            <S.SnippetTitle>
+            <TitleH2>
               Sobre a experiência
-            </S.SnippetTitle>
+            </TitleH2>
             <Paragraph>
               Lorem linguiça é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica,
             </Paragraph>
           </S.Snippet>
 
           <S.CarouselArea>
-            <S.SnippetTitle>
+            <TitleH2>
               Projetos
-            </S.SnippetTitle>
+            </TitleH2>
             <Carousel>
               <Card
                 title="IP Sync Cloudflare"

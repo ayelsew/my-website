@@ -8,6 +8,7 @@ import { Carousel } from '@/components/Carousel'
 import HeaderProject from '@/components/HeaderProject'
 import ExpandOnScreeen from '@/components/ExpandOnScreen'
 import Paragraph from '@/components/Paragraph'
+import TitleH2 from '@/components/TitleH2'
 
 
 const Project = () => {
@@ -26,9 +27,9 @@ const Project = () => {
 
 
           <S.ColumnOne>
-            <S.TitleH2>
+            <TitleH2>
               Tecnologias
-            </S.TitleH2>
+            </TitleH2>
             <S.ListTechnologies>
               <S.Technology>
                 <S.TechnologyIcon src="/images/vectors/react.svg" />
@@ -75,9 +76,9 @@ const Project = () => {
               </Carousel>
             </ExpandOnScreeen>
             <S.Snippet>
-              <S.TitleH2>
+              <TitleH2>
                 Sobre a experiência
-              </S.TitleH2>
+              </TitleH2>
               <Paragraph>
                 Lorem linguiça é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica,
               </Paragraph>

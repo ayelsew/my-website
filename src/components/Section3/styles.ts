@@ -50,13 +50,6 @@ export const Snippet = styled.article`
   }
 `
 
-export const SnippetTitle = styled.h2`
-  font-size: 1.5em;
-  line-height: 41px;
-  color: ${({ theme }) => theme.color.title};
-  margin-bottom: 20px;
-`
-
 export const FavCard = styled.div`
  grid-row-start: 2;
  grid-column-start: 11;

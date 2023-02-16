@@ -6,6 +6,7 @@ import Card from "../Card";
 import Button from "../ButtonLink";
 import { Eye, Github } from "../images/icons/vectors";
 import Paragraph from "../Paragraph";
+import TitleH2 from "../TitleH2";
 
 const Section3 = () => {
   return (
@@ -16,9 +17,9 @@ const Section3 = () => {
       <S.Content>
 
         <S.CarouselArea>
-          <S.SnippetTitle>
+          <TitleH2>
             Projetos concluÍdos
-          </S.SnippetTitle>
+          </TitleH2>
           <Carousel salveScroll="projects">
             <Card
               title="IP Sync Cloudflare"
@@ -69,9 +70,9 @@ const Section3 = () => {
         </S.CarouselArea>
 
         <S.Snippet className="open-source">
-          <S.SnippetTitle>
+          <TitleH2>
             Open source & experimentos
-          </S.SnippetTitle>
+          </TitleH2>
           <Paragraph>
             De tempos em tempos, testo algumas tecnologias para entender seu funcionamento, ou para ajudar no desenvolvimento de portifólio para amigos que querem ingressar em desenvolvimento.
           </Paragraph>

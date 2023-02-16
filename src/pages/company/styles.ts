@@ -21,14 +21,6 @@ export const Snippet = styled.article`
 
 `
 
-export const SnippetTitle = styled.h2`
-  font-weight: 700;
-  font-size: 1.5em;
-  line-height: 41px;
-  color: ${({ theme }) => theme.color.title};
-  margin-bottom: 20px;
-`
-
 export const CarouselArea = styled.div`
 
 `

@@ -19,12 +19,6 @@ export const Content = styled.div`
 
 export const Snippet = styled.article``
 
-export const TitleH2 = styled.h2`
-  font-weight: 700;
-  font-size: 1.5em;
-  color: ${({ theme }) => theme.color.title};
-  margin-bottom: 20px;
-`
 
 export const ColumnTwo = styled.div`
   display: grid;

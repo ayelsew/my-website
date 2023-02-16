@@ -33,13 +33,6 @@ export const Content = styled.div`
 
 export const Snippet = styled.article``
 
-export const SnippetTitle = styled.h2`
-  font-size: 1.5em;
-  line-height: 41px;
-  color: ${({ theme }) => theme.color.title};
-  margin-bottom: 20px;
-`
-
 export const ImageContainer = styled.div`
   svg {
     height: 200px;
