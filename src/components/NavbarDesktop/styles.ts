@@ -43,6 +43,7 @@ export const ProfilePicture = styled.div`
   position: relative;
   border: 0.4rem solid #FFFFFF;
   border-radius: var(--size-picture);
+  overflow: hidden;
 `;
 
 export const ContactArea = styled.div`

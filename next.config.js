@@ -5,6 +5,14 @@ const nextConfig = {
     locales: ["pt-BR","en-US"],
     defaultLocale: "pt-BR"
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "avatars.githubusercontent.com"
+      }
+    ]
+  },
   compiler: {
     styledComponents: true,
   }

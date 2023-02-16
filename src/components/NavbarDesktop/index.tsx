@@ -1,7 +1,6 @@
 import { useRouter } from "next/router";
 import Image from 'next/image'
 import { FC, useEffect, useState } from "react";
-import ProfileImage from "../../../public/profile.png"
 
 import * as S from "./styles";
 import { Discord, Email, Linkedin } from "@/components/images/icons/vectors";
@@ -23,7 +22,7 @@ const NavbarDesktop: FC<NavbarDesktopProps> = (props) => {
       <S.Content>
         <S.ProfilePicture>
           <Image
-            src={ProfileImage}
+            src="https://avatars.githubusercontent.com/u/33585141"
             alt="Wesley"
             fill
           />
