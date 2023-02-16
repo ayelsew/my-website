@@ -18,7 +18,7 @@ const Section3 = () => {
           <S.SnippetTitle>
             Projetos concluÍdos
           </S.SnippetTitle>
-          <Carousel>
+          <Carousel salveScroll="projects">
             <Card
               title="IP Sync Cloudflare"
               description="Scheduler para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare"

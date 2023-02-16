@@ -1,14 +1,17 @@
-import { FC, ReactElement, useCallback, useEffect, useRef, useState } from "react";
+import { FC, ReactElement, UIEvent, useCallback, useEffect, useRef, useState } from "react";
 import { ArrowLeft, ArrowRight } from "../images/icons/vectors";
 
 import * as S from "./styles"
 
 interface CarouselProps {
   children: ReactElement | ReactElement[]
+  salveScroll?: string
 }
 
-export const Carousel: FC<CarouselProps> = ({ children }) => {
+export const Carousel: FC<CarouselProps> = ({ children, salveScroll }) => {
   const containerRef = useRef<HTMLDivElement>(null);
+  const scrollHistoryRef = useRef<number>(0);
+  const firstRender = useRef<boolean>(true);
   const [hideLeftButton, setLeftButton] = useState<boolean>(true);
   const [hideRightButton, setRightButton] = useState<boolean>(false);
 
@@ -28,6 +31,15 @@ export const Carousel: FC<CarouselProps> = ({ children }) => {
     container.scrollBy({ left: -Number(fisrtItem?.clientWidth) })
   }, [])
 
+  const onScroll = useCallback(({ target }: UIEvent<HTMLDivElement>) => {
+    if (salveScroll && !firstRender.current) {
+      scrollHistoryRef.current = (target as HTMLDivElement).scrollLeft;
+    }
+  }, [salveScroll]);
+
+  /** 
+   * Intersection for observer scroll and hide or show arrows control
+   */
   useEffect(() => {
     const { current: container } = containerRef;
     if (container === null) return;
@@ -47,6 +59,8 @@ export const Carousel: FC<CarouselProps> = ({ children }) => {
     }
 
     const observer = new IntersectionObserver((entry) => {
+      if (firstRender.current) return;
+
       const [element] = entry;
       const position: "first" | "last" = element.target.getAttribute("data-st") as "first" | "last";
 
@@ -70,9 +84,33 @@ export const Carousel: FC<CarouselProps> = ({ children }) => {
     }
   }, [])
 
+  /** 
+   * Load and save scroll position before component unmount
+   */
+  useEffect(() => {
+    if (firstRender.current)
+      scrollHistoryRef.current = Number(localStorage.getItem(`${salveScroll}-carousel-scroll`));
+
+    setTimeout(() => {
+      if (scrollHistoryRef.current && containerRef.current !== null)
+        containerRef.current.scrollLeft = scrollHistoryRef.current;
+    }, 1000)
+
+    return () => {
+      if (salveScroll) {
+        console.log(scrollHistoryRef.current)
+        localStorage.setItem(`${salveScroll}-carousel-scroll`, scrollHistoryRef.current.toString())
+      }
+    }
+  }, [])
+
+  useEffect(() => {
+    firstRender.current = false
+  }, [])
+
   return (
     <S.CarouselWrapper>
-      <S.Content ref={containerRef}>
+      <S.Content ref={containerRef} onScroll={onScroll}>
         {children}
       </S.Content>
       <S.Button className={`PrevCarouselButton ${hideLeftButton ? "hide" : ""}`} onClick={goToPrev}>
