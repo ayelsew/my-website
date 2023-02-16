@@ -15,8 +15,8 @@ const Section1 = () => {
         <Paragraph>
           Trabalho na área de T.I à 4 anos. Inicialmente como suporte técnico e há um bom tempo como programador. Sou o típico generalista, conhecido como full stack |
         </Paragraph>
+        <span>Veja minhas experiências</span>
         <S.Timeline>
-          <span>Veja minhas experiências</span>
           <TimelineDesktop />
         </S.Timeline>
         <S.Selo>
