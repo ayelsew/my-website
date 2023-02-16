@@ -29,19 +29,20 @@ interface NavItemProps {
 
 export const NavItem = styled(Link) <NavItemProps>`
   color: ${({ $active, theme: { color } }) => $active ? color.title : color.text};
-  font-size: 1em;
-  line-height: 33.98px;
-  padding: 2px 0 2px 30px;
+  font-size: 1.2em;
+  padding: .1rem 0 .2rem 1.5rem;
   border-bottom: 1px solid;
   border-color: ${({ $active, theme: { color } }) => $active ? color.highlight : color.text};
+  margin-bottom: 1rem;
 `;
 
 export const ProfilePicture = styled.div`
-  width: 11rem;
-  height: 11rem;
+  --size-picture: 12rem;
+  width: var(--size-picture);
+  height: var(--size-picture);
   position: relative;
   border: 0.4rem solid #FFFFFF;
-  border-radius: 100px;
+  border-radius: var(--size-picture);
 `;
 
 export const ContactArea = styled.div`
@@ -50,7 +51,7 @@ export const ContactArea = styled.div`
   width: 100%;
 
   a:nth-child(2) {
-    padding: 5px 0;
+    padding: 0.3rem 0;
   }
 `;
 
