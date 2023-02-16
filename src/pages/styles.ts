@@ -5,7 +5,7 @@ interface SectionProps {
 }
 
 export const Section = styled.section<SectionProps>`
-  width: 75vw;
+  width: inherit;
   height: 100%;
   scroll-snap-align: end;
   background-color: ${({ $bgColor, theme }) => $bgColor || theme.bgPages};

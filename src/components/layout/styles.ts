@@ -1,11 +1,12 @@
 import styled from "styled-components";
 
 export const LayoutDefualt = styled.div`
-  display: flex;
+  display: grid;
+  grid-template-columns: 22rem calc(100vw - 22rem);
 `;
 
 export const MainWrapper = styled.main`
-  width: 75vw;
+  width: calc(100vw - 22rem);
   display: grid;
   grid-auto-flow: column;
   overflow-x: hidden;

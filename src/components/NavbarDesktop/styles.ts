@@ -2,7 +2,7 @@ import Link from "next/link";
 import styled from "styled-components";
 
 export const NavbarDesktopWrapper = styled.div`
-    width: 25vw;
+    width: 22rem;
     height: 100vh;
     background-color: ${({ theme }) => theme.bgMenu};
 `;
