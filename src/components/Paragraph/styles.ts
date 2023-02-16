@@ -7,7 +7,7 @@ interface ParagraphWrapperProps {
 
 export const ParagraphWrapper = styled.p<ParagraphWrapperProps>`
   font-weight: 400;
-  font-size: 1em;
+  font-size: 1.1em;
   line-height: 20px;
   color: ${({ theme }) => theme.color.text};
   text-align: ${({ $textAlign }) => $textAlign ?? "left" };
