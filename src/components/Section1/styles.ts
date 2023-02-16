@@ -27,14 +27,6 @@ export const Content = styled.div`
   grid-template-columns: auto;
   align-content: center;
   justify-items: center;
-
-  span{
-    width: 100%;
-    font-weight: 400;
-    font-size: 1.5em;
-    color: ${({ theme }) => theme.color.text};
-    margin: 2rem 0 0;
-  }
 `
 
 export const Title = styled.h1`
@@ -54,15 +46,13 @@ export const Title = styled.h1`
 
 
 export const Timeline = styled.div`
-  display: grid;
-  grid-template-columns: auto;
-  align-content: center;
-  justify-items: end;
 
-  svg {
-    position: absolute;
-    width: 87%;
-    right: 0;
+  & h2 {
+    margin: 2rem 0 0 0;
+  }
+  
+  & svg {
+    width: 100%;
 
     g.button-companies  {
       fill: transparent;
