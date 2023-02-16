@@ -11,7 +11,7 @@ export const Content = styled.div`
   width: 100%;
   height: 100%;
   display: grid;
-  padding: 80px 40px;
+  padding: 4.4rem 4rem;
   grid-template-rows: auto 1fr 1fr;
   align-content: space-between;
   grid-row-gap: 1rem;

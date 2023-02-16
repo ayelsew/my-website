@@ -12,7 +12,7 @@ export const Content = styled.div`
   width: 100%;
   height: 100%;
   display: grid;
-  padding: 1rem 40px;
+  padding: 1rem 4rem 4.4rem 4rem;
   grid-template-columns: auto 1fr;
   grid-column-gap: 2rem;
 `

@@ -23,7 +23,7 @@ export const Content = styled.div`
   width: 100%;
   height: 100%;
   display: grid;
-  padding: 80px 40px;
+  padding: 4.4rem 4rem;
   grid-template-columns: repeat(12, auto);
   grid-template-rows: auto auto;
   align-content: center;
@@ -51,7 +51,6 @@ export const Snippet = styled.article`
 `
 
 export const SnippetTitle = styled.h2`
-  font-weight: 700;
   font-size: 1.5em;
   line-height: 41px;
   color: ${({ theme }) => theme.color.title};

@@ -33,7 +33,7 @@ export const Content = styled.div`
   position: absolute;
   width: 100%;
   height: 100%;
-  padding: 11.5rem 40px 0 40px;
+  padding: 11.5rem 4rem 0 4rem;
   display: grid;
   grid-template-columns: auto 1fr;
   align-items: start;
