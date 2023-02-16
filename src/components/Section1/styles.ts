@@ -23,6 +23,7 @@ export const Content = styled.div`
   width: 100%;
   height: 100%;
   display: grid;
+  padding: 4.4rem 8rem;
   grid-template-columns: auto;
   align-content: center;
   justify-items: center;
@@ -60,7 +61,7 @@ export const Timeline = styled.div`
     margin: 50px 0 20px;
   }
   svg {
-    width: 85%;
+    width: 100%;
 
     g.button-companies  {
       fill: transparent;
