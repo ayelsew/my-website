@@ -1,12 +1,16 @@
 import Head from 'next/head'
+import { useState } from 'react'
+import Image from 'next/image'
 
 import * as S from "./styles"
 
 import { Carousel } from '@/components/Carousel'
 import HeaderProject from '@/components/HeaderProject'
-import Image from 'next/image'
+import ExpandOnScreeen from '@/components/ExpandOnScreen'
+
 
 const Project = () => {
+  const [expand, setExpand] = useState<boolean>(false)
   return (
     <>
       <Head>
@@ -53,14 +57,22 @@ const Project = () => {
           </S.ColumnOne>
 
           <S.ColumnTwo>
-            <Carousel>
-              <S.ImageCard $display="horizontally">
-                <Image src="/images/screenshots/asher_acaiteria/0.png" alt="Tela de caixa" fill />
-              </S.ImageCard>
-              <S.ImageCard $display="horizontally">
-                <Image src="/images/screenshots/asher_acaiteria/1.png" alt="Tela de caixa" fill />
-              </S.ImageCard>
-            </Carousel>
+            <ExpandOnScreeen expand={expand} onClose={() => setExpand(false)}>
+              <Carousel>
+                <S.ImageCard $display="horizontally" onClick={() => setExpand(true)}>
+                  <Image src="/images/screenshots/asher_acaiteria/0.png" alt="Tela de caixa" fill />
+                </S.ImageCard>
+                <S.ImageCard $display="horizontally" onClick={() => setExpand(true)}>
+                  <Image src="/images/screenshots/asher_acaiteria/1.png" alt="Tela de caixa" fill />
+                </S.ImageCard>
+                <S.ImageCard $display="horizontally" onClick={() => setExpand(true)}>
+                  <Image src="/images/screenshots/asher_acaiteria/0.png" alt="Tela de caixa" fill />
+                </S.ImageCard>
+                <S.ImageCard $display="horizontally" onClick={() => setExpand(true)}>
+                  <Image src="/images/screenshots/asher_acaiteria/1.png" alt="Tela de caixa" fill />
+                </S.ImageCard>
+              </Carousel>
+            </ExpandOnScreeen>
             <S.Snippet>
               <S.TitleH2>
                 Sobre a experiência

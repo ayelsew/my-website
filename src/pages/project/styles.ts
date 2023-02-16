@@ -76,4 +76,13 @@ export const ImageCard = styled.div<ImageCardProps>`
   }};
   border-radius: 10px;
   overflow: hidden;
+
+  .expand & {
+    height: 35rem;
+    width: ${({ $display }) => {
+      if ($display === "horizontally") return "60rem"
+      if ($display === "vertically") return "10rem"
+      return "auto"
+    }};
+  }
 `;
