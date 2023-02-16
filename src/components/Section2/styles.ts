@@ -40,13 +40,6 @@ export const SnippetTitle = styled.h2`
   margin-bottom: 20px;
 `
 
-export const SnippetParagraph = styled.p`
-  font-weight: 400;
-  font-size: 1em;
-  line-height: 20px;
-  color: ${({ theme }) => theme.color.text};
-`
-
 export const ImageContainer = styled.div`
   svg {
     height: 200px;

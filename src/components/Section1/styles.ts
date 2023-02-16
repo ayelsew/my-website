@@ -43,15 +43,6 @@ export const Title = styled.h1`
   }
 `;
 
-export const Description = styled.p`
-  font-weight: 400;
-  font-size: 1.5em;
-  line-height: 28px;
-  text-align: center;
-  color: ${({ theme }) => theme.color.text};
-  width: 70%;
-`;
-
 
 export const Timeline = styled.div`
   display: grid;

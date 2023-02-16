@@ -26,13 +26,6 @@ export const TitleH2 = styled.h2`
   margin-bottom: 20px;
 `
 
-export const SnippetParagraph = styled.p`
-  font-weight: 400;
-  font-size: 1em;
-  line-height: 20px;
-  color: ${({ theme }) => theme.color.text};
-`
-
 export const ColumnTwo = styled.div`
   display: grid;
   grid-template-rows: auto 1fr;
@@ -55,12 +48,6 @@ export const Technology = styled.li`
 `
 
 export const TechnologyIcon = styled.img``
-
-export const TechnologyDescription = styled.p`
-  font-weight: 400;
-  font-size: 1em;
-  color: ${({ theme }) => theme.color.text};
-`
 
 interface ImageCardProps {
   readonly $display?: "vertically" | "horizontally"

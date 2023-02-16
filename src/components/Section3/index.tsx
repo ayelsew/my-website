@@ -5,6 +5,7 @@ import { Carousel } from "../Carousel";
 import Card from "../Card";
 import Button from "../ButtonLink";
 import { Eye, Github } from "../images/icons/vectors";
+import Paragraph from "../Paragraph";
 
 const Section3 = () => {
   return (
@@ -71,9 +72,9 @@ const Section3 = () => {
           <S.SnippetTitle>
             Open source & experimentos
           </S.SnippetTitle>
-          <S.SnippetParagraph>
+          <Paragraph>
             De tempos em tempos, testo algumas tecnologias para entender seu funcionamento, ou para ajudar no desenvolvimento de portifólio para amigos que querem ingressar em desenvolvimento.
-          </S.SnippetParagraph>
+          </Paragraph>
 
           <Button
             text="Ver Github"

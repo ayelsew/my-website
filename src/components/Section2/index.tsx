@@ -1,6 +1,7 @@
 import * as S from "./styles";
 import { Background2 } from "@/components/images/backgrounds/vectors";
 import { CrossPlatform, Syncronism } from "@/components/images/vectors";
+import Paragraph from "../Paragraph";
 
 const Section2 = () => {
   return (
@@ -13,9 +14,9 @@ const Section2 = () => {
           <S.SnippetTitle>
             Soluções multiplataforma
           </S.SnippetTitle>
-          <S.SnippetParagraph>
+          <Paragraph>
             Elaboração de programas que podem ser executados nos três principais sistemas operacionais, sem a necessidade de reescrever o código para cada plataforma, usando o ecosistema de frameworks como Electron e Tauri.
-          </S.SnippetParagraph>
+          </Paragraph>
         </S.Snippet>
         <S.ImageContainer>
           <CrossPlatform />
@@ -27,9 +28,9 @@ const Section2 = () => {
           <S.SnippetTitle>
             Centralização e sincronismo
           </S.SnippetTitle>
-          <S.SnippetParagraph>
+          <Paragraph>
             Desenvolvimento de APIs sobre HTTP, permitindo fácil integração com outros sistemas, usando Nginx, MySQL MongoBD e outros. Combinado com fatores para aumentar a segurança do armazenamento e tráfego dos dados como Firewall, SSL, Bcrypt e JWT.
-          </S.SnippetParagraph>
+          </Paragraph>
         </S.Snippet>
       </S.Content>
     </S.Section1Wrapper>

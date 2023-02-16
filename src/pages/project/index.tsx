@@ -7,6 +7,7 @@ import * as S from "./styles"
 import { Carousel } from '@/components/Carousel'
 import HeaderProject from '@/components/HeaderProject'
 import ExpandOnScreeen from '@/components/ExpandOnScreen'
+import Paragraph from '@/components/Paragraph'
 
 
 const Project = () => {
@@ -31,27 +32,27 @@ const Project = () => {
             <S.ListTechnologies>
               <S.Technology>
                 <S.TechnologyIcon src="/images/vectors/react.svg" />
-                <S.TechnologyDescription>
+                <Paragraph>
                   React é uma biblioteca JavaScript para criar interfaces de usuário.
-                </S.TechnologyDescription>
+                </Paragraph>
               </S.Technology>
               <S.Technology>
                 <S.TechnologyIcon src="/images/vectors/react.svg" />
-                <S.TechnologyDescription>
+                <Paragraph>
                   React é uma biblioteca JavaScript para criar interfaces de usuário.
-                </S.TechnologyDescription>
+                </Paragraph>
               </S.Technology>
               <S.Technology>
                 <S.TechnologyIcon src="/images/vectors/react.svg" />
-                <S.TechnologyDescription>
+                <Paragraph>
                   React é uma biblioteca JavaScript para criar interfaces de usuário.
-                </S.TechnologyDescription>
+                </Paragraph>
               </S.Technology>
               <S.Technology>
                 <S.TechnologyIcon src="/images/vectors/react.svg" />
-                <S.TechnologyDescription>
+                <Paragraph>
                   React é uma biblioteca JavaScript para criar interfaces de usuário.
-                </S.TechnologyDescription>
+                </Paragraph>
               </S.Technology>
             </S.ListTechnologies>
           </S.ColumnOne>
@@ -77,9 +78,9 @@ const Project = () => {
               <S.TitleH2>
                 Sobre a experiência
               </S.TitleH2>
-              <S.SnippetParagraph>
+              <Paragraph>
                 Lorem linguiça é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica,
-              </S.SnippetParagraph>
+              </Paragraph>
             </S.Snippet>
           </S.ColumnTwo>
         </S.Content>
