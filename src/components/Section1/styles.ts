@@ -42,7 +42,7 @@ export const Content = styled.div`
 
   /* xxl applies to x-large devices (large desktops, less than 1400px) */
   @media (min-width: 1400px) { 
-    padding: 4.4rem 14rem;
+    padding: 4.4rem 18rem;
   }
 `
 
@@ -74,7 +74,7 @@ export const Title = styled.h1`
 
   /* xxl applies to x-large devices (large desktops, less than 1400px) */
   @media (min-width: 1400px) { 
-    font-size: 4em;
+    font-size: 3.6em;
   }
 `;
 
