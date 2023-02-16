@@ -61,3 +61,19 @@ export const TechnologyDescription = styled.p`
   font-size: 1em;
   color: ${({ theme }) => theme.color.text};
 `
+
+interface ImageCardProps {
+  readonly $display?: "vertically" | "horizontally"
+}
+
+export const ImageCard = styled.div<ImageCardProps>`
+  position: relative;
+  height: 18rem;
+  width: ${({ $display }) => {
+    if ($display === "horizontally") return "30rem"
+    if ($display === "vertically") return "10rem"
+    return "auto"
+  }};
+  border-radius: 10px;
+  overflow: hidden;
+`;

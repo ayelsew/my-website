@@ -4,6 +4,7 @@ import * as S from "./styles"
 
 import { Carousel } from '@/components/Carousel'
 import HeaderProject from '@/components/HeaderProject'
+import Image from 'next/image'
 
 const Project = () => {
   return (
@@ -53,7 +54,12 @@ const Project = () => {
 
           <S.ColumnTwo>
             <Carousel>
-
+              <S.ImageCard $display="horizontally">
+                <Image src="/images/screenshots/asher_acaiteria/0.png" alt="Tela de caixa" fill />
+              </S.ImageCard>
+              <S.ImageCard $display="horizontally">
+                <Image src="/images/screenshots/asher_acaiteria/1.png" alt="Tela de caixa" fill />
+              </S.ImageCard>
             </Carousel>
             <S.Snippet>
               <S.TitleH2>
