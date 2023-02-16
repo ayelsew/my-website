@@ -29,6 +29,7 @@ export const Content = styled.div`
   align-content: center;
   justify-items: center;
   align-content: space-between;
+  grid-column-gap: 3rem;
 
   /* sm applies to x-small devices (portrait phones, less than 576px) */
   @media (min-width: 576px) {  }
@@ -45,16 +46,48 @@ export const Content = styled.div`
   /* xxl applies to x-large devices (large desktops, less than 1400px) */
   @media (min-width: 1400px) { 
     padding: 8rem 14rem;
+    align-content: space-around;
+    grid-column-gap: 4rem;
   }
 `
 
-export const Snippet = styled.article``
+export const Snippet = styled.article`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+`
 
 export const ImageContainer = styled.div`
   svg {
-    height: 200px;
+    display: inline-block;
+  }
+  svg#syncronism-svg {
+    height: 15rem;
   }
   svg#crossplatform-svg {
-    height: 240px;
+    height: 16rem;
+  }
+
+  /* sm applies to x-small devices (portrait phones, less than 576px) */
+  @media (min-width: 576px) {  }
+
+  /* md applies to small devices (landscape phones, less than 768px) */
+  @media (min-width: 768px) {  }
+  
+  /* lg applies to medium devices (tablets, less than 992px) */
+  @media (min-width: 992px) {  }
+  
+  /* xl applies to large devices (desktops, less than 1200px) */
+  @media (min-width: 1200px) {  }
+  
+  /* xxl applies to x-large devices (large desktops, less than 1400px) */
+  @media (min-width: 1400px) { 
+    svg#syncronism-svg {
+      height: 18rem;
+      width: 22rem;
+    }
+    svg#crossplatform-svg {
+      height: 20rem;
+    }
   }
 `
