@@ -6,7 +6,7 @@ interface ButtonWrapperProps {
   readonly $stretch?: string
 }
 
-export const ButtonWrapper = styled.button<ButtonWrapperProps>`
+export const ButtonWrapper = styled.a<ButtonWrapperProps>`
   min-width: ${({ $stretch }) => $stretch || "unset" };
   width: 100px;
   height: 25px;

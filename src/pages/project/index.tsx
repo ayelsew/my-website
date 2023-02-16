@@ -1,10 +1,8 @@
 import Head from 'next/head'
 
 import * as S from "./styles"
+
 import { Carousel } from '@/components/Carousel'
-import Card from '@/components/Card'
-import Button from '@/components/Button'
-import { Eye } from '@/components/images/icons/vectors'
 import HeaderProject from '@/components/HeaderProject'
 
 const Project = () => {
@@ -55,46 +53,7 @@ const Project = () => {
 
           <S.ColumnTwo>
             <Carousel>
-              <Card
-                title="IP Sync Cloudflare"
-                description="Scheduler para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare"
-                background="/images/ip_sync_cloudflare.png"
-                buttons={<>
-                  <Button text='Vizualizar' icon={<Eye size='20' />} onClick={() => {}} />
-                </>}
-              />
-              <Card
-                title="IP Sync Cloudflare"
-                description="Scheduler para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare"
-                background="/images/ip_sync_cloudflare.png"
-                buttons={<>
-                  <Button text='Vizualizar' icon={<Eye size='20' />} onClick={() => {}} />
-                </>}
-              />
-              <Card
-                title="IP Sync Cloudflare"
-                description="Scheduler para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare"
-                background="/images/ip_sync_cloudflare.png"
-                buttons={<>
-                  <Button text='Vizualizar' icon={<Eye size='20' />} onClick={() => {}} />
-                </>}
-              />
-              <Card
-                title="IP Sync Cloudflare"
-                description="Scheduler para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare"
-                background="/images/ip_sync_cloudflare.png"
-                buttons={<>
-                  <Button text='Vizualizar' icon={<Eye size='20' />} onClick={() => {}} />
-                </>}
-              />
-              <Card
-                title="IP Sync Cloudflare"
-                description="Scheduler para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare"
-                background="/images/ip_sync_cloudflare.png"
-                buttons={<>
-                  <Button text='Vizualizar' icon={<Eye size='20' />} onClick={() => {}} />
-                </>}
-              />
+
             </Carousel>
             <S.Snippet>
               <S.TitleH2>

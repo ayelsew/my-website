@@ -5,7 +5,7 @@ import HeaderCompany from '@/components/HeaderCompany'
 import * as S from "./styles"
 import { Carousel } from '@/components/Carousel'
 import Card from '@/components/Card'
-import Button from '@/components/Button'
+import Button from '@/components/ButtonLink'
 import { Eye } from '@/components/images/icons/vectors'
 
 const Company = () => {
@@ -40,7 +40,7 @@ const Company = () => {
                 description="Scheduler para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare"
                 background="/images/ip_sync_cloudflare.png"
                 buttons={<>
-                  <Button text='Vizualizar' icon={<Eye size='20' />} />
+                  <Button text='Vizualizar' icon={<Eye size='20' />} href="/project"/>
                 </>}
               />
               <Card
@@ -48,7 +48,7 @@ const Company = () => {
                 description="Scheduler para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare"
                 background="/images/ip_sync_cloudflare.png"
                 buttons={<>
-                  <Button text='Vizualizar' icon={<Eye size='20' />} />
+                  <Button text='Vizualizar' icon={<Eye size='20' />} href="/project"/>
                 </>}
               />
               <Card
@@ -56,7 +56,7 @@ const Company = () => {
                 description="Scheduler para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare"
                 background="/images/ip_sync_cloudflare.png"
                 buttons={<>
-                  <Button text='Vizualizar' icon={<Eye size='20' />} />
+                  <Button text='Vizualizar' icon={<Eye size='20' />} href="/project"/>
                 </>}
               />
               <Card
@@ -64,7 +64,7 @@ const Company = () => {
                 description="Scheduler para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare"
                 background="/images/ip_sync_cloudflare.png"
                 buttons={<>
-                  <Button text='Vizualizar' icon={<Eye size='20' />} />
+                  <Button text='Vizualizar' icon={<Eye size='20' />} href="/project"/>
                 </>}
               />
               <Card
@@ -72,7 +72,7 @@ const Company = () => {
                 description="Scheduler para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare"
                 background="/images/ip_sync_cloudflare.png"
                 buttons={<>
-                  <Button text='Vizualizar' icon={<Eye size='20' />} />
+                  <Button text='Vizualizar' icon={<Eye size='20' />} href="/project"/>
                 </>}
               />
             </Carousel>
