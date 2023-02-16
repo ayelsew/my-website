@@ -6,7 +6,7 @@ interface CardWrapperProps {
 
 export const CardWrapper = styled.article<CardWrapperProps>`
   box-shadow: 4px 7px 0px rgba(0, 0, 0, 0.05);
-  width: 21rem;
+  width: 21.5rem;
   height: 12.8rem;
   border-radius: 10px;
   background: ${({ $background }) => `url(${$background})` || "#383838"};
@@ -27,7 +27,7 @@ export const Content = styled.div`
 export const Title = styled.h3`
   grid-column-start: 1;
   grid-column-end: 3;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 1.2em;
   color: ${({ theme }) => theme.color.title};
   margin-bottom: 4px;
@@ -37,7 +37,7 @@ export const Description = styled.p`
   grid-column-start: 1;
   grid-column-end: 3;
   font-weight: 400;
-  font-size: .92em;
+  font-size: .95em;
   line-height: 18px;
   color: ${({ theme }) => theme.color.text};
 `;
