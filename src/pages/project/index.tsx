@@ -33,24 +33,70 @@ const Project = () => {
             <S.ListTechnologies>
               <S.Technology>
                 <S.TechnologyIcon src="/images/vectors/react.svg" />
+                <S.TechnologyShortName>React</S.TechnologyShortName>
                 <Paragraph>
                   React é uma biblioteca JavaScript para criar interfaces de usuário.
                 </Paragraph>
               </S.Technology>
               <S.Technology>
                 <S.TechnologyIcon src="/images/vectors/react.svg" />
+                <S.TechnologyShortName>React</S.TechnologyShortName>
                 <Paragraph>
                   React é uma biblioteca JavaScript para criar interfaces de usuário.
                 </Paragraph>
               </S.Technology>
               <S.Technology>
                 <S.TechnologyIcon src="/images/vectors/react.svg" />
+                <S.TechnologyShortName>React</S.TechnologyShortName>
                 <Paragraph>
                   React é uma biblioteca JavaScript para criar interfaces de usuário.
                 </Paragraph>
               </S.Technology>
               <S.Technology>
                 <S.TechnologyIcon src="/images/vectors/react.svg" />
+                <S.TechnologyShortName>React</S.TechnologyShortName>
+                <Paragraph>
+                  React é uma biblioteca JavaScript para criar interfaces de usuário.
+                </Paragraph>
+              </S.Technology>
+              <S.Technology>
+                <S.TechnologyIcon src="/images/vectors/react.svg" />
+                <S.TechnologyShortName>React</S.TechnologyShortName>
+                <Paragraph>
+                  React é uma biblioteca JavaScript para criar interfaces de usuário.
+                </Paragraph>
+              </S.Technology>
+              <S.Technology>
+                <S.TechnologyIcon src="/images/vectors/react.svg" />
+                <S.TechnologyShortName>React</S.TechnologyShortName>
+                <Paragraph>
+                  React é uma biblioteca JavaScript para criar interfaces de usuário.
+                </Paragraph>
+              </S.Technology>
+              <S.Technology>
+                <S.TechnologyIcon src="/images/vectors/react.svg" />
+                <S.TechnologyShortName>React</S.TechnologyShortName>
+                <Paragraph>
+                  React é uma biblioteca JavaScript para criar interfaces de usuário.
+                </Paragraph>
+              </S.Technology>
+              <S.Technology>
+                <S.TechnologyIcon src="/images/vectors/react.svg" />
+                <S.TechnologyShortName>React</S.TechnologyShortName>
+                <Paragraph>
+                  React é uma biblioteca JavaScript para criar interfaces de usuário.
+                </Paragraph>
+              </S.Technology>
+              <S.Technology>
+                <S.TechnologyIcon src="/images/vectors/react.svg" />
+                <S.TechnologyShortName>React</S.TechnologyShortName>
+                <Paragraph>
+                  React é uma biblioteca JavaScript para criar interfaces de usuário.
+                </Paragraph>
+              </S.Technology>
+              <S.Technology>
+                <S.TechnologyIcon src="/images/vectors/react.svg" />
+                <S.TechnologyShortName>React</S.TechnologyShortName>
                 <Paragraph>
                   React é uma biblioteca JavaScript para criar interfaces de usuário.
                 </Paragraph>

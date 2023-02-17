@@ -4,6 +4,11 @@ export const HeaderProjectWrapper = styled.header`
   width: 100%;
   height: 20rem;
   position: relative;
+
+  /* sm applies to x-small devices (portrait phones, less than 576px) */
+  @media (max-width: 576px) { 
+    height: 10rem;
+  }
 `
 
 interface BackgroundProps {
@@ -13,20 +18,30 @@ interface BackgroundProps {
 export const Background = styled.div<BackgroundProps>`
   position: absolute;
   width: 52%;
-  height: 80%;
+  height: 100%;
   right: 0;
   background-image: url(${({ $bgSrc }) => $bgSrc });
   background-repeat: no-repeat;
   background-position-x: right;
   background-size: 100%;
   background-position-y: top;
+
+  /* sm applies to x-small devices (portrait phones, less than 576px) */
+  @media (max-width: 576px) { 
+    width: 100%;
+  }
 `
 
 export const Filter = styled.div`
   position: absolute;
   width: 100%;
-  height: 80%;
+  height: 100%;
   background: linear-gradient(90deg,#000000 50.98%,rgba(0,0,0,0.2) 76.07%,#000000 94.43%);
+  
+  /* sm applies to x-small devices (portrait phones, less than 576px) */
+  @media (max-width: 576px) { 
+    background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.43) 0%, rgba(0, 0, 0, 0.78) 100%);
+  }
 `
 
 export const Content = styled.div`
@@ -40,7 +55,11 @@ export const Content = styled.div`
   grid-column-gap: 2rem;
 
   /* sm applies to x-small devices (portrait phones, less than 576px) */
-  @media (min-width: 576px) {  }
+  @media (max-width: 576px) { 
+    padding: 0 1.2rem;
+    align-items: center;
+    grid-column-gap: 1rem;
+  }
 
   /* md applies to small devices (landscape phones, less than 768px) */
   @media (min-width: 768px) {  }
@@ -58,10 +77,16 @@ export const Content = styled.div`
 `;
 
 export const ProfilePictureContent = styled.div`
-  width: 8rem;
-  height: 8rem;
+  --size-picture: 8rem;
+  width: var(--size-picture);
+  height: var(--size-picture);
   background-color: #000;
   border-radius: 10px;
+
+  /* sm applies to x-small devices (portrait phones, less than 576px) */
+  @media (max-width: 576px) { 
+    --size-picture: 5.5rem;
+  }
 `
 
 export const ProfilePicture = styled.img`
@@ -74,10 +99,20 @@ export const Title = styled.h1`
   font-weight: 700;
   font-size: 1.7em;
   color: ${({ theme }) => theme.color.title };
+
+  /* sm applies to x-small devices (portrait phones, less than 576px) */
+  @media (max-width: 576px) { 
+    font-size: 1.4em;
+  }
 `
 
 export const Company = styled.p`
   font-weight: 700;
   font-size: 1.3em;
-  color: ${({ theme }) => theme.color.highlight }
+  color: ${({ theme }) => theme.color.highlight };
+
+  /* sm applies to x-small devices (portrait phones, less than 576px) */
+  @media (max-width: 576px) { 
+    font-size: 1em;
+  }
 `
