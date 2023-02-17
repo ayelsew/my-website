@@ -1,5 +1,5 @@
 import * as S from "./styles";
-import { Background1, TimelineDesktop, Selo } from "@/components/images/backgrounds/vectors";
+import { Background1, TimelineDesktop, Selo, TimelineMobile } from "@/components/images/backgrounds/vectors";
 import Paragraph from "../Paragraph";
 import TitleH2 from "../TitleH2";
 import Image from "next/image";
@@ -29,6 +29,7 @@ const Section1 = () => {
             Veja minhas experiências
           </TitleH2>
           <TimelineDesktop />
+          <TimelineMobile />
         </S.Timeline>
         <S.Selo>
           <Selo />

@@ -2,8 +2,14 @@ import styled from "styled-components";
 
 export const Section1Wrapper = styled.div`
   width: inherit;
-  height: inherit;
+  height: 100%;
   position: relative;
+
+  /* sm applies to x-small devices (portrait phones, less than 576px) */
+  @media (max-width: 576px) { 
+    position: unset;
+    height: fit-content;
+  }
 `;
 
 export const Background = styled.div`
@@ -16,12 +22,16 @@ export const Background = styled.div`
     width: 100%;
     height: 100%;
   }
+
+  /* sm applies to x-small devices (portrait phones, less than 576px) */
+  @media (max-width: 576px) { 
+    display: none;
+  }
 `;
 
 export const Content = styled.div`
   position: absolute;
   width: 100%;
-  height: 100%;
   display: grid;
   padding: 4.4rem 8rem;
   grid-template-columns: auto;
@@ -30,7 +40,9 @@ export const Content = styled.div`
 
   /* sm applies to x-small devices (portrait phones, less than 576px) */
   @media (max-width: 576px) { 
-    padding: 4.4rem 2rem;
+    height: fit-content;
+    padding: 4.4rem 2rem 0 2rem;
+    position: unset;
   }
 
   /* md applies to small devices (landscape phones, less than 768px) */
@@ -97,6 +109,7 @@ export const Timeline = styled.div`
   }
   
   & svg {
+    display: inline-block;
     width: 100%;
 
     g.button-companies  {
@@ -120,7 +133,23 @@ export const Timeline = styled.div`
   }
 
   /* sm applies to x-small devices (portrait phones, less than 576px) */
-  @media (min-width: 576px) {  }
+  @media (max-width: 576px) {
+    height: fit-content;
+    text-align: center;
+    width: 100%;
+
+    & h2 {
+      text-align: left;
+      margin: 3rem 0 1.4rem 0;
+    }
+
+    & svg#timeline-desktop {
+      display: none;
+    }
+    & svg#timeline-mobile {
+      height: 21rem;
+    }
+  }
 
   /* md applies to small devices (landscape phones, less than 768px) */
   @media (min-width: 768px) {  }

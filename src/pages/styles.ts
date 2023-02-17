@@ -9,4 +9,9 @@ export const Section = styled.section<SectionProps>`
   height: inherit;
   scroll-snap-align: end;
   background-color: ${({ $bgColor, theme }) => $bgColor || theme.bgPages};
+
+  /* sm applies to x-small devices (portrait phones, less than 576px) */
+  @media (max-width: 576px) { 
+    height: fit-content;
+  }
 `
