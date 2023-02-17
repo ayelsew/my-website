@@ -4,6 +4,7 @@ export const Section1Wrapper = styled.div`
   width: 100%;
   height: inherit;
   position: relative;
+  display: none;
 `;
 
 export const Background = styled.div`

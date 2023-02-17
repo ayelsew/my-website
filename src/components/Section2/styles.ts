@@ -1,9 +1,15 @@
 import styled from "styled-components";
 
-export const Section1Wrapper = styled.div`
+export const Section2Wrapper = styled.div`
   width: 100%;
   height: inherit;
   position: relative;
+
+  /* sm applies to x-small devices (portrait phones, less than 576px) */
+  @media (max-width: 576px) { 
+    height: fit-content;
+    position: unset;
+  }
 `;
 
 export const Background = styled.div`
@@ -15,6 +21,12 @@ export const Background = styled.div`
   svg {
     width: 100%;
     height: 100%;
+  }
+
+  /* sm applies to x-small devices (portrait phones, less than 576px) */
+  @media (max-width: 576px) { 
+    display: none;
+    position: unset;
   }
 `;
 
@@ -34,6 +46,9 @@ export const Content = styled.div`
   /* sm applies to x-small devices (portrait phones, less than 576px) */
   @media (max-width: 576px) { 
     padding: 4.4rem 2rem;
+    grid-column-gap: 0;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
   }
 
   /* md applies to small devices (landscape phones, less than 768px) */

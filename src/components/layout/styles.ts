@@ -26,7 +26,7 @@ export const LayoutDefualt = styled.div`
 
 export const MainWrapper = styled.main`
   width: calc(100vw - 22rem);
-  height: 100vh;
+  height: 100vh; 
   display: grid;
   grid-auto-flow: column;
   overflow-x: hidden;
@@ -39,6 +39,7 @@ export const MainWrapper = styled.main`
   /* sm applies to x-small devices (portrait phones, less than 576px) */
   @media (max-width: 576px) {  
     width: 100vw;
+    height: fit-content; 
     overflow-x: unset;
     overflow-y: scroll;
     grid-auto-flow: row;

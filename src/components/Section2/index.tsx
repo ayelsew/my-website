@@ -6,7 +6,7 @@ import TitleH2 from "../TitleH2";
 
 const Section2 = () => {
   return (
-    <S.Section1Wrapper>
+    <S.Section2Wrapper>
       <S.Background>
         <Background2 />
       </S.Background>
@@ -34,7 +34,7 @@ const Section2 = () => {
           </Paragraph>
         </S.Snippet>
       </S.Content>
-    </S.Section1Wrapper>
+    </S.Section2Wrapper>
   )
 }
 
