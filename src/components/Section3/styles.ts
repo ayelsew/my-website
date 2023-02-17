@@ -4,7 +4,12 @@ export const Section1Wrapper = styled.div`
   width: 100%;
   height: inherit;
   position: relative;
-  display: none;
+
+  /* sm applies to x-small devices (portrait phones, less than 576px) */
+  @media (max-width: 576px) { 
+    height: fit-content;
+    position: unset;
+  }
 `;
 
 export const Background = styled.div`
@@ -16,6 +21,12 @@ export const Background = styled.div`
   svg {
     width: 100%;
     height: 100%;
+  }
+
+  /* sm applies to x-small devices (portrait phones, less than 576px) */
+  @media (max-width: 576px) {
+    position: unset;
+    display: none;
   }
 `;
 
@@ -36,6 +47,11 @@ export const Content = styled.div`
   /* sm applies to x-small devices (portrait phones, less than 576px) */
   @media (max-width: 576px) { 
     padding: 4.4rem 2rem;
+    height: fit-content;
+    position: unset;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    grid-column-gap: 0;
   }
 
   /* md applies to small devices (landscape phones, less than 768px) */
@@ -68,9 +84,21 @@ export const Snippet = styled.article`
     display: grid;
     grid-template-rows: auto 1fr auto;
   }
+
+  /* sm applies to x-small devices (portrait phones, less than 576px) */
+  @media (max-width: 576px) { 
+    grid-row-start: 2;
+    grid-column-end: 1;
+  }
 `
 
 export const FavCard = styled.div`
- grid-row-start: 2;
- grid-column-start: 11;
+  grid-row-start: 2;
+  grid-column-start: 11;
+
+  /* sm applies to x-small devices (portrait phones, less than 576px) */
+  @media (max-width: 576px) { 
+   grid-row-start: 3;
+   grid-column-start: 1;
+  }
 `
