@@ -13,7 +13,10 @@ export const ParagraphWrapper = styled.p<ParagraphWrapperProps>`
   text-align: ${({ $textAlign }) => $textAlign ?? "left" };
 
   /* sm applies to x-small devices (portrait phones, less than 576px) */
-  @media (min-width: 576px) {  }
+  @media (max-width: 576px) { 
+    font-size: 1em;
+    line-height: 1.2rem;
+  }
 
   /* md applies to small devices (landscape phones, less than 768px) */
   @media (min-width: 768px) {  }

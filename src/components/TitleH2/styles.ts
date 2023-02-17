@@ -11,4 +11,10 @@ export const TitleH2Wrapper = styled.h2<TitleH2WrapperProps>`
   color: ${({ theme }) => theme.color.title};
   margin-bottom: 20px;
   font-weight:  ${({ $fontWeight }) => $fontWeight ?? 700};
+
+  /* sm applies to x-small devices (portrait phones, less than 576px) */
+  @media (max-width: 576px) { 
+    font-size: 1.2em;
+    line-height: 1.2rem;
+  }
 `
