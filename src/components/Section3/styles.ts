@@ -95,10 +95,16 @@ export const Snippet = styled.article`
   /* sm applies to x-small devices (portrait phones, less than 576px) */
   @media (max-width: 576px) { 
     grid-row-start: 2;
-    grid-column-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 14;
 
     &.open-source {
+      width: 100%;
       padding: 0 1.2rem;
+    }
+
+    &.open-source a {
+      display: none;
     }
   }
 `
@@ -112,5 +118,14 @@ export const FavCard = styled.div`
     grid-row-start: 3;
     grid-column-start: 1;
     padding: 0 1.2rem;
+    width: 100vw;
+
+    & > article {
+      width: 100%;
+    }
+
+    & > a {
+      margin-top: 1.5rem;
+    }
   }
 `

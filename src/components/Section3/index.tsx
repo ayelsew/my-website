@@ -100,6 +100,15 @@ const Section3 = () => {
               </>
             }
           />
+          <Button
+            text="Ver Github"
+            icon={<Github size="18" color="#fff" />}
+            outline
+            color="#fff"
+            size="medium"
+            stretch="100%"
+            href="/project"
+          />
         </S.FavCard>
       </S.Content>
     </S.Section1Wrapper>
