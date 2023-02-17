@@ -20,7 +20,7 @@ export default function Home() {
       const [element] = elements;
 
       if (element.isIntersecting)
-        window.history.replaceState({}, "", `/#${element.target.id}`)
+        window.history.replaceState({}, "", `${router.basePath}#${element.target.id}`)
     }, options);
 
     const howAmI = document.getElementById("who-am-I") as HTMLDivElement;
