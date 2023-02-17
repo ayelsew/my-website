@@ -46,7 +46,7 @@ export const Content = styled.div`
 
   /* sm applies to x-small devices (portrait phones, less than 576px) */
   @media (max-width: 576px) { 
-    padding: 4.4rem 2rem;
+    padding: 4.4rem 1.2rem;
     height: fit-content;
     position: unset;
     grid-template-columns: auto;

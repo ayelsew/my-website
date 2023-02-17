@@ -60,7 +60,10 @@ export const Content = styled.div`
   }
 
   /* sm applies to x-small devices (portrait phones, less than 576px) */
-  @media (min-width: 576px) {  }
+  @media (max-width: 576px) { 
+    overflow-x: scroll;
+    grid-column-gap: 1rem;
+  }
 
   /* md applies to small devices (landscape phones, less than 768px) */
   @media (min-width: 768px) {  }

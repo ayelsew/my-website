@@ -15,7 +15,9 @@ export const CardWrapper = styled.article<CardWrapperProps>`
   overflow: hidden;
 
   /* sm applies to x-small devices (portrait phones, less than 576px) */
-  @media (min-width: 576px) {  }
+  @media (max-width: 576px) { 
+    width: 20.55rem;
+  }
 
   /* md applies to small devices (landscape phones, less than 768px) */
   @media (min-width: 768px) {  }
