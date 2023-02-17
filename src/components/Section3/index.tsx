@@ -26,7 +26,7 @@ const Section3 = () => {
               description="Scheduler para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare"
               background="/images/ip_sync_cloudflare.png"
               buttons={<>
-                <Button text='Vizualizar' icon={<Eye size='20' />} href="/project" />
+                <Button text='Visualizar' icon={<Eye size='20' />} href="/project" />
               </>}
               profilePicture={<Eye size='29' color='white' />}
             />
@@ -35,7 +35,7 @@ const Section3 = () => {
               description="Scheduler para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare"
               background="/images/ip_sync_cloudflare.png"
               buttons={<>
-                <Button text='Vizualizar' icon={<Eye size='20' />} href="/project"/>
+                <Button text='Visualizar' icon={<Eye size='20' />} href="/project" />
               </>}
               profilePicture={<Eye size='29' color='white' />}
             />
@@ -44,7 +44,7 @@ const Section3 = () => {
               description="Scheduler para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare"
               background="/images/ip_sync_cloudflare.png"
               buttons={<>
-                <Button text='Vizualizar' icon={<Eye size='20' />} href="/project"/>
+                <Button text='Visualizar' icon={<Eye size='20' />} href="/project" />
               </>}
               profilePicture={<Eye size='29' color='white' />}
             />
@@ -53,7 +53,7 @@ const Section3 = () => {
               description="Scheduler para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare"
               background="/images/ip_sync_cloudflare.png"
               buttons={<>
-                <Button text='Vizualizar' icon={<Eye size='20' />} href="/project"/>
+                <Button text='Visualizar' icon={<Eye size='20' />} href="/project" />
               </>}
               profilePicture={<Eye size='29' color='white' />}
             />
@@ -62,7 +62,7 @@ const Section3 = () => {
               description="Scheduler para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare"
               background="/images/ip_sync_cloudflare.png"
               buttons={<>
-                <Button text='Vizualizar' icon={<Eye size='20' />} href="/project"/>
+                <Button text='Visualizar' icon={<Eye size='20' />} href="/project" />
               </>}
               profilePicture={<Eye size='29' color='white' />}
             />
@@ -94,7 +94,10 @@ const Section3 = () => {
             description="Scheduler para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare"
             background="/images/ip_sync_cloudflare.png"
             buttons={
-              <Button text='Vizualizar' icon={<Eye size='20' />} href="/project"/>
+              <>
+                <Button text='Repositório' icon={<Eye size='20' />} href="/project" />
+                <Button text='Abrir app' icon={<Eye size='20' />} href="/project" />
+              </>
             }
           />
         </S.FavCard>

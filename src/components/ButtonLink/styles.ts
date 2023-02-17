@@ -8,11 +8,11 @@ interface ButtonWrapperProps {
 
 export const ButtonWrapper = styled.a<ButtonWrapperProps>`
   min-width: ${({ $stretch }) => $stretch || "unset" };
-  width: 100px;
-  height: 25px;
+  width: 7rem;
+  height: 1.5rem;
   border-radius: 30px;
   font-weight: ${({ $fill }) => $fill ? 500 : 700};
-  font-size: .73em;
+  font-size: .80em;
   color: ${({ theme: { button }, $fill, $color }) => $fill ? button.text : $color || button.fill};
   background-color: ${({ theme: { button }, $fill }) => $fill ? button.fill : "transparent"};
   border-width: 2px;
@@ -28,13 +28,32 @@ export const ButtonWrapper = styled.a<ButtonWrapperProps>`
   cursor: pointer;
 
   &.medium {
-    width: 130px;
-    height: 30px;
+    width: 7rem;
+    height: 2rem;
   }
 
   &.large {
     width: 135px;
     height: 35px;
+  }
+
+  /* sm applies to x-small devices (portrait phones, less than 576px) */
+  @media (min-width: 576px) {  }
+
+  /* md applies to small devices (landscape phones, less than 768px) */
+  @media (min-width: 768px) {  }
+
+  /* lg applies to medium devices (tablets, less than 992px) */
+  @media (min-width: 992px) {  }
+
+  /* xl applies to large devices (desktops, less than 1200px) */
+  @media (min-width: 1200px) {  }
+
+  /* xxl applies to x-large devices (large desktops, less than 1400px) */
+  @media (min-width: 1400px) { 
+    font-size: .87em;
+    width: 7.4rem;
+    height: 1.7rem;
   }
 `;
 

@@ -146,4 +146,5 @@ export const ButtonsArea = styled.div`
   justify-self: end;
   display: grid;
   grid-template-columns: auto auto;
+  grid-column-gap: 0.5rem;
 `;

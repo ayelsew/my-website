@@ -29,7 +29,7 @@ export const Content = styled.div`
   align-content: center;
   justify-items: center;
   grid-row-gap: 60px;
-  grid-column-gap: 0px;
+  grid-column-gap: 1rem;
   align-content: space-between;
 
   /* sm applies to x-small devices (portrait phones, less than 576px) */
