@@ -2,6 +2,7 @@ import * as S from "./styles";
 import { Background1, TimelineDesktop, Selo } from "@/components/images/backgrounds/vectors";
 import Paragraph from "../Paragraph";
 import TitleH2 from "../TitleH2";
+import Image from "next/image";
 
 const Section1 = () => {
   return (
@@ -10,6 +11,13 @@ const Section1 = () => {
         <Background1 />
       </S.Background>
       <S.Content>
+        <S.ProfilePicture>
+          <Image
+            src="https://avatars.githubusercontent.com/u/33585141"
+            alt="Wesley"
+            fill
+          />
+        </S.ProfilePicture>
         <S.Title>
           <span>&gt;</span> Olá, sou Wesley Araujo. <span>_</span>
         </S.Title>

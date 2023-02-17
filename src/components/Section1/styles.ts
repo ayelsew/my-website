@@ -154,3 +154,20 @@ export const Selo = styled.span`
     display: none;
   }
 `;
+
+export const ProfilePicture = styled.div`
+  --size-picture: 12rem;
+  width: var(--size-picture);
+  height: var(--size-picture);
+  position: relative;
+  border: 0.4rem solid #FFFFFF;
+  border-radius: var(--size-picture);
+  overflow: hidden;
+  display: none;
+
+  /* sm applies to x-small devices (portrait phones, less than 576px) */
+  @media (max-width: 576px) { 
+    display: inline-block;
+    margin-bottom: 2rem;
+  }
+`;
