@@ -130,6 +130,7 @@ export const FavCard = styled.div`
 
     & > a {
       margin-top: 1.5rem;
+      display: flex;
     }
   }
 `

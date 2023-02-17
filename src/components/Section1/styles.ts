@@ -155,6 +155,7 @@ export const Timeline = styled.div`
     }
     & svg#timeline-mobile {
       height: 21rem;
+      display: inline-block;
     }
   }
 
