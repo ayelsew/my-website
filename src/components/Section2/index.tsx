@@ -22,7 +22,7 @@ const Section2 = () => {
         <S.ImageContainer>
           <CrossPlatform />
         </S.ImageContainer>
-        <S.ImageContainer>
+        <S.ImageContainer id="img-syncronism">
           <Syncronism />
         </S.ImageContainer>
         <S.Snippet>

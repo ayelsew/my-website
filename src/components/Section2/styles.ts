@@ -4,6 +4,7 @@ export const Section2Wrapper = styled.div`
   width: 100%;
   height: inherit;
   position: relative;
+  background-color: ${({ theme }) => theme.bgPages };
 
   /* sm applies to x-small devices (portrait phones, less than 576px) */
   @media (max-width: 576px) { 
@@ -44,15 +45,20 @@ export const Content = styled.div`
   grid-column-gap: 3rem;
 
   /* sm applies to x-small devices (portrait phones, less than 576px) */
-  @media (max-width: 576px) { 
+  @media (max-width: 576px) {
+    position: unset;
     padding: 4.4rem 2rem;
+    height: fit-content;
     grid-column-gap: 0;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto auto;
+    grid-row-gap: 2rem;
   }
 
   /* md applies to small devices (landscape phones, less than 768px) */
-  @media (min-width: 768px) {  }
+  @media (max-width: 768px) {
+    padding: 2rem 2rem 0 2rem;
+  }
   
   /* lg applies to medium devices (tablets, less than 992px) */
   @media (min-width: 992px) {  }
@@ -86,7 +92,19 @@ export const ImageContainer = styled.div`
   }
 
   /* sm applies to x-small devices (portrait phones, less than 576px) */
-  @media (min-width: 576px) {  }
+  @media (max-width: 576px) { 
+    svg#crossplatform-svg {
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+    svg#syncronism-svg  {
+      width: 100%;
+    }
+
+    &#img-syncronism{
+      grid-row-start: 4;
+    }
+  }
 
   /* md applies to small devices (landscape phones, less than 768px) */
   @media (min-width: 768px) {  }
