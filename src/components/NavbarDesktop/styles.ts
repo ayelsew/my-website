@@ -2,9 +2,28 @@ import Link from "next/link";
 import styled from "styled-components";
 
 export const NavbarDesktopWrapper = styled.div`
-    width: 22rem;
-    height: 100vh;
-    background-color: ${({ theme }) => theme.bgMenu};
+  width: 22rem;
+  height: 100vh;
+  background-color: ${({ theme }) => theme.bgMenu};
+
+  /* sm applies to x-small devices (portrait phones, less than 576px) */
+  @media (max-width: 576px) {  
+    display: none;
+  }
+
+  /* md applies to small devices (landscape phones, less than 768px) */
+  @media (min-width: 768px) {  }
+
+  /* lg applies to medium devices (tablets, less than 992px) */
+  @media (min-width: 992px) {  }
+
+  /* xl applies to large devices (desktops, less than 1200px) */
+  @media (min-width: 1200px) {  }
+
+  /* xxl applies to x-large devices (large desktops, less than 1400px) */
+  @media (min-width: 1400px) { 
+
+  }
 `;
 
 export const Content = styled.div`
@@ -68,7 +87,9 @@ export const Contact = styled.a`
   }
 
   /* sm applies to x-small devices (portrait phones, less than 576px) */
-  @media (min-width: 576px) {  }
+  @media (min-width: 576px) {  
+
+  }
 
   /* md applies to small devices (landscape phones, less than 768px) */
   @media (min-width: 768px) {  }

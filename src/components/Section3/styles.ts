@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Section1Wrapper = styled.div`
   width: 100%;
-  height: 100%;
+  height: inherit;
   position: relative;
 `;
 
@@ -33,7 +33,9 @@ export const Content = styled.div`
   align-content: space-between;
 
   /* sm applies to x-small devices (portrait phones, less than 576px) */
-  @media (min-width: 576px) {  }
+  @media (max-width: 576px) { 
+    padding: 4.4rem 2rem;
+  }
 
   /* md applies to small devices (landscape phones, less than 768px) */
   @media (min-width: 768px) {  }
