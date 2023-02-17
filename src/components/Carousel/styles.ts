@@ -63,6 +63,7 @@ export const Content = styled.div`
   @media (max-width: 576px) { 
     overflow-x: scroll;
     grid-column-gap: 1rem;
+    padding: 0 1.2rem;
   }
 
   /* md applies to small devices (landscape phones, less than 768px) */

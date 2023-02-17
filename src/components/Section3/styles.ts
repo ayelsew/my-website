@@ -46,7 +46,7 @@ export const Content = styled.div`
 
   /* sm applies to x-small devices (portrait phones, less than 576px) */
   @media (max-width: 576px) { 
-    padding: 4.4rem 1.2rem;
+    padding: 4.4rem 0rem;
     height: fit-content;
     position: unset;
     grid-template-columns: auto;
@@ -73,6 +73,13 @@ export const CarouselArea = styled.div`
   grid-row-start: 1;
   grid-column-start: 1;
   grid-column-end: 14;
+
+  /* sm applies to x-small devices (portrait phones, less than 576px) */
+  @media (max-width: 576px) {
+    & h2 {
+      padding: 0 1.2rem;
+    }
+  }  
 `
 
 export const Snippet = styled.article`
@@ -89,6 +96,10 @@ export const Snippet = styled.article`
   @media (max-width: 576px) { 
     grid-row-start: 2;
     grid-column-end: 1;
+
+    &.open-source {
+      padding: 0 1.2rem;
+    }
   }
 `
 
@@ -98,7 +109,8 @@ export const FavCard = styled.div`
 
   /* sm applies to x-small devices (portrait phones, less than 576px) */
   @media (max-width: 576px) { 
-   grid-row-start: 3;
-   grid-column-start: 1;
+    grid-row-start: 3;
+    grid-column-start: 1;
+    padding: 0 1.2rem;
   }
 `
