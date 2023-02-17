@@ -32,6 +32,7 @@ export const Background = styled.div`
 export const Content = styled.div`
   position: absolute;
   width: 100%;
+  height: inherit;
   display: grid;
   padding: 4.4rem 8rem;
   grid-template-columns: auto;
@@ -52,7 +53,9 @@ export const Content = styled.div`
   @media (min-width: 992px) {  }
 
   /* xl applies to large devices (desktops, less than 1200px) */
-  @media (min-width: 1200px) {  }
+  @media (min-width: 1200px) { 
+
+  }
 
   /* xxl applies to x-large devices (large desktops, less than 1400px) */
   @media (min-width: 1400px) { 
@@ -108,6 +111,10 @@ export const Timeline = styled.div`
     margin: 2rem 0 0 0;
   }
   
+  svg#timeline-mobile {
+    display: none;
+  }
+
   & svg {
     display: inline-block;
     width: 100%;

@@ -113,6 +113,10 @@ export const FavCard = styled.div`
   grid-row-start: 2;
   grid-column-start: 11;
 
+  & > a {
+    display: none;
+  }
+
   /* sm applies to x-small devices (portrait phones, less than 576px) */
   @media (max-width: 576px) { 
     grid-row-start: 3;
