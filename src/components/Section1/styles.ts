@@ -47,10 +47,14 @@ export const Content = styled.div`
   }
 
   /* md applies to small devices (landscape phones, less than 768px) */
-  @media (min-width: 768px) {  }
+  @media (max-width: 768px) { 
+
+  }
 
   /* lg applies to medium devices (tablets, less than 992px) */
-  @media (min-width: 992px) {  }
+  @media (max-width: 992px) { 
+
+  }
 
   /* xl applies to large devices (desktops, less than 1200px) */
   @media (min-width: 1200px) { 

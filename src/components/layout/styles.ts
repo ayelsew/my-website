@@ -13,7 +13,9 @@ export const LayoutDefualt = styled.div`
   @media (min-width: 768px) {  }
 
   /* lg applies to medium devices (tablets, less than 992px) */
-  @media (min-width: 992px) {  }
+  @media (max-width: 992px) { 
+    grid-template-columns: 15rem calc(100vw - 15rem);
+  }
 
   /* xl applies to large devices (desktops, less than 1200px) */
   @media (min-width: 1200px) {  }
@@ -47,10 +49,14 @@ export const MainWrapper = styled.main`
   }
 
   /* md applies to small devices (landscape phones, less than 768px) */
-  @media (min-width: 768px) {  }
+  @media (min-width: 768px) { 
+
+  }
 
   /* lg applies to medium devices (tablets, less than 992px) */
-  @media (min-width: 992px) {  }
+  @media (max-width: 992px) { 
+    width: calc(100vw - 15rem);
+  }
 
   /* xl applies to large devices (desktops, less than 1200px) */
   @media (min-width: 1200px) {  }

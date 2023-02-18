@@ -15,7 +15,9 @@ export const NavbarDesktopWrapper = styled.div`
   @media (min-width: 768px) {  }
 
   /* lg applies to medium devices (tablets, less than 992px) */
-  @media (min-width: 992px) {  }
+  @media (max-width: 992px) { 
+    width: 15rem;
+  }
 
   /* xl applies to large devices (desktops, less than 1200px) */
   @media (min-width: 1200px) {  }
@@ -34,6 +36,27 @@ export const Content = styled.div`
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+
+  /* lg applies to medium devices (tablets, less than 992px) */
+  @media (max-width: 992px) { 
+    padding: 1.2rem;
+  }
+
+  /* md applies to small devices (landscape phones, less than 768px) */
+  @media (min-width: 768px) {  }
+
+  /* lg applies to medium devices (tablets, less than 992px) */
+  @media (max-width: 992px) { 
+    justify-content: start;
+  }
+
+  /* xl applies to large devices (desktops, less than 1200px) */
+  @media (min-width: 1200px) {  }
+
+  /* xxl applies to x-large devices (large desktops, less than 1400px) */
+  @media (min-width: 1400px) { 
+
+  }
 `;
 
 export const Navgation = styled.nav`
@@ -63,6 +86,11 @@ export const ProfilePicture = styled.div`
   border: 0.4rem solid #FFFFFF;
   border-radius: var(--size-picture);
   overflow: hidden;
+
+  /* lg applies to medium devices (tablets, less than 992px) */
+  @media (max-width: 992px) { 
+    display: none;
+  }
 `;
 
 export const ContactArea = styled.div`
