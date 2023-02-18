@@ -2,12 +2,15 @@ import styled from "styled-components";
 
 export const Section1Wrapper = styled.div`
   width: 100%;
-  height: 100%;
-  position: relative;
+  height: inherit;
+
+  /* sm applies to x-small devices (portrait phones, less than 576px) */
+  @media (max-width: 576px) { 
+    height: fit-content;
+  }
 `;
 
 export const Content = styled.div`
-  position: absolute;
   width: 100%;
   height: 100%;
   display: grid;
@@ -17,7 +20,13 @@ export const Content = styled.div`
   grid-row-gap: 1rem;
 
   /* sm applies to x-small devices (portrait phones, less than 576px) */
-  @media (min-width: 576px) {  }
+  @media (max-width: 576px) { 
+    height: fit-content;
+    min-height: 100vh;
+    padding: 0rem 0rem;
+    grid-template-rows: auto auto 1fr;
+    grid-row-gap: 2rem;
+  }
 
   /* md applies to small devices (landscape phones, less than 768px) */
   @media (min-width: 768px) {  }
@@ -36,8 +45,17 @@ export const Content = styled.div`
 
 export const Snippet = styled.article`
 
+  /* sm applies to x-small devices (portrait phones, less than 576px) */
+  @media (max-width: 576px) { 
+    padding: 0 1.2rem;
+  }
 `
 
 export const CarouselArea = styled.div`
-
+  /* sm applies to x-small devices (portrait phones, less than 576px) */
+  @media (max-width: 576px) {
+    & h2 {
+      padding: 0 1.2rem;
+    }
+  }
 `

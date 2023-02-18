@@ -12,7 +12,7 @@ const HeaderCompany: FC<HeaderCompanyProps> = ({ }) => {
     <S.HeaderCompanyWrapper>
       <S.ProfilePicture>
         <Image
-          src="/images/vetores/cuponeria.svg"
+          src="/images/vectors/cuponeria.svg"
           alt="Wesley"
           fill
         />
