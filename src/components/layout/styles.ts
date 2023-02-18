@@ -56,6 +56,10 @@ export const MainWrapper = styled.main`
   /* lg applies to medium devices (tablets, less than 992px) */
   @media (max-width: 992px) { 
     width: calc(100vw - 15rem);
+    overflow-x: unset;
+    overflow-y: scroll;
+    grid-auto-flow: row;
+    scroll-snap-type: none;
   }
 
   /* xl applies to large devices (desktops, less than 1200px) */

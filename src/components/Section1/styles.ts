@@ -10,6 +10,26 @@ export const Section1Wrapper = styled.div`
     position: unset;
     height: fit-content;
   }
+
+  /* md applies to small devices (landscape phones, less than 768px) */
+  @media (max-width: 768px) { 
+
+  }
+
+  /* lg applies to medium devices (tablets, less than 992px) */
+  @media (max-width: 992px) { 
+    height: fit-content;
+  }
+
+  /* xl applies to large devices (desktops, less than 1200px) */
+  @media (min-width: 1200px) { 
+
+  }
+
+  /* xxl applies to x-large devices (large desktops, less than 1400px) */
+  @media (min-width: 1400px) { 
+
+  }
 `;
 
 export const Background = styled.div`
@@ -53,7 +73,10 @@ export const Content = styled.div`
 
   /* lg applies to medium devices (tablets, less than 992px) */
   @media (max-width: 992px) { 
-
+    padding: 4.4rem 1.8rem 0 1.8rem;
+    height: fit-content;
+    padding: 4.4rem 2rem 0 2rem;
+    position: unset;
   }
 
   /* xl applies to large devices (desktops, less than 1200px) */
@@ -97,7 +120,9 @@ export const Title = styled.h1`
   @media (min-width: 768px) {  }
 
   /* lg applies to medium devices (tablets, less than 992px) */
-  @media (min-width: 992px) {  }
+  @media (max-width: 992px) { 
+    font-size: 1.7em;
+  }
 
   /* xl applies to large devices (desktops, less than 1200px) */
   @media (min-width: 1200px) {  }
@@ -193,6 +218,24 @@ export const Selo = styled.span`
   /* sm applies to x-small devices (portrait phones, less than 576px) */
   @media (max-width: 576px) { 
     display: none;
+  }
+
+  /* md applies to small devices (landscape phones, less than 768px) */
+  @media (min-width: 768px) {  }
+
+  /* lg applies to medium devices (tablets, less than 992px) */
+  @media (max-width: 992px) { 
+    display: none;
+  }
+
+  /* xl applies to large devices (desktops, less than 1200px) */
+  @media (min-width: 1200px) {  }
+
+  /* xxl applies to x-large devices (large desktops, less than 1400px) */
+  @media (min-width: 1400px) { 
+    & h2 {
+      margin: 6rem 0 0 0;
+    }
   }
 `;
 

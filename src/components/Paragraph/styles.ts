@@ -22,7 +22,10 @@ export const ParagraphWrapper = styled.p<ParagraphWrapperProps>`
   @media (min-width: 768px) {  }
 
   /* lg applies to medium devices (tablets, less than 992px) */
-  @media (min-width: 992px) {  }
+  @media (max-width: 992px) { 
+    font-size: .99em;
+    line-height: 1rem;
+  }
 
   /* xl applies to large devices (desktops, less than 1200px) */
   @media (min-width: 1200px) {  }
