@@ -95,8 +95,19 @@ export const Content = styled.div`
     height: fit-content;
     grid-column-gap: 0;
     grid-template-columns: auto;
-    grid-template-rows: auto auto auto auto;
-    grid-row-gap: 2rem;
+    grid-template-rows: auto auto;
+    grid-row-gap: 3rem;
+
+    & div:nth-child(1),
+    & div:nth-child(2) {
+      align-items: center;
+      flex-direction: column;
+      gap: 1.4rem;
+    }
+
+    & div:nth-child(2) {
+      flex-direction: column-reverse;
+    }
   }
 
   /* md applies to small devices (landscape phones, less than 768px) */
@@ -105,7 +116,7 @@ export const Content = styled.div`
   }
   
   /* lg applies to medium devices (tablets, less than 992px) */
-  @media (max-width: 992px) { 
+  @media (min-width: 768px) and (max-width: 992px) { 
     padding: 2rem 2rem;
     height: fit-content;
     grid-template-columns: auto;
@@ -149,11 +160,10 @@ export const ImageContainer = styled.div`
   /* sm applies to x-small devices (portrait phones, less than 576px) */
   @media (max-width: 576px) { 
     svg#crossplatform-svg {
-      width: 100%;
-      margin-bottom: 2rem;
+      width: 14rem;
     }
     svg#syncronism-svg  {
-      width: 100%;
+      width: 14rem;
     }
 
     &#img-syncronism{
@@ -165,7 +175,7 @@ export const ImageContainer = styled.div`
   @media (min-width: 768px) {  }
   
   /* lg applies to medium devices (tablets, less than 992px) */
-  @media (max-width: 992px) { 
+  @media (min-width: 768px) and (max-width: 992px) { 
     svg#crossplatform-svg {
       width: 12rem;
       margin-bottom: 0;

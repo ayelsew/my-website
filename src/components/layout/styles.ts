@@ -13,7 +13,7 @@ export const LayoutDefualt = styled.div`
   @media (min-width: 768px) {  }
 
   /* lg applies to medium devices (tablets, less than 992px) */
-  @media (max-width: 992px) { 
+  @media (min-width: 768px) and (max-width: 992px) { 
     grid-template-columns: 15rem calc(100vw - 15rem);
   }
 
@@ -54,7 +54,7 @@ export const MainWrapper = styled.main`
   }
 
   /* lg applies to medium devices (tablets, less than 992px) */
-  @media (max-width: 992px) { 
+  @media (min-width: 768px) and (max-width: 992px) { 
     width: calc(100vw - 15rem);
     overflow-x: unset;
     overflow-y: scroll;
