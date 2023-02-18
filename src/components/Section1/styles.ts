@@ -72,10 +72,9 @@ export const Content = styled.div`
   }
 
   /* lg applies to medium devices (tablets, less than 992px) */
-  @media (max-width: 992px) { 
-    padding: 4.4rem 1.8rem 0 1.8rem;
+  @media (min-width: 768px) and (max-width: 992px) { 
     height: fit-content;
-    padding: 4.4rem 2rem 0 2rem;
+    padding: 2rem 2rem 0 2rem;
     position: unset;
   }
 
