@@ -46,8 +46,8 @@ export const Content = styled.div`
   @media (min-width: 768px) {  }
 
   /* lg applies to medium devices (tablets, less than 992px) */
-  @media (max-width: 992px) { 
-    justify-content: start;
+  @media (min-width: 768px) and (max-width: 992px) { 
+    justify-content: space-between;
   }
 
   /* xl applies to large devices (desktops, less than 1200px) */
@@ -86,8 +86,8 @@ export const NavItem = styled(Link) <NavItemProps>`
   @media (min-width: 768px) {  }
 
   /* lg applies to medium devices (tablets, less than 992px) */
-  @media (max-width: 992px) { 
-    font-size: 1em;
+  @media (min-width: 768px) and (max-width: 992px) { 
+    font-size: .9em;
   }
 
   /* xl applies to large devices (desktops, less than 1200px) */
@@ -110,7 +110,8 @@ export const ProfilePicture = styled.div`
 
   /* lg applies to medium devices (tablets, less than 992px) */
   @media (max-width: 992px) { 
-    display: none;
+    --size-picture: 8rem;
+    border-width: .2rem;
   }
 `;
 
@@ -144,7 +145,9 @@ export const Contact = styled.a`
   @media (min-width: 768px) {  }
 
   /* lg applies to medium devices (tablets, less than 992px) */
-  @media (min-width: 992px) {  }
+  @media (max-width: 992px) { 
+    font-size: .7em;
+  }
 
   /* xl applies to large devices (desktops, less than 1200px) */
   @media (min-width: 1200px) {  }
