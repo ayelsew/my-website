@@ -11,6 +11,25 @@ export const Section2Wrapper = styled.div`
     height: fit-content;
     position: unset;
   }
+
+
+  /* md applies to small devices (landscape phones, less than 768px) */
+  @media (max-width: 768px) {
+
+  }
+  
+  /* lg applies to medium devices (tablets, less than 992px) */
+  @media (max-width: 992px) { 
+    height: fit-content;
+  }
+  
+  /* xl applies to large devices (desktops, less than 1200px) */
+  @media (min-width: 1200px) {  }
+  
+  /* xxl applies to x-large devices (large desktops, less than 1400px) */
+  @media (min-width: 1400px) { 
+
+  }
 `;
 
 export const Background = styled.div`
@@ -29,6 +48,25 @@ export const Background = styled.div`
     display: none;
     position: unset;
   }
+
+
+  /* md applies to small devices (landscape phones, less than 768px) */
+  @media (max-width: 768px) {
+
+  }
+  
+  /* lg applies to medium devices (tablets, less than 992px) */
+  @media (min-width: 992px) { 
+
+  }
+  
+  /* xl applies to large devices (desktops, less than 1200px) */
+  @media (min-width: 1200px) {  }
+  
+  /* xxl applies to x-large devices (large desktops, less than 1400px) */
+  @media (min-width: 1400px) { 
+
+  }
 `;
 
 export const Content = styled.div`
@@ -43,6 +81,12 @@ export const Content = styled.div`
   justify-items: center;
   align-content: space-between;
   grid-column-gap: 3rem;
+  
+
+  & div:nth-child(1),
+  & div:nth-child(2) {
+    display: flex;
+  }
 
   /* sm applies to x-small devices (portrait phones, less than 576px) */
   @media (max-width: 576px) {
@@ -57,11 +101,22 @@ export const Content = styled.div`
 
   /* md applies to small devices (landscape phones, less than 768px) */
   @media (max-width: 768px) {
-    padding: 2rem 2rem 0 2rem;
+
   }
   
   /* lg applies to medium devices (tablets, less than 992px) */
-  @media (min-width: 992px) {  }
+  @media (max-width: 992px) { 
+    padding: 2rem 2rem;
+    height: fit-content;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    grid-column-gap: 0;
+
+    & div:nth-child(1),
+    & div:nth-child(2) {
+      gap: 1.5rem;
+    }
+  }
   
   /* xl applies to large devices (desktops, less than 1200px) */
   @media (min-width: 1200px) {  }
@@ -110,7 +165,17 @@ export const ImageContainer = styled.div`
   @media (min-width: 768px) {  }
   
   /* lg applies to medium devices (tablets, less than 992px) */
-  @media (min-width: 992px) {  }
+  @media (max-width: 992px) { 
+    svg#crossplatform-svg {
+      width: 12rem;
+      margin-bottom: 0;
+      height: 12rem;
+    }
+    svg#syncronism-svg  {
+      width: 11rem;
+      height: 12rem;
+    }
+  }
   
   /* xl applies to large devices (desktops, less than 1200px) */
   @media (min-width: 1200px) {  }

@@ -10,6 +10,8 @@ export const Section1Wrapper = styled.div`
     height: fit-content;
     position: unset;
   }
+
+  display: none;
 `;
 
 export const Background = styled.div`
