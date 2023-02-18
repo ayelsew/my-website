@@ -122,6 +122,7 @@ export const Content = styled.div`
     grid-template-columns: auto;
     grid-template-rows: auto auto;
     grid-column-gap: 0;
+    position: unset;
 
     & div:nth-child(1),
     & div:nth-child(2) {
