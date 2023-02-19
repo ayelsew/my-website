@@ -81,6 +81,11 @@ export const Content = styled.div`
     height: fit-content;
     grid-template-rows: auto auto auto;
     padding: 2rem 0rem;
+
+    & div.open-source-section {
+      flex-direction: column;
+      gap: 1rem;
+    }
   }
 
   /* xl applies to large devices (desktops, less than 1200px) */
@@ -194,13 +199,14 @@ export const FavCard = styled.div`
   @media (min-width: 768px) and (max-width: 992px) {
     padding: 0 2rem;
     width: 100%;
+    flex-direction: column;
+    gap: 1rem;
 
     & > article {
-      width: 25rem;
+      /* width: 25rem; */
     }
 
     & > a {
-      margin-top: 1.5rem;
       display: flex;
     }
   }

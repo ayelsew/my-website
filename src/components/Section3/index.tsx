@@ -107,7 +107,7 @@ const Section3 = () => {
               outline
               color="#fff"
               size="medium"
-              stretch="100%"
+              stretch="70%"
               href="/project"
             />
           </S.FavCard>

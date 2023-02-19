@@ -62,7 +62,9 @@ export const Content = styled.div`
   @media (min-width: 768px) {  }
   
   /* lg applies to medium devices (tablets, less than 992px) */
-  @media (min-width: 992px) {  }
+  @media (min-width: 768px) and (max-width: 992px) { 
+    overflow-x: scroll;
+  }
   
   /* xl applies to large devices (desktops, less than 1200px) */
   @media (min-width: 1200px) {  }
