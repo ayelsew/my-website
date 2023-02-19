@@ -9,6 +9,22 @@ export const HeaderProjectWrapper = styled.header`
   @media (max-width: 576px) { 
     height: 10rem;
   }
+
+  /* md applies to small devices (landscape phones, less than 768px) */
+  @media (min-width: 768px) {  }
+
+  /* lg applies to medium devices (tablets, less than 992px) */
+  @media (min-width: 768px) and (max-width: 992px) { 
+    height: 10rem;
+  }
+
+  /* xl applies to large devices (desktops, less than 1200px) */
+  @media (min-width: 1200px) {  }
+
+  /* xxl applies to x-large devices (large desktops, less than 1400px) */
+  @media (min-width: 1400px) { 
+
+  }
 `
 
 interface BackgroundProps {
@@ -31,6 +47,12 @@ export const Background = styled.div<BackgroundProps>`
     width: 100%;
     height: 100%;
   }
+
+  /* lg applies to medium devices (tablets, less than 992px) */
+  @media (min-width: 768px) and (max-width: 992px) { 
+    width: 100%;
+    height: 100%;
+  }
 `
 
 export const Filter = styled.div`
@@ -41,6 +63,12 @@ export const Filter = styled.div`
   
   /* sm applies to x-small devices (portrait phones, less than 576px) */
   @media (max-width: 576px) { 
+    background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.43) 0%, rgba(0, 0, 0, 0.78) 100%);
+    height: 100%;
+  }
+
+  /* lg applies to medium devices (tablets, less than 992px) */
+  @media (min-width: 768px) and (max-width: 992px) { 
     background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.43) 0%, rgba(0, 0, 0, 0.78) 100%);
     height: 100%;
   }
@@ -67,7 +95,11 @@ export const Content = styled.div`
   @media (min-width: 768px) {  }
 
   /* lg applies to medium devices (tablets, less than 992px) */
-  @media (min-width: 992px) {  }
+  @media (min-width: 768px) and (max-width: 992px) { 
+    padding: 0 2rem;
+    align-items: center;
+    grid-column-gap: 1rem;
+  }
 
   /* xl applies to large devices (desktops, less than 1200px) */
   @media (min-width: 1200px) {  }
@@ -89,6 +121,11 @@ export const ProfilePictureContent = styled.div`
   @media (max-width: 576px) { 
     --size-picture: 5.5rem;
   }
+
+  /* lg applies to medium devices (tablets, less than 992px) */
+  @media (min-width: 768px) and (max-width: 992px) { 
+    --size-picture: 6.5rem;
+  }
 `
 
 export const ProfilePicture = styled.img`
@@ -106,6 +143,11 @@ export const Title = styled.h1`
   @media (max-width: 576px) { 
     font-size: 1.4em;
   }
+
+  /* lg applies to medium devices (tablets, less than 992px) */
+  @media (min-width: 768px) and (max-width: 992px) { 
+    font-size: 1.4em;
+  }
 `
 
 export const Company = styled.p`
@@ -115,6 +157,11 @@ export const Company = styled.p`
 
   /* sm applies to x-small devices (portrait phones, less than 576px) */
   @media (max-width: 576px) { 
+    font-size: 1em;
+  }
+
+  /* lg applies to medium devices (tablets, less than 992px) */
+  @media (min-width: 768px) and (max-width: 992px) { 
     font-size: 1em;
   }
 `
