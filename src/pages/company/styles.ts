@@ -8,6 +8,11 @@ export const Section1Wrapper = styled.div`
   @media (max-width: 576px) { 
     height: fit-content;
   }
+
+  /* lg applies to medium devices (tablets, less than 992px) */
+  @media (min-width: 768px) and (max-width: 992px) { 
+    height: fit-content;
+  }
 `;
 
 export const Content = styled.div`
@@ -33,7 +38,14 @@ export const Content = styled.div`
   @media (min-width: 768px) {  }
 
   /* lg applies to medium devices (tablets, less than 992px) */
-  @media (min-width: 992px) {  }
+  @media (min-width: 768px) and (max-width: 992px) { 
+    height: fit-content;
+    min-height: 100vh;
+    padding: 0rem 0rem;
+    grid-template-columns: calc(100vw - 15rem);;
+    grid-template-rows: auto auto 1fr;
+    grid-row-gap: 2rem;
+  }
 
   /* xl applies to large devices (desktops, less than 1200px) */
   @media (min-width: 1200px) {  }
@@ -50,6 +62,11 @@ export const Snippet = styled.article`
   @media (max-width: 576px) { 
     padding: 0 1.2rem;
   }
+
+  /* lg applies to medium devices (tablets, less than 992px) */
+  @media (min-width: 768px) and (max-width: 992px) {
+    padding: 0 2rem;
+  }
 `
 
 export const CarouselArea = styled.div`
@@ -57,6 +74,13 @@ export const CarouselArea = styled.div`
   @media (max-width: 576px) {
     & h2 {
       padding: 0 1.2rem;
+    }
+  }
+
+  /* lg applies to medium devices (tablets, less than 992px) */
+  @media (min-width: 768px) and (max-width: 992px) {
+    & h2 {
+      padding: 0 2rem;
     }
   }
 `
