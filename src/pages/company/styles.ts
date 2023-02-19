@@ -24,6 +24,7 @@ export const Content = styled.div`
     height: fit-content;
     min-height: 100vh;
     padding: 0rem 0rem;
+    grid-template-columns: 100vw;
     grid-template-rows: auto auto 1fr;
     grid-row-gap: 2rem;
   }
