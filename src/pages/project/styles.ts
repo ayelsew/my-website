@@ -22,7 +22,7 @@ export const Content = styled.div`
   height: 100%;
   display: grid;
   padding: 1rem 1.2rem 4.4rem 1.2rem;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: 20rem calc(100% - 20rem);
   grid-column-gap: 2rem;
 
   /* sm applies to x-small devices (portrait phones, less than 576px) */
@@ -50,7 +50,7 @@ export const Content = styled.div`
 
   /* xxl applies to x-large devices (large desktops, less than 1400px) */
   @media (min-width: 1400px) { 
-    padding: 1rem 14rem 4.4rem 14rem;
+    padding: 1rem 10rem 4.4rem 10rem;
   }
 `
 
@@ -83,7 +83,7 @@ export const ColumnTwo = styled.div`
 `
 
 export const ColumnOne = styled.div`
-  width: 20rem;
+  width: 100%;
 
   /* sm applies to x-small devices (portrait phones, less than 576px) */
   @media (max-width: 576px) {

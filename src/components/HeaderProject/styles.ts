@@ -106,7 +106,7 @@ export const Content = styled.div`
 
   /* xxl applies to x-large devices (large desktops, less than 1400px) */
   @media (min-width: 1400px) { 
-    padding: 11.5rem 14rem 0rem 14rem;
+    padding: 11.5rem 10rem 0rem 10rem;
   }
 `;
 
