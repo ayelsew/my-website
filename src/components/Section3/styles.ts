@@ -24,7 +24,7 @@ export const Section1Wrapper = styled.div`
 
   /* xxl applies to x-large devices (large desktops, less than 1400px) */
   @media (min-width: 1400px) { 
-    padding: 8rem 14rem;
+
   }
 `;
 
@@ -86,7 +86,7 @@ export const Content = styled.div`
 
   /* xxl applies to x-large devices (large desktops, less than 1400px) */
   @media (min-width: 1400px) { 
-    padding: 8rem 14rem;
+
   }
 `
 
@@ -114,7 +114,7 @@ export const CarouselArea = styled.div`
 
   /* xxl applies to x-large devices (large desktops, less than 1400px) */
   @media (min-width: 1400px) { 
-    padding: 8rem 14rem;
+
   }
 `
 
@@ -165,7 +165,7 @@ export const Snippet = styled.article`
 
   /* xxl applies to x-large devices (large desktops, less than 1400px) */
   @media (min-width: 1400px) { 
-    padding: 8rem 14rem;
+
   }
 `
 
@@ -219,6 +219,6 @@ export const FavCard = styled.div`
 
   /* xxl applies to x-large devices (large desktops, less than 1400px) */
   @media (min-width: 1400px) { 
-    padding: 8rem 14rem;
+
   }
 `
