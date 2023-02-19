@@ -75,7 +75,7 @@ export const Content = styled.div`
   height: 100%;
   display: grid;
   padding: 4.4rem 4rem;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto;
   grid-template-rows: auto auto;
   align-content: center;
   justify-items: center;
@@ -86,6 +86,7 @@ export const Content = styled.div`
   & div:nth-child(1),
   & div:nth-child(2) {
     display: flex;
+    gap: 2rem;
   }
 
   /* sm applies to x-small devices (portrait phones, less than 576px) */
@@ -138,6 +139,11 @@ export const Content = styled.div`
     padding: 8rem 14rem;
     align-content: space-around;
     grid-column-gap: 4rem;
+
+    & div:nth-child(1),
+    & div:nth-child(2) {
+      gap: 3rem;
+    }
   }
 `
 
@@ -195,10 +201,11 @@ export const ImageContainer = styled.div`
   @media (min-width: 1400px) { 
     svg#syncronism-svg {
       height: 18rem;
-      width: 22rem;
+      width: 25rem;
     }
     svg#crossplatform-svg {
       height: 20rem;
+      width: 25rem;
     }
   }
 `
