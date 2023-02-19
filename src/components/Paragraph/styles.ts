@@ -22,9 +22,9 @@ export const ParagraphWrapper = styled.p<ParagraphWrapperProps>`
   @media (min-width: 768px) {  }
 
   /* lg applies to medium devices (tablets, less than 992px) */
-  @media (max-width: 992px) { 
-    font-size: .99em;
-    line-height: 1rem;
+  @media (min-width: 768px) and (max-width: 992px) { 
+    font-size: .92em;
+    line-height: 1.1rem;
   }
 
   /* xl applies to large devices (desktops, less than 1200px) */
