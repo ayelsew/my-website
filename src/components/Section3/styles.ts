@@ -51,7 +51,7 @@ export const Content = styled.div`
   width: 100%;
   height: 100%;
   display: grid;
-  padding: 4.4rem 4rem;
+  padding: 4.4rem 2rem;
   grid-template-columns: 100%;
   grid-template-rows: auto auto;
   align-content: center;
@@ -59,6 +59,10 @@ export const Content = styled.div`
   grid-row-gap: 60px;
   grid-column-gap: 1rem;
   align-content: space-between;
+
+  & div.open-source-section {
+    display: flex;
+  }
 
   /* sm applies to x-small devices (portrait phones, less than 576px) */
   @media (max-width: 576px) { 
@@ -84,7 +88,7 @@ export const Content = styled.div`
 
   /* xxl applies to x-large devices (large desktops, less than 1400px) */
   @media (min-width: 1400px) { 
-
+    padding: 8rem 10rem;
   }
 `
 
@@ -116,9 +120,6 @@ export const CarouselArea = styled.div`
 `
 
 export const Snippet = styled.article`
-  grid-row-start: 2;
-  grid-column-start: 1;
-  grid-column-end: 10;
 
   &.open-source {
     display: grid;
@@ -127,9 +128,6 @@ export const Snippet = styled.article`
 
   /* sm applies to x-small devices (portrait phones, less than 576px) */
   @media (max-width: 576px) { 
-    grid-row-start: 2;
-    grid-column-start: 1;
-    grid-column-end: 14;
 
     &.open-source {
       width: 100%;
@@ -143,9 +141,7 @@ export const Snippet = styled.article`
 
   /* lg applies to medium devices (tablets, less than 992px) */
   @media (min-width: 768px) and (max-width: 992px) {
-    grid-row-start: 2;
-    grid-column-start: 1;
-    grid-column-end: 14;
+
 
     &.open-source {
       width: 100%;
@@ -167,8 +163,10 @@ export const Snippet = styled.article`
 `
 
 export const FavCard = styled.div`
-  grid-row-start: 2;
-  grid-column-start: 11;
+  width: 41rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 
   & > a {
     display: none;
@@ -176,8 +174,6 @@ export const FavCard = styled.div`
 
   /* sm applies to x-small devices (portrait phones, less than 576px) */
   @media (max-width: 576px) { 
-    grid-row-start: 3;
-    grid-column-start: 1;
     padding: 0 1.2rem;
     width: 100vw;
 
@@ -196,8 +192,6 @@ export const FavCard = styled.div`
 
   /* lg applies to medium devices (tablets, less than 992px) */
   @media (min-width: 768px) and (max-width: 992px) {
-    grid-row-start: 3;
-    grid-column-start: 1;
     padding: 0 2rem;
     width: 100%;
 
@@ -216,6 +210,6 @@ export const FavCard = styled.div`
 
   /* xxl applies to x-large devices (large desktops, less than 1400px) */
   @media (min-width: 1400px) { 
-
+    
   }
 `

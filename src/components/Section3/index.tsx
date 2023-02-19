@@ -69,7 +69,7 @@ const Section3 = () => {
           </Carousel>
         </S.CarouselArea>
 
-        <div>
+        <div className="open-source-section">
           <S.Snippet className="open-source">
             <TitleH2>
               Open source & experimentos

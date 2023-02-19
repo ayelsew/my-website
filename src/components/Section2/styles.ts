@@ -136,7 +136,7 @@ export const Content = styled.div`
   
   /* xxl applies to x-large devices (large desktops, less than 1400px) */
   @media (min-width: 1400px) { 
-    padding: 8rem 14rem;
+    padding: 8rem 10rem;
     align-content: space-around;
     grid-column-gap: 4rem;
 
