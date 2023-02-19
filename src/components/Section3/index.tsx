@@ -84,7 +84,7 @@ const Section3 = () => {
               outline
               color="#fff"
               size="medium"
-              stretch="70%"
+              stretch="50%"
               href="/project"
             />
           </S.Snippet>
