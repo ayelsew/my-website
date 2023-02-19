@@ -52,7 +52,7 @@ export const Content = styled.div`
   height: 100%;
   display: grid;
   padding: 4.4rem 4rem;
-  grid-template-columns: repeat(12, auto);
+  grid-template-columns: 100%;
   grid-template-rows: auto auto;
   align-content: center;
   justify-items: center;
@@ -65,7 +65,6 @@ export const Content = styled.div`
     padding: 4.4rem 0rem;
     height: fit-content;
     position: unset;
-    grid-template-columns: auto;
     grid-template-rows: auto auto auto;
     grid-column-gap: 0;
   }
@@ -76,7 +75,6 @@ export const Content = styled.div`
   /* lg applies to medium devices (tablets, less than 992px) */
   @media (min-width: 768px) and (max-width: 992px) {
     height: fit-content;
-    grid-template-columns: auto;
     grid-template-rows: auto auto auto;
     padding: 2rem 0rem;
   }
@@ -91,9 +89,8 @@ export const Content = styled.div`
 `
 
 export const CarouselArea = styled.div`
-  grid-row-start: 1;
-  grid-column-start: 1;
-  grid-column-end: 14;
+  position: relative;
+  width: 100%;
 
   /* sm applies to x-small devices (portrait phones, less than 576px) */
   @media (max-width: 576px) {
