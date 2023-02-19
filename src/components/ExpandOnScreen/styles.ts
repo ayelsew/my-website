@@ -4,7 +4,7 @@ export const ExpandOnScreenWrapper = styled.div`
   position: unset;
   display: flex;
   align-items: center;
-  width: fit-content;
+  width: 100%;
   height: fit-content;
   transition-duration: .3s;
 
@@ -30,6 +30,8 @@ export const BackLayer = styled.div`
 `
 
 export const Content = styled.div`
+  width: 100%;
+  
   ${ExpandOnScreenWrapper}.expand & {
     position: absolute;
   }

@@ -9,6 +9,12 @@ export const SectionWrapper = styled.div`
   @media (max-width: 576px) { 
     height: fit-content;
   }
+
+
+  /* lg applies to medium devices (tablets, less than 992px) */
+  @media (min-width: 768px) and (max-width: 992px) { 
+    height: fit-content;
+  }
 `;
 
 export const Content = styled.div`
@@ -33,7 +39,11 @@ export const Content = styled.div`
   @media (min-width: 768px) {  }
 
   /* lg applies to medium devices (tablets, less than 992px) */
-  @media (min-width: 992px) {  }
+  @media (min-width: 768px) and (max-width: 992px) { 
+    height: fit-content;
+    grid-template-columns: 100%;
+    padding: 1rem 0 0 0;
+  }
 
   /* xl applies to large devices (desktops, less than 1200px) */
   @media (min-width: 1200px) {  }
@@ -44,13 +54,18 @@ export const Content = styled.div`
   }
 `
 
-export const Snippet = styled.article``
+export const Snippet = styled.article`
+  /* lg applies to medium devices (tablets, less than 992px) */
+  @media (min-width: 768px) and (max-width: 992px) { 
+      padding: 0 2rem;
+  }
+`
 
 
 export const ColumnTwo = styled.div`
-  display: grid;
-  grid-template-rows: auto 1fr;
-  grid-row-gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 
   /* sm applies to x-small devices (portrait phones, less than 576px) */
   @media (max-width: 576px) {
@@ -59,6 +74,11 @@ export const ColumnTwo = styled.div`
     & h2, & p {
       padding: 0 1.2rem;
     }
+  }
+
+  /* lg applies to medium devices (tablets, less than 992px) */
+  @media (min-width: 768px) and (max-width: 992px) { 
+    width: 100%;
   }
 `
 
@@ -73,6 +93,14 @@ export const ColumnOne = styled.div`
       padding: 0 1.2rem;
     }
   }
+
+  /* lg applies to medium devices (tablets, less than 992px) */
+  @media (min-width: 768px) and (max-width: 992px) { 
+    width: 100%;
+    & h2 {
+      padding: 0 2rem;
+    }
+  }
 `
 
 export const ListTechnologies = styled.ul`
@@ -80,6 +108,15 @@ export const ListTechnologies = styled.ul`
 
   /* sm applies to x-small devices (portrait phones, less than 576px) */
   @media (max-width: 576px) {
+    display: grid;
+    grid-auto-flow: column;
+    width: 100%;
+    overflow-x: scroll;
+    padding: 0 1.2rem;
+  }
+
+  /* lg applies to medium devices (tablets, less than 992px) */
+  @media (min-width: 768px) and (max-width: 992px) { 
     display: grid;
     grid-auto-flow: column;
     width: 100%;
@@ -106,6 +143,19 @@ export const Technology = styled.li`
       display: none;
     }
   }
+
+  /* lg applies to medium devices (tablets, less than 992px) */
+  @media (min-width: 768px) and (max-width: 992px) { 
+    grid-template-columns: unset;
+    grid-template-rows: auto auto;
+    grid-row-gap: 0.5rem;
+    justify-items: center;
+    width: 4rem;
+
+    & p {
+      display: none;
+    }
+  }
 `
 
 export const TechnologyIcon = styled.img`
@@ -118,6 +168,11 @@ export const TechnologyShortName = styled.span`
 
   /* sm applies to x-small devices (portrait phones, less than 576px) */
   @media (max-width: 576px) { 
+    display: inline-block;
+  }
+
+  /* lg applies to medium devices (tablets, less than 992px) */
+  @media (min-width: 768px) and (max-width: 992px) { 
     display: inline-block;
   }
 `
