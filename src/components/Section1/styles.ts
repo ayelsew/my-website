@@ -17,7 +17,7 @@ export const Section1Wrapper = styled.div`
   }
 
   /* lg applies to medium devices (tablets, less than 992px) */
-  @media (max-width: 992px) { 
+  @media  (max-width: 768px) and (max-width: 992px) { 
     height: fit-content;
   }
 
@@ -47,6 +47,12 @@ export const Background = styled.div`
   @media (max-width: 576px) { 
     display: none;
   }
+
+
+  /* lg applies to medium devices (tablets, less than 992px) */
+  @media (min-width: 768px) and (max-width: 992px) { 
+    z-index: 0;
+  }
 `;
 
 export const Content = styled.div`
@@ -75,7 +81,7 @@ export const Content = styled.div`
   @media (min-width: 768px) and (max-width: 992px) { 
     height: fit-content;
     padding: 2rem 2rem 0 2rem;
-    position: unset;
+    position: relative;
   }
 
   /* xl applies to large devices (desktops, less than 1200px) */
