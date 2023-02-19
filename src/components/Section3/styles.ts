@@ -62,6 +62,7 @@ export const Content = styled.div`
 
   & div.open-source-section {
     display: flex;
+    gap: 4rem
   }
 
   /* sm applies to x-small devices (portrait phones, less than 576px) */
