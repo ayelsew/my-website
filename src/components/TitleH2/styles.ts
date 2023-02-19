@@ -22,7 +22,7 @@ export const TitleH2Wrapper = styled.h2<TitleH2WrapperProps>`
   @media (min-width: 768px) {  }
 
   /* lg applies to medium devices (tablets, less than 992px) */
-  @media (max-width: 992px) { 
+  @media (min-width: 768px) and (max-width: 992px) { 
     font-size: 1.2em;
   }
 
@@ -31,6 +31,6 @@ export const TitleH2Wrapper = styled.h2<TitleH2WrapperProps>`
 
   /* xxl applies to x-large devices (large desktops, less than 1400px) */
   @media (min-width: 1400px) { 
-    font-size: 3.6em;
+
   }
 `

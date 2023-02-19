@@ -128,7 +128,7 @@ export const Title = styled.h1`
 
   /* xxl applies to x-large devices (large desktops, less than 1400px) */
   @media (min-width: 1400px) { 
-    font-size: 3.6em;
+
   }
 `;
 
