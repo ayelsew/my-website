@@ -1,0 +1,132 @@
+{
+  "who_am_I": {
+    "head": {
+      "title": "Leydev - Desenvolvedor",
+      "description": "Welcome to Leydev systems development"
+    },
+    "my_name_is": "Olá, sou ",
+    "about": "Sou programador com 4 anos de experiência em desenvolvimento de softwares voltados para web, implementei também soluções com foco IoT. Já tive experiências com clientes direto ou por meio de agências para, Netflix, Caixa econômica federal, Ford, Unilever, Natura, África, Honda, Primepass e atualmente Cuponeria. E também já atuei como freelancer",
+    "my_experience": "Veja minhas experiências"
+  },
+  "skills": {
+    "crossplatform": {
+      "title": "Soluções multiplataforma",
+      "description": "Elaboração de programas que podem ser executados nos três principais sistemas operacionais, sem a necessidade de reescrever o código para cada plataforma, usando o ecosistema de frameworks como Electron e Tauri."
+    },
+    "syncronism": {
+      "title": "Sincronismo entre dispositivos",
+      "description": "Desenvolvimento de APIs sobre HTTP, permitindo fácil integração com outros sistemas, usando Nginx, MySQL MongoBD e outros. Combinado com fatores para aumentar a segurança do armazenamento e tráfego dos dados como Firewall, SSL, Bcrypt e JWT."
+    }
+  },
+  "portfolio": {
+    "projects": {
+      "title": "Projetos concluÍdos",
+      "items": [
+        {
+          "title": "Ponto de Venda & estoque",
+          "description": "Com este, o operador do caixa pode gerenciar produtos em estoque, registrar vendas, e fazer a pesagem em uma sorveteria self-service.",
+          "background": "/images/asher_acaiteria.png",
+          "client": "/images/vectors/asher_acaiteria.svg",
+          "href_text": "Detalhes",
+          "href": "/project"
+        },
+        {
+          "title": "Irmandade (Out of Home IoT)",
+          "description": "Com um sensor a laser, detectava quando uma pessoa entrava na frente e exibia um video simulando uma porta de prisão, para a série Irmandade.",
+          "background": "/images/irmandade_out_of_home.png",
+          "client": "/images/vectors/netflix.svg",
+          "href_text": "Detalhes",
+          "href": "/project"
+        },
+        {
+          "title": "Agenda de visitas (PWA)",
+          "description": "PWA usado para realizar agendamento de visitas pelos técnicos de uma empresa de marmoraria.",
+          "background": "/images/magma.png",
+          "client": "/images/vectors/magma.svg",
+          "href_text": "Detalhes",
+          "href": "/project"
+        },
+        {
+          "title": "Natura todo dia (Out of Home IoT)",
+          "description": "Máquina de distribuição de amostras grátis para promover o novo creme corporal da Natura",
+          "background": "/images/natura-todo-dia.png",
+          "client": "/images/vectors/natura.svg",
+          "href_text": "Detalhes",
+          "href": "/project"
+        },
+        {
+          "title": "IP dinâmico DNS Cloudflare",
+          "description": "Agendador para realizar a sincronização periódica de endereços IPs dinâmicos na Cloudflare",
+          "background": "/images/ip_sync_cloudflare.png",
+          "client": "/images/vectors/leydev.svg",
+          "href_text": "Detalhes",
+          "href": "/project"
+        }
+      ]
+    },
+    "open_souce": {
+      "title": "Open source & experimentos",
+      "description": "De tempos em tempos, testo algumas tecnologias para entender seu funcionamento, ou para ajudar no desenvolvimento de portifólio para amigos que querem ingressar em desenvolvimento.",
+      "href_repository": "https://github.com/ayelsew",
+      "favorite_card": {
+        "title": "Afinador Active Tuner",
+        "description": "Esse é uma analizador de ondas sonoras, para auxiliar na afinação de instrumentos músicais de corda",
+        "background": "/images/active_tuner.png",
+        "href_app": "https://active-tuner.web.app/",
+        "href_code": "https://github.com/leydev/Active-Tuner"
+      }
+    }
+  },
+  "projects": [
+    {
+      "title": "Programa frente de caixa",
+      "client": "Asher Açaiteria",
+      "description": "Programa para ponto de venda. Com este, o operador do caixa pode gerenciar produtos em estoque, registrar vendas unitatias, ou vendas Kg por integração com balança. Todos os registros ficam centralizados com a ajuda de uma API REST",
+      "cover": "",
+      "images": [
+        "/images/screenshots/asher_acaiteria/0.png",
+        "/images/screenshots/asher_acaiteria/1.png",
+        "/images/screenshots/asher_acaiteria/2.png",
+        "/images/screenshots/asher_acaiteria/3.png",
+        "/images/screenshots/asher_acaiteria/4.png"
+      ],
+      "technologies": [
+        {
+          "icon": "/images/vectors/react.svg",
+          "name": "React",
+          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+        },
+        {
+          "icon": "/images/vectors/electron.svg",
+          "name": "Electron",
+          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+        },
+        {
+          "icon": "/images/vectors/gulp.svg",
+          "name": "Gulp",
+          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+        },
+        {
+          "icon": "/images/vectors/mariadb.svg",
+          "name": "Maria DB",
+          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+        },
+        {
+          "icon": "/images/vectors/nodejs.svg",
+          "name": "Node JS",
+          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+        },
+        {
+          "icon": "/images/vectors/pm2.svg",
+          "name": "PM2",
+          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+        },
+        {
+          "icon": "/images/vectors/typescript.svg",
+          "name": "TypeScript",
+          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+        }
+      ]
+    }
+  ]
+}

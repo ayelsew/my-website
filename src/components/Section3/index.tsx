@@ -5,75 +5,45 @@ import Button from "../ButtonLink";
 import { Eye, Github } from "../images/icons/vectors";
 import Paragraph from "../Paragraph";
 import TitleH2 from "../TitleH2";
+import { FCT } from "react";
+import Image from "next/image";
 
-const Section3 = () => {
+const Section3: FCT = ({ t }) => {
   return (
     <S.Section1Wrapper>
       <S.Background>
-{/* Adicionar ?? */}
+        {/* Adicionar ?? */}
       </S.Background>
       <S.Content>
 
         <S.CarouselArea>
           <TitleH2>
-            Projetos concluÍdos
+            {t.portfolio.projects.title}
           </TitleH2>
           <Carousel salveScroll="projects">
-            <Card
-              title="IP Sync Cloudflare"
-              description="Scheduler para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare"
-              background="/images/ip_sync_cloudflare.png"
-              buttons={<>
-                <Button text='Visualizar' icon={<Eye size='20' />} href="/project" />
-              </>}
-              profilePicture={<Eye size='29' color='white' />}
-            />
-            <Card
-              title="IP Sync Cloudflare"
-              description="Scheduler para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare"
-              background="/images/ip_sync_cloudflare.png"
-              buttons={<>
-                <Button text='Visualizar' icon={<Eye size='20' />} href="/project" />
-              </>}
-              profilePicture={<Eye size='29' color='white' />}
-            />
-            <Card
-              title="IP Sync Cloudflare"
-              description="Scheduler para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare"
-              background="/images/ip_sync_cloudflare.png"
-              buttons={<>
-                <Button text='Visualizar' icon={<Eye size='20' />} href="/project" />
-              </>}
-              profilePicture={<Eye size='29' color='white' />}
-            />
-            <Card
-              title="IP Sync Cloudflare"
-              description="Scheduler para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare"
-              background="/images/ip_sync_cloudflare.png"
-              buttons={<>
-                <Button text='Visualizar' icon={<Eye size='20' />} href="/project" />
-              </>}
-              profilePicture={<Eye size='29' color='white' />}
-            />
-            <Card
-              title="IP Sync Cloudflare"
-              description="Scheduler para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare"
-              background="/images/ip_sync_cloudflare.png"
-              buttons={<>
-                <Button text='Visualizar' icon={<Eye size='20' />} href="/project" />
-              </>}
-              profilePicture={<Eye size='29' color='white' />}
-            />
+            <>
+              {t.portfolio.projects.items.map((project) => (
+                <Card
+                  title={project.title}
+                  description={project.description}
+                  background={project.background}
+                  buttons={<>
+                    <Button text={project.href_text} icon={<Eye size='20' />} href={project.href} />
+                  </>}
+                  profilePicture={<Image src={project.client} alt="" fill />}
+                />
+              ))}
+            </>
           </Carousel>
         </S.CarouselArea>
 
         <div className="open-source-section">
           <S.Snippet className="open-source">
             <TitleH2>
-              Open source & experimentos
+              {t.portfolio.open_souce.title}
             </TitleH2>
             <Paragraph>
-              De tempos em tempos, testo algumas tecnologias para entender seu funcionamento, ou para ajudar no desenvolvimento de portifólio para amigos que querem ingressar em desenvolvimento.
+              {t.portfolio.open_souce.description}
             </Paragraph>
 
             <Button
@@ -83,19 +53,19 @@ const Section3 = () => {
               color="#fff"
               size="medium"
               stretch="50%"
-              href="/project"
+              href={t.portfolio.open_souce.href_repository}
             />
           </S.Snippet>
 
           <S.FavCard>
             <Card
-              title="IP Sync Cloudflare"
-              description="Scheduler para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare"
-              background="/images/ip_sync_cloudflare.png"
+              title={t.portfolio.open_souce.favorite_card.title}
+              description={t.portfolio.open_souce.favorite_card.description}
+              background={t.portfolio.open_souce.favorite_card.background}
               buttons={
                 <>
-                  <Button text='Repositório' icon={<Eye size='20' />} href="/project" />
-                  <Button text='Abrir app' icon={<Eye size='20' />} href="/project" />
+                  <Button text='Repositório' icon={<Eye size='20' />} href={t.portfolio.open_souce.favorite_card.href_code} />
+                  <Button text='Abrir app' icon={<Eye size='20' />} href={t.portfolio.open_souce.favorite_card.href_app} />
                 </>
               }
             />
@@ -106,7 +76,7 @@ const Section3 = () => {
               color="#fff"
               size="medium"
               stretch="70%"
-              href="/project"
+              href={t.portfolio.open_souce.href_repository}
             />
           </S.FavCard>
         </div>

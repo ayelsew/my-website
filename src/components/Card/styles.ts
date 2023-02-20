@@ -124,6 +124,7 @@ export const ProfilePicture = styled.span`
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 
   /* sm applies to x-small devices (portrait phones, less than 576px) */
   @media (min-width: 576px) {  }

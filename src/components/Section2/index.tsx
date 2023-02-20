@@ -3,8 +3,9 @@ import { Background2 } from "@/components/images/backgrounds/vectors";
 import { CrossPlatform, Syncronism } from "@/components/images/vectors";
 import Paragraph from "../Paragraph";
 import TitleH2 from "../TitleH2";
+import { FCT } from "react";
 
-const Section2 = () => {
+const Section2: FCT = ({ t }) => {
   return (
     <S.Section2Wrapper>
       <S.Background>
@@ -14,10 +15,10 @@ const Section2 = () => {
         <div>
           <S.Snippet>
             <TitleH2>
-              Soluções multiplataforma
+              {t.skills.crossplatform.title}
             </TitleH2>
             <Paragraph>
-              Elaboração de programas que podem ser executados nos três principais sistemas operacionais, sem a necessidade de reescrever o código para cada plataforma, usando o ecosistema de frameworks como Electron e Tauri.
+              {t.skills.crossplatform.description}
             </Paragraph>
           </S.Snippet>
           <S.ImageContainer>
@@ -30,10 +31,10 @@ const Section2 = () => {
           </S.ImageContainer>
           <S.Snippet>
             <TitleH2>
-              Centralização e sincronismo
+              {t.skills.syncronism.title}
             </TitleH2>
             <Paragraph>
-              Desenvolvimento de APIs sobre HTTP, permitindo fácil integração com outros sistemas, usando Nginx, MySQL MongoBD e outros. Combinado com fatores para aumentar a segurança do armazenamento e tráfego dos dados como Firewall, SSL, Bcrypt e JWT.
+              {t.skills.syncronism.description}
             </Paragraph>
           </S.Snippet>
         </div>

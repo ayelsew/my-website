@@ -83,7 +83,7 @@
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.20.15.tgz#eec9f36d8eaf0948bb88c87a46784b5ee9fd0c89"
   integrity sha512-DI4a1oZuf8wC+oAJA9RW6ga3Zbe8RZFt7kD9i4qAspz3I/yHet1VvC3DiSy/fsUvv5pvJuNPh0LPOdCcqinDPg==
 
-"@babel/runtime@^7.20.7":
+"@babel/runtime@^7.20.6", "@babel/runtime@^7.20.7":
   version "7.20.13"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.20.13.tgz#7055ab8a7cff2b8f6058bf6ae45ff84ad2aded4b"
   integrity sha512-gt3PKXs0DBoL9xCvOIIZ2NEqAGZqHjAnmVbfQtB620V0uReIQutpel14KcneZuer7UioY8ALKZ7iocavvzTNFA==
@@ -1374,6 +1374,13 @@ hoist-non-react-statics@^3.0.0, hoist-non-react-statics@^3.3.0:
   integrity sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==
   dependencies:
     react-is "^16.7.0"
+
+i18next@^22.4.10:
+  version "22.4.10"
+  resolved "https://registry.yarnpkg.com/i18next/-/i18next-22.4.10.tgz#cfbfc412c6bc83e3c16564f47e6a5c145255960e"
+  integrity sha512-3EqgGK6fAJRjnGgfkNSStl4mYLCjUoJID338yVyLMj5APT67HUtWoqSayZewiiC5elzMUB1VEUwcmSCoeQcNEA==
+  dependencies:
+    "@babel/runtime" "^7.20.6"
 
 ignore@^5.2.0:
   version "5.2.4"

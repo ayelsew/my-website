@@ -3,8 +3,9 @@ import { Background1, TimelineDesktop, Selo, TimelineMobile } from "@/components
 import Paragraph from "../Paragraph";
 import TitleH2 from "../TitleH2";
 import Image from "next/image";
+import { FCT } from "react";
 
-const Section1 = () => {
+const Section1: FCT = ({ t }) => {
   return (
     <S.Section1Wrapper>
       <S.Background>
@@ -19,14 +20,14 @@ const Section1 = () => {
           />
         </S.ProfilePicture>
         <S.Title>
-          <span>&gt;</span> Olá, sou Wesley Araujo. <span>_</span>
+          <span>&gt;</span>{t.who_am_I.my_name_is} Wesley Araujo. <span>_</span>
         </S.Title>
         <Paragraph textAlign="center">
-          Sou programador com 4 anos de experiência em desenvolvimento de softwares voltados para web, implementei também soluções com foco IoT. Já tive experiências com clientes direto ou por meio de agências para, Netflix, Caixa econômica federal, Ford, Unilever, Natura, África, Honda, Primepass e atualmente Cuponeria. E também já atuei como freelancer
+          {t.who_am_I.about}
         </Paragraph>
         <S.Timeline>
           <TitleH2 fontWeight={400}>
-            Veja minhas experiências
+            {t.who_am_I.my_experience}
           </TitleH2>
           <TimelineDesktop />
           <TimelineMobile />
