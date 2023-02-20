@@ -1,0 +1,54 @@
+{
+    "portfolio": [
+        {
+            "title": "Programa frente de caixa",
+            "client": "Asher Açaiteria",
+            "description": "Programa para ponto de venda. Com este, o operador do caixa pode gerenciar produtos em estoque, registrar vendas unitatias, ou vendas Kg por integração com balança. Todos os registros ficam centralizados com a ajuda de uma API REST",
+            "cover": "",
+            "images": [
+                "/images/screenshots/asher_acaiteria/0.png",
+                "/images/screenshots/asher_acaiteria/1.png",
+                "/images/screenshots/asher_acaiteria/2.png",
+                "/images/screenshots/asher_acaiteria/3.png",
+                "/images/screenshots/asher_acaiteria/4.png"
+            ],
+            "technologies": [
+                {
+                    "icon": "/images/vectors/react.svg",
+                    "name": "React",
+                    "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+                },
+                {
+                    "icon": "/images/vectors/electron.svg",
+                    "name": "Electron",
+                    "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+                },
+                {
+                    "icon": "/images/vectors/gulp.svg",
+                    "name": "Gulp",
+                    "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+                },
+                {
+                    "icon": "/images/vectors/mariadb.svg",
+                    "name": "Maria DB",
+                    "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+                },
+                {
+                    "icon": "/images/vectors/nodejs.svg",
+                    "name": "Node JS",
+                    "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+                },
+                {
+                    "icon": "/images/vectors/pm2.svg",
+                    "name": "PM2",
+                    "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+                },
+                {
+                    "icon": "/images/vectors/typescript.svg",
+                    "name": "TypeScript",
+                    "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+                }
+            ]
+        }
+    ]
+}
