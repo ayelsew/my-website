@@ -21,7 +21,7 @@ export const Content = styled.div`
   width: 100%;
   height: 100%;
   display: grid;
-  padding: 1rem 1.2rem 4.4rem 1.2rem;
+  padding: 1rem 4rem 4.4rem 4rem;
   grid-template-columns: 20rem calc(100% - 20rem);
   grid-column-gap: 2rem;
 

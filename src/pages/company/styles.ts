@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Section1Wrapper = styled.div`
-  width: 100%;
+  width: inherit;
   height: inherit;
 
   /* sm applies to x-small devices (portrait phones, less than 576px) */
@@ -21,6 +21,7 @@ export const Content = styled.div`
   display: grid;
   padding: 4.4rem 4rem;
   grid-template-rows: auto 1fr 1fr;
+  grid-template-columns: 100%;
   align-content: space-between;
   grid-row-gap: 1rem;
 
@@ -53,6 +54,7 @@ export const Content = styled.div`
   /* xxl applies to x-large devices (large desktops, less than 1400px) */
   @media (min-width: 1400px) { 
     padding: 4.4rem 14rem;
+    grid-template-columns: 100%;
   }
 `
 
