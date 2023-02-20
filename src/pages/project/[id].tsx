@@ -85,7 +85,7 @@ export const getStaticProps: GetStaticProps = async ({ locale, params }) => {
   return {
     props: {
       t,
-      ...params
+      id: Number(params?.id)
     }
   }
 }
@@ -93,11 +93,7 @@ export const getStaticProps: GetStaticProps = async ({ locale, params }) => {
 export const getStaticPaths: GetStaticPaths = async () => {
   return {
     paths: [
-      {
-        params: {
-          id: "0"
-        }
-      }
+      "/project/0"
     ],
     fallback: "blocking"
   }
