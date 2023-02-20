@@ -56,6 +56,7 @@ export const Content = styled.div`
   @media (max-width: 576px) { 
     overflow-x: scroll;
     padding: 0 1.2rem;
+    gap: .9rem;
   }
 
   /* md applies to small devices (landscape phones, less than 768px) */

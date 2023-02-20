@@ -16,7 +16,7 @@ export const CardWrapper = styled.article<CardWrapperProps>`
 
   /* sm applies to x-small devices (portrait phones, less than 576px) */
   @media (max-width: 576px) { 
-    width: 20.55rem;
+    width: 20rem;
   }
 
   /* md applies to small devices (landscape phones, less than 768px) */
