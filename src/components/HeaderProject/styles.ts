@@ -19,7 +19,7 @@ export const HeaderProjectWrapper = styled.header`
   }
 
   /* xl applies to large devices (desktops, less than 1200px) */
-  @media (min-width: 1200px) { 
+  @media (min-width: 1200px) and (max-width: 1399.99px) { 
     height: 17rem;
   }
 
@@ -104,7 +104,7 @@ export const Content = styled.div`
   }
 
   /* xl applies to large devices (desktops, less than 1200px) */
-  @media (min-width: 1200px) { 
+  @media (min-width: 1200px) and (max-width: 1399.99px) { 
     padding: 8.5rem 4rem 0 4rem;
   }
 
