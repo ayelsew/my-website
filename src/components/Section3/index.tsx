@@ -24,6 +24,7 @@ const Section3: FCT = ({ t }) => {
             <>
               {t.portfolio.projects.items.map((project) => (
                 <Card
+                  key={project.title}
                   title={project.title}
                   description={project.description}
                   background={project.background}
@@ -54,6 +55,7 @@ const Section3: FCT = ({ t }) => {
               size="medium"
               stretch="50%"
               href={t.portfolio.open_souce.href_repository}
+              target="_blank"
             />
           </S.Snippet>
 
@@ -64,8 +66,8 @@ const Section3: FCT = ({ t }) => {
               background={t.portfolio.open_souce.favorite_card.background}
               buttons={
                 <>
-                  <Button text='Repositório' icon={<Eye size='20' />} href={t.portfolio.open_souce.favorite_card.href_code} />
-                  <Button text='Abrir app' icon={<Eye size='20' />} href={t.portfolio.open_souce.favorite_card.href_app} />
+                  <Button text='Repositório' icon={<Eye size='20' />} href={t.portfolio.open_souce.favorite_card.href_code}  target="_blank"/>
+                  <Button text='Abrir app' icon={<Eye size='20' />} href={t.portfolio.open_souce.favorite_card.href_app} target="_blank" />
                 </>
               }
             />
@@ -77,6 +79,7 @@ const Section3: FCT = ({ t }) => {
               size="medium"
               stretch="70%"
               href={t.portfolio.open_souce.href_repository}
+              target="_blank"
             />
           </S.FavCard>
         </div>

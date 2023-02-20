@@ -1,4 +1,11 @@
 {
+  "menu": {
+    "nav": [
+      {"label":"Sobre mim", "href": "#who-am-I"},
+      {"label":"Habilidades", "href": "#skills"},
+      {"label":"Portfólio", "href": "#portfolio"}
+    ]
+  },
   "who_am_I": {
     "head": {
       "title": "Leydev - Desenvolvedor",
@@ -82,7 +89,7 @@
       "title": "Programa frente de caixa",
       "client": "Asher Açaiteria",
       "description": "Programa para ponto de venda. Com este, o operador do caixa pode gerenciar produtos em estoque, registrar vendas unitatias, ou vendas Kg por integração com balança. Todos os registros ficam centralizados com a ajuda de uma API REST",
-      "cover": "",
+      "cover": "/images/asher_acaiteria.png",
       "images": [
         "/images/screenshots/asher_acaiteria/0.png",
         "/images/screenshots/asher_acaiteria/1.png",

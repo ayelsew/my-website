@@ -12,6 +12,7 @@ interface ButtonLinkProps {
   size?: "medium" | "large"
   stretch?: string
   href: Url | string
+  target?: HTMLAnchorElement["target"]
 }
 
 const ButtonLink: FC<ButtonLinkProps> = ({
@@ -21,11 +22,12 @@ const ButtonLink: FC<ButtonLinkProps> = ({
   color,
   size,
   stretch,
-  href
+  href,
+  target
 }) => {
   return (
     <Link href={href} passHref legacyBehavior>
-      <S.ButtonWrapper className={`${size}`} $stretch={stretch} $fill={!outline} $color={color}>
+      <S.ButtonWrapper className={`${size}`} $stretch={stretch} $fill={!outline} $color={color} target={target}>
         {icon}
         {text}
       </S.ButtonWrapper>

@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 import Image from 'next/image'
-import { FC, useEffect, useState } from "react";
+import { FCT } from "react";
 
 import * as S from "./styles";
 import { Discord, Email, Linkedin } from "@/components/images/icons/vectors";
@@ -9,7 +9,7 @@ interface NavbarDesktopProps {
 
 }
 
-const NavbarDesktop: FC<NavbarDesktopProps> = (props) => {
+const NavbarDesktop: FCT<NavbarDesktopProps> = ({ t }) => {
   const router = useRouter()
   /* const [currentPath, setPath] = useState("/#who-am-I");
 
@@ -28,25 +28,18 @@ const NavbarDesktop: FC<NavbarDesktopProps> = (props) => {
           />
         </S.ProfilePicture>
         <S.Navgation>
-          <S.NavItem
-            $active={false}
-            href={"/#who-am-I"}
+          <>
+            {t.menu.nav.map((item) => (
+              <S.NavItem
+              key={`${item.href}${item.label}`}
+                $active={false}
+                href={item.href}
 
-          >
-            Sobre mim
-          </S.NavItem>
-          <S.NavItem
-            $active={false}
-            href={"/#skills"}
-          >
-            Habilidades
-          </S.NavItem>
-          <S.NavItem
-            $active={false}
-            href={"/#portfolio"}
-          >
-            Portfólio
-          </S.NavItem>
+              >
+                {item.label}
+              </S.NavItem>
+            ))}
+          </>
         </S.Navgation>
         <S.ContactArea>
           <S.Contact href="https://www.linkedin.com/in/wesley-a/" target="_blank">
