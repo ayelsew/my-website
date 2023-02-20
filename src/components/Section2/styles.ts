@@ -142,7 +142,7 @@ export const Content = styled.div`
 
     & div:nth-child(1),
     & div:nth-child(2) {
-      gap: 3rem;
+      gap: 10rem;
     }
   }
 `

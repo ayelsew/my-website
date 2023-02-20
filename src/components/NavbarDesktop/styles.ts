@@ -95,7 +95,7 @@ export const NavItem = styled(Link) <NavItemProps>`
 
   /* xxl applies to x-large devices (large desktops, less than 1400px) */
   @media (min-width: 1400px) { 
-    font-size: .9em;
+    font-size: 1.2em;
   }
 `;
 
