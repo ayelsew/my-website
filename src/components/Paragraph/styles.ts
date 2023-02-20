@@ -28,7 +28,10 @@ export const ParagraphWrapper = styled.p<ParagraphWrapperProps>`
   }
 
   /* xl applies to large devices (desktops, less than 1200px) */
-  @media (min-width: 1200px) {  }
+  @media (min-width: 1200px) { 
+    font-size: 1.05em;
+    line-height: 1.16rem;
+  }
 
   /* xxl applies to x-large devices (large desktops, less than 1400px) */
   @media (min-width: 1400px) { 
