@@ -12,6 +12,7 @@ import TitleH2 from '@/components/TitleH2'
 import { GetStaticPaths, GetStaticProps } from 'next'
 import { getDictionary } from '@/utils/getDictionary'
 import { FCT } from 'react'
+import Image from 'next/image'
 
 const Company: FCT<{ id: number }> = ({ t, id }) => {
   return (
@@ -45,46 +46,20 @@ const Company: FCT<{ id: number }> = ({ t, id }) => {
               Projetos
             </TitleH2>
             <Carousel>
-              <Card
-                title="IP Sync Cloudflare"
-                description="Scheduler para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare"
-                background="/images/ip_sync_cloudflare.png"
-                buttons={<>
-                  <Button text='Vizualizar' icon={<Eye size='20' />} href="/project" />
-                </>}
-              />
-              <Card
-                title="IP Sync Cloudflare"
-                description="Scheduler para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare"
-                background="/images/ip_sync_cloudflare.png"
-                buttons={<>
-                  <Button text='Vizualizar' icon={<Eye size='20' />} href="/project" />
-                </>}
-              />
-              <Card
-                title="IP Sync Cloudflare"
-                description="Scheduler para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare"
-                background="/images/ip_sync_cloudflare.png"
-                buttons={<>
-                  <Button text='Vizualizar' icon={<Eye size='20' />} href="/project" />
-                </>}
-              />
-              <Card
-                title="IP Sync Cloudflare"
-                description="Scheduler para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare"
-                background="/images/ip_sync_cloudflare.png"
-                buttons={<>
-                  <Button text='Vizualizar' icon={<Eye size='20' />} href="/project" />
-                </>}
-              />
-              <Card
-                title="IP Sync Cloudflare"
-                description="Scheduler para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare"
-                background="/images/ip_sync_cloudflare.png"
-                buttons={<>
-                  <Button text='Vizualizar' icon={<Eye size='20' />} href="/project" />
-                </>}
-              />
+              <>
+                {t.projects.map((project, index) => (
+                  <Card
+                    key={project.title}
+                    title={project.title}
+                    description={project.short_description}
+                    background={project.cover}
+                    buttons={<>
+                      <Button text={project.href_text} icon={<Eye size='20' />} href={`/project/${index}`} />
+                    </>}
+                    profilePicture={<Image src={project.icon} alt="" fill />}
+                  />
+                ))}
+              </>
             </Carousel>
           </S.CarouselArea>
         </S.Content>
