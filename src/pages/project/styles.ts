@@ -178,7 +178,7 @@ export const TechnologyShortName = styled.span`
 `
 
 interface ImageCardProps {
-  readonly $display?: "vertically" | "horizontally"
+  readonly $display?: "vertically" | "horizontally" | string
 }
 
 export const ImageCard = styled.div<ImageCardProps>`

@@ -1,9 +1,9 @@
 {
   "menu": {
     "nav": [
-      {"label":"Sobre mim", "href": "#who-am-I"},
-      {"label":"Habilidades", "href": "#skills"},
-      {"label":"Portfólio", "href": "#portfolio"}
+      {"label":"Sobre mim", "href": "/#who-am-I"},
+      {"label":"Habilidades", "href": "/#skills"},
+      {"label":"Portfólio", "href": "/#portfolio"}
     ]
   },
   "who_am_I": {
@@ -35,7 +35,7 @@
           "background": "/images/asher_acaiteria.png",
           "client": "/images/vectors/asher_acaiteria.svg",
           "href_text": "Detalhes",
-          "href": "/project"
+          "href": "/project/0"
         },
         {
           "title": "Irmandade (Out of Home IoT)",
@@ -84,18 +84,23 @@
       }
     }
   },
+  "project": {
+    "technologies": "Tecnologias",
+    "about_project": "Sobre o projeto"
+  },
   "projects": [
     {
       "title": "Programa frente de caixa",
       "client": "Asher Açaiteria",
+      "icon": "/images/vectors/asher_acaiteria.svg",
       "description": "Programa para ponto de venda. Com este, o operador do caixa pode gerenciar produtos em estoque, registrar vendas unitatias, ou vendas Kg por integração com balança. Todos os registros ficam centralizados com a ajuda de uma API REST",
       "cover": "/images/asher_acaiteria.png",
       "images": [
-        "/images/screenshots/asher_acaiteria/0.png",
-        "/images/screenshots/asher_acaiteria/1.png",
-        "/images/screenshots/asher_acaiteria/2.png",
-        "/images/screenshots/asher_acaiteria/3.png",
-        "/images/screenshots/asher_acaiteria/4.png"
+        { "src": "/images/screenshots/asher_acaiteria/0.png", "orientation": "horizontally"},
+        { "src": "/images/screenshots/asher_acaiteria/1.png", "orientation": "horizontally"},
+        { "src": "/images/screenshots/asher_acaiteria/2.png", "orientation": "horizontally"},
+        { "src": "/images/screenshots/asher_acaiteria/3.png", "orientation": "horizontally"},
+        { "src": "/images/screenshots/asher_acaiteria/4.png", "orientation": "horizontally"}
       ],
       "technologies": [
         {
