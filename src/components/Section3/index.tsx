@@ -1,6 +1,4 @@
 import * as S from "./styles";
-import { Background2 } from "@/components/images/backgrounds/vectors";
-import { CrossPlatform, Syncronism } from "@/components/images/vectors";
 import { Carousel } from "../Carousel";
 import Card from "../Card";
 import Button from "../ButtonLink";
@@ -12,7 +10,7 @@ const Section3 = () => {
   return (
     <S.Section1Wrapper>
       <S.Background>
-        <Background2 />
+{/* Adicionar ?? */}
       </S.Background>
       <S.Content>
 

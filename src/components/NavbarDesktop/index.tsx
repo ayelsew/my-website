@@ -11,11 +11,11 @@ interface NavbarDesktopProps {
 
 const NavbarDesktop: FC<NavbarDesktopProps> = (props) => {
   const router = useRouter()
-  const [currentPath, setPath] = useState("/#who-am-I");
+  /* const [currentPath, setPath] = useState("/#who-am-I");
 
   useEffect(() => {
     setPath(router.asPath);
-  }, [router.asPath]);
+  }, [router.asPath]); */
 
   return (
     <S.NavbarDesktopWrapper>
@@ -29,20 +29,20 @@ const NavbarDesktop: FC<NavbarDesktopProps> = (props) => {
         </S.ProfilePicture>
         <S.Navgation>
           <S.NavItem
-            $active={currentPath === "/#who-am-I"}
+            $active={false}
             href={"/#who-am-I"}
 
           >
             Sobre mim
           </S.NavItem>
           <S.NavItem
-            $active={currentPath === "/#skills"}
+            $active={false}
             href={"/#skills"}
           >
             Habilidades
           </S.NavItem>
           <S.NavItem
-            $active={currentPath === "/#portfolio"}
+            $active={false}
             href={"/#portfolio"}
           >
             Portfólio

@@ -47,7 +47,7 @@ export const Background = styled.div`
 `;
 
 export const Content = styled.div`
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 100%;
   display: grid;

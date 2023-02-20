@@ -11,7 +11,7 @@ export default function Layout({ children }: LayoutProps) {
   return (
     <S.LayoutDefualt>
       <NavbarDesktop />
-      <S.MainWrapper>
+      <S.MainWrapper id="root-layout-content">
         {children}
       </S.MainWrapper>
     </S.LayoutDefualt>

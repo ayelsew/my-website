@@ -11,29 +11,7 @@ export default function Home() {
   const router = useRouter();
 
   useEffect(() => {
-    const options: IntersectionObserverInit = {
-      rootMargin: "40%",
-      threshold: 1
-    };
 
-    const observer = new IntersectionObserver(elements => {
-      const [element] = elements;
-
-      if (element.isIntersecting)
-        window.history.replaceState({}, "", `${router.basePath}#${element.target.id}`)
-    }, options);
-
-    const howAmI = document.getElementById("who-am-I") as HTMLDivElement;
-    const skills = document.getElementById("skills") as HTMLDivElement;
-    const portfolio = document.getElementById("portfolio") as HTMLDivElement;
-
-    observer.observe(howAmI);
-    observer.observe(skills);
-    observer.observe(portfolio);
-
-    return () => {
-      observer.disconnect()
-    }
   }, []);
 
   return (
