@@ -42,7 +42,8 @@ export const HeaderContent = styled.div`
 
 export const Title = styled.h1`
   margin-bottom: .5rem;
-  
+  color: ${({ theme }) => theme.color.title};
+
   /* sm applies to x-small devices (portrait phones, less than 576px) */
   @media (max-width: 576px) {
     font-size: 1.4em;
@@ -73,6 +74,7 @@ export const Role = styled.p`
 export const Period = styled.p`
   font-weight: 400;
   font-size: 1rem;
+  color: ${({ theme }) => theme.color.title};
 
   /* sm applies to x-small devices (portrait phones, less than 576px) */
   @media (max-width: 576px) {
