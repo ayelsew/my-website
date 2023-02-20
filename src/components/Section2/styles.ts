@@ -92,7 +92,7 @@ export const Content = styled.div`
   /* sm applies to x-small devices (portrait phones, less than 576px) */
   @media (max-width: 576px) {
     position: unset;
-    padding: 4.4rem 2rem;
+    padding: 2rem 2rem;
     height: fit-content;
     grid-column-gap: 0;
     grid-template-columns: auto;

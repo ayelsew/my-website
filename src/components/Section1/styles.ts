@@ -68,7 +68,7 @@ export const Content = styled.div`
   /* sm applies to x-small devices (portrait phones, less than 576px) */
   @media (max-width: 576px) { 
     height: fit-content;
-    padding: 4.4rem 2rem 0 2rem;
+    padding: 2rem 2rem 0 2rem;
     position: unset;
   }
 
