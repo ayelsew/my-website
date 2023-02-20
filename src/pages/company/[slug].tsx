@@ -19,6 +19,8 @@ interface CompanyProps {
 }
 
 const Company: FCT<CompanyProps> = ({ t, post }) => {
+console.log(post)
+
   return (
     <>
       <Head>
@@ -74,11 +76,16 @@ const Company: FCT<CompanyProps> = ({ t, post }) => {
 
 export const getStaticProps: GetStaticProps = async ({ locale, params }) => {
   const t = await getDictionary();
+  const post = t.companies.find(({ slug }) => slug === params?.slug )
+
+  if (!post) return {
+    notFound: true,
+  }
 
   return {
     props: {
       t,
-      post: t.companies.find(({ slug }) => slug === params?.slug )
+      post
     }
   }
 }
