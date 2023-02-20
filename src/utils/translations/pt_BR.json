@@ -90,11 +90,13 @@
   },
   "projects": [
     {
-      "title": "Programa frente de caixa",
+      "title": "Ponto de Venda & estoque",
       "client": "Asher Açaiteria",
       "icon": "/images/vectors/asher_acaiteria.svg",
+      "short_description": "Com este, o operador do caixa pode gerenciar produtos em estoque, registrar vendas, e fazer a pesagem em uma sorveteria self-service.",
       "description": "Programa para ponto de venda. Com este, o operador do caixa pode gerenciar produtos em estoque, registrar vendas unitatias, ou vendas Kg por integração com balança. Todos os registros ficam centralizados com a ajuda de uma API REST",
       "cover": "/images/asher_acaiteria.png",
+      "href_text": "Detalhes",
       "images": [
         { "src": "/images/screenshots/asher_acaiteria/0.png", "orientation": "horizontally"},
         { "src": "/images/screenshots/asher_acaiteria/1.png", "orientation": "horizontally"},

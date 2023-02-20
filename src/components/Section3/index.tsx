@@ -22,16 +22,16 @@ const Section3: FCT = ({ t }) => {
           </TitleH2>
           <Carousel salveScroll="projects">
             <>
-              {t.portfolio.projects.items.map((project) => (
+              {t.projects.map((project, index) => (
                 <Card
                   key={project.title}
                   title={project.title}
-                  description={project.description}
-                  background={project.background}
+                  description={project.short_description}
+                  background={project.cover}
                   buttons={<>
-                    <Button text={project.href_text} icon={<Eye size='20' />} href={project.href} />
+                    <Button text={project.href_text} icon={<Eye size='20' />} href={`/project/${index}`} />
                   </>}
-                  profilePicture={<Image src={project.client} alt="" fill />}
+                  profilePicture={<Image src={project.icon} alt="" fill />}
                 />
               ))}
             </>
