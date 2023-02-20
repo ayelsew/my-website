@@ -140,5 +140,18 @@
         }
       ]
     }
+  ],
+  "companies": [
+    {
+      "icon": "/images/vectors/cuponeria.svg",
+      "name": "Innoventures Ideias em Soluções S.A (Cuponeria)",
+      "role": "Desenvolvedor Front End",
+      "period": {
+        "start": "Fev 2022",
+        "end": "Fev 2023"
+      },
+      "about_experience": "Lorem linguiça é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica,",
+      "projects": [0]
+    }
   ]
 }

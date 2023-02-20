@@ -1,27 +1,38 @@
-import { FC } from "react";
+import { FCT } from "react";
 import Image from 'next/image'
 
 import * as S from "./styles"
 
 interface HeaderCompanyProps {
-
+  icon: string
+  title: string
+  role: string
+  period: {
+    start: string
+    end: string
+  }
 }
 
-const HeaderCompany: FC<HeaderCompanyProps> = ({ }) => {
+const HeaderCompany: FCT<HeaderCompanyProps> = ({
+  icon,
+  period,
+  role,
+  title
+}) => {
   return (
     <S.HeaderCompanyWrapper>
       <S.ProfilePicture>
         <Image
-          src="/images/vectors/cuponeria.svg"
+          src={icon}
           alt="Wesley"
           fill
         />
       </S.ProfilePicture>
       <S.HeaderContent>
-        <S.Title>Innoventures Ideias em Soluções S.A (Cuponeria)</S.Title>
-        <S.Role>Desenvolvedor Front End</S.Role>
+        <S.Title>{title}</S.Title>
+        <S.Role>{role}</S.Role>
         <S.Period>
-          <S.PeriodStart>Fev 2022</S.PeriodStart> até <S.PeriodEnd>Fev 2023</S.PeriodEnd>
+          <S.PeriodStart>{period.start}</S.PeriodStart> até <S.PeriodEnd>{period.end}</S.PeriodEnd>
         </S.Period>
       </S.HeaderContent>
     </S.HeaderCompanyWrapper>
