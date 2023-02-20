@@ -14,21 +14,25 @@ import { getDictionary } from '@/utils/getDictionary'
 import { FCT } from 'react'
 import Image from 'next/image'
 
-const Company: FCT<{ id: number }> = ({ t, id }) => {
+interface CompanyProps {
+  post: Awaited<ReturnType<typeof getDictionary>>["companies"][0]
+}
+
+const Company: FCT<CompanyProps> = ({ t, post }) => {
   return (
     <>
       <Head>
-        <title>{t.companies[id].name}</title>
-        <meta name="description" content={t.companies[id].about_experience} />
+        <title>{post.name}</title>
+        <meta name="description" content={post.about_experience} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <S.Section1Wrapper>
         <S.Content>
           <HeaderCompany
-            icon={t.companies[id].icon}
-            title={t.companies[id].name}
-            role={t.companies[id].role}
-            period={t.companies[id].period}
+            icon={post.icon}
+            title={post.name}
+            role={post.role}
+            period={post.period}
             t={t}
           />
 
@@ -37,7 +41,7 @@ const Company: FCT<{ id: number }> = ({ t, id }) => {
               Sobre a experiência
             </TitleH2>
             <Paragraph>
-              {t.companies[id].about_experience}
+              {post.about_experience}
             </Paragraph>
           </S.Snippet>
 
@@ -74,15 +78,17 @@ export const getStaticProps: GetStaticProps = async ({ locale, params }) => {
   return {
     props: {
       t,
-      id: Number(params?.id)
+      post: t.companies.find(({ slug }) => slug === params?.slug )
     }
   }
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
+  const t = await getDictionary();
+
   return {
     paths: [
-      "/company/0"
+      ...t.companies.map(({ slug }) => `/company/${slug}`)
     ],
     fallback: "blocking"
   }

@@ -145,6 +145,7 @@
   ],
   "companies": [
     {
+      "slug": "cuponeria",
       "icon": "/images/vectors/cuponeria.svg",
       "name": "Innoventures Ideias em Soluções S.A (Cuponeria)",
       "role": "Desenvolvedor Front End",
