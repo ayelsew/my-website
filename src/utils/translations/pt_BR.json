@@ -90,6 +90,7 @@
   },
   "projects": [
     {
+      "slug": "ponto-de-venda-e-estoque",
       "title": "Ponto de Venda & estoque",
       "client": "Asher Açaiteria",
       "icon": "/images/vectors/asher_acaiteria.svg",
