@@ -155,6 +155,54 @@
       },
       "about_experience": "Lorem linguiça é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica,",
       "projects": [0]
+    },
+    {
+      "slug": "primepass",
+      "icon": "/images/vectors/primepass.svg",
+      "name": "Primepass Entretenimento Interativo Ltda",
+      "role": "Desenvolvedor Front End",
+      "period": {
+        "start": "Out 2020",
+        "end": "Jan 2022"
+      },
+      "about_experience": "Lorem linguiça é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica,",
+      "projects": [0]
+    },
+    {
+      "slug": "bizsys",
+      "icon": "/images/vectors/bizsys.svg",
+      "name": "Biz & Sys Consultoria de negócios e tecnologia de informação LTDA",
+      "role": "Desenvolvedor Full Stack",
+      "period": {
+        "start": "Jul 2019",
+        "end": "Jun 2020"
+      },
+      "about_experience": "Lorem linguiça é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica,",
+      "projects": [0]
+    },
+    {
+      "slug": "leydev",
+      "icon": "/images/vectors/leydev.svg",
+      "name": "Leydev",
+      "role": "Desenvolvedor Full Stack",
+      "period": {
+        "start": "---",
+        "end": "---"
+      },
+      "about_experience": "Lorem linguiça é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica,",
+      "projects": [0]
+    },
+    {
+      "slug": "sonda",
+      "icon": "/images/vectors/sonda.svg",
+      "name": "Sonda",
+      "role": "Técnico de suporte nível 1",
+      "period": {
+        "start": "Nov 2018",
+        "end": "Mar 2019"
+      },
+      "about_experience": "Lorem linguiça é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica,",
+      "projects": [0]
     }
   ]
 }
