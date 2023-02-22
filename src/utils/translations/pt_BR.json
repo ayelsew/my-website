@@ -474,12 +474,13 @@
       "cover": "/images/active_tuner.png",
       "href_text": "Detalhes",
       "images": [
-        { "type": "image", "src": "/images/active_tuner.png", "orientation": "horizontally"},
         { "type": "video", "src": ["/videos/active_tuner/active_tuner_desktop.mp4", "/videos/active_tuner/active_tuner_desktop.webm"], "orientation": "horizontally" },
         { "type": "video", "src": ["/videos/active_tuner/active_tuner_mobile.mp4", "/videos/active_tuner/active_tuner_mobile.webm"], "orientation": "vertically" },
-        { "type": "image", "src": "/images/screenshots/caixa_economica_federal/0.jpeg", "orientation": "vertically"},
-        { "type": "image", "src": "/images/screenshots/caixa_economica_federal/1.jpeg", "orientation": "vertically"},
-        { "type": "image", "src": "/images/screenshots/caixa_economica_federal/2.jpeg", "orientation": "vertically"}
+        { "type": "image", "src": "/images/active_tuner.png", "orientation": "horizontally"},
+        { "type": "image", "src": "/images/screenshots/active_tuner/0.png", "orientation": "horizontally"},
+        { "type": "image", "src": "/images/screenshots/active_tuner/1.png", "orientation": "horizontally"},
+        { "type": "image", "src": "/images/screenshots/active_tuner/2.png", "orientation": "horizontally"},
+        { "type": "image", "src": "/images/screenshots/active_tuner/3.png", "orientation": "horizontally"}
       ],
       "technologies": [
         {
@@ -489,13 +490,125 @@
         },
         {
           "icon": "/images/vectors/nodejs.svg",
-          "name": "Node JS",
-          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+          "name": "Node.js",
+          "description": "Node.js é um ambiente de execução JavaScript multiplataforma e de código aberto."
         },
         {
           "icon": "/images/vectors/typescript.svg",
           "name": "TypeScript",
-          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+          "description": "TypeScript implementa sintaxe para suportar inferência de tipos em JS."
+        },
+        {
+          "icon": "/images/vectors/webpack.svg",
+          "name": "Webpack",
+          "description": "Webpack é um empacotador de módulos estáticos para aplicativos JavaScript"
+        }
+      ]
+    },
+    {
+      "company": "leydev",
+      "slug": "ddns-cloudflare",
+      "title": "DNS Dinâmico Cloudflare",
+      "client": "Open Source",
+      "icon": "/images/vectors/leydev.svg",
+      "short_description": "Agendador para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare",
+      "description": "Agendador para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare",
+      "cover": "/images/ip_sync_cloudflare.png",
+      "href_text": "Detalhes",
+      "images": [
+        { "type": "image", "src": "/images/ip_sync_cloudflare.png", "orientation": "horizontally"},
+        { "type": "video", "src": ["/videos/active_tuner/active_tuner_desktop.mp4", "/videos/active_tuner/active_tuner_desktop.webm"], "orientation": "horizontally" },
+        { "type": "image", "src": "/images/screenshots/active_tuner/1.png", "orientation": "horizontally"},
+        { "type": "image", "src": "/images/screenshots/active_tuner/2.png", "orientation": "horizontally"},
+        { "type": "image", "src": "/images/screenshots/active_tuner/3.png", "orientation": "horizontally"}
+      ],
+      "technologies": [
+        {
+          "icon": "/images/vectors/shellscript.svg",
+          "name": "Shell Script",
+          "description": "Shell Script para automatizar a instalação do programa no Systemd do Linux"
+        },
+        {
+          "icon": "/images/vectors/nodejs.svg",
+          "name": "Node.js",
+          "description": "Node.js é um ambiente de execução JavaScript multiplataforma e de código aberto."
+        },
+        {
+          "icon": "/images/vectors/typescript.svg",
+          "name": "TypeScript",
+          "description": "TypeScript implementa sintaxe para suportar inferência de tipos em JS."
+        }
+      ]
+    },
+    {
+      "company": "leydev",
+      "slug": "agenda-de-visita-magma",
+      "title": "Agenda de visitas técnica",
+      "client": "Open Source",
+      "icon": "/images/vectors/magma.svg",
+      "short_description": "PWA usado para realizar agendamento de visitas pelos técnicos de uma empresa de marmoraria.",
+      "description": "PWA usado para realizar agendamento de visitas pelos técnicos de uma empresa de marmoraria.",
+      "cover": "/images/magma.png",
+      "href_text": "Detalhes",
+      "images": [
+        { "type": "image", "src": "/images/magma.png", "orientation": "horizontally"},
+        { "type": "image", "src": "/images/screenshots/magma/0.png", "orientation": "vertically"},
+        { "type": "image", "src": "/images/screenshots/magma/1.png", "orientation": "vertically"},
+        { "type": "image", "src": "/images/screenshots/magma/2.png", "orientation": "vertically"},
+        { "type": "image", "src": "/images/screenshots/magma/3.png", "orientation": "vertically"},
+        { "type": "image", "src": "/images/screenshots/magma/4.png", "orientation": "vertically"}
+      ],
+      "technologies": [
+        {
+          "icon": "/images/vectors/shellscript.svg",
+          "name": "Shell Script",
+          "description": "Shell Script para automatizar a instalação do programa no Systemd do Linux"
+        },
+        {
+          "icon": "/images/vectors/nodejs.svg",
+          "name": "Node.js",
+          "description": "Node.js é um ambiente de execução JavaScript multiplataforma e de código aberto."
+        },
+        {
+          "icon": "/images/vectors/typescript.svg",
+          "name": "TypeScript",
+          "description": "TypeScript implementa sintaxe para suportar inferência de tipos em JS."
+        }
+      ]
+    },
+    {
+      "company": "leydev",
+      "slug": "jogo-da-velha",
+      "title": "App Jogo Da Velha (PvP Online)",
+      "client": "Open Source",
+      "icon": "/images/vectors/leydev.svg",
+      "short_description": "O clássico jogo da velha em PWA, você pode jogar: contra as máquina ou mutiplayer com deus amigos",
+      "description": "O clássico jogo da velha em PWA, você pode jogar: contra as máquina ou mutiplayer com deus amigos",
+      "cover": "/images/hash_game.png",
+      "href_text": "Detalhes",
+      "images": [
+        { "type": "image", "src": "/images/screenshots/hash_game/0.jpeg", "orientation": "vertically"},
+        { "type": "image", "src": "/images/screenshots/hash_game/1.jpeg", "orientation": "vertically"},
+        { "type": "image", "src": "/images/screenshots/hash_game/2.jpeg", "orientation": "vertically"},
+        { "type": "image", "src": "/images/screenshots/hash_game/3.jpeg", "orientation": "vertically"},
+        { "type": "image", "src": "/images/screenshots/hash_game/4.jpeg", "orientation": "vertically"},
+        { "type": "image", "src": "/images/screenshots/hash_game/5.jpeg", "orientation": "vertically"}
+      ],
+      "technologies": [
+        {
+          "icon": "/images/vectors/shellscript.svg",
+          "name": "Shell Script",
+          "description": "Shell Script para automatizar a instalação do programa no Systemd do Linux"
+        },
+        {
+          "icon": "/images/vectors/nodejs.svg",
+          "name": "Node.js",
+          "description": "Node.js é um ambiente de execução JavaScript multiplataforma e de código aberto."
+        },
+        {
+          "icon": "/images/vectors/typescript.svg",
+          "name": "TypeScript",
+          "description": "TypeScript implementa sintaxe para suportar inferência de tipos em JS."
         }
       ]
     }
