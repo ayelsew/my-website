@@ -192,7 +192,15 @@ export const VideoCard = styled.div`
   }
 
   .expand & {
-    height: 35rem;
+    height: 70vh;
+  }
+
+  .expand &.horizontally  {
+    width: 55vw;
+  }
+
+  .expand &.vertically {
+    width: 18vw;
   }
 
   /* sm applies to x-small devices (portrait phones, less than 576px) */
@@ -201,6 +209,14 @@ export const VideoCard = styled.div`
 
     .expand &  {
       width: 100vw;
+
+    .expand &.horizontally {
+      width: 28rem;
+    }
+
+    .expand &.vertically {
+        width: 10rem;
+      }
     }
   }
 
@@ -210,6 +226,17 @@ export const VideoCard = styled.div`
 
     .expand &  {
       width: 100vw;
+    }
+
+    .expand &.horizontally  {
+      height: 70vh;
+      width: 50vw;
+    }
+
+
+    .expand &.vertically {
+      height: 70vh;
+      width: 30vw;
     }
   }
 `;
@@ -243,12 +270,15 @@ export const ImageCard = styled.div<ImageCardProps>`
   }
 
   .expand & {
-    height: 35rem;
-    width: ${({ $display }) => {
-    if ($display === "horizontally") return "60rem"
-    if ($display === "vertically") return "10rem"
-    return "auto"
-  }};
+    height: 70vh;
+  }
+
+  .expand &.horizontally  {
+    width: 55vw;
+  }
+
+  .expand &.vertically {
+    width: 18vw;
   }
 
   /* sm applies to x-small devices (portrait phones, less than 576px) */
