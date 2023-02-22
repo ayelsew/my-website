@@ -289,6 +289,7 @@
       ]
     },
     {
+      "company": "primepass",
       "slug": "primepass-entretenimento",
       "title": "Website & aplicativo",
       "client": "Primepass",
@@ -324,6 +325,7 @@
       ]
     },
     {
+      "company": "bizsys",
       "slug": "maquina-de-posters-the-witcher",
       "title": "Máquina de Posters The Witcher",
       "client": "Netflix",
@@ -358,6 +360,7 @@
       ]
     },
     {
+      "company": "bizsys",
       "slug": "maquina-de-amostras-natura-todo-dia",
       "title": "Máquina de Amostras Natura Todo Dia ",
       "client": "Natura",
@@ -391,6 +394,7 @@
       ]
     },
     {
+      "company": "bizsys",
       "slug": "out-of-home-porta-de-cela-irmandade",
       "title": "Porta de Cela, Irmanadade",
       "client": "Netflix",
@@ -426,6 +430,7 @@
       ]
     },
     {
+      "company": "bizsys",
       "slug": "maquina-de-caneta-azul-mega-da-virada",
       "title": "Mega da Virada Caneta Azul",
       "client": "Caixa Econômica Federal",
@@ -469,8 +474,7 @@
         "start": "Fev 2022",
         "end": "Fev 2023"
       },
-      "about_experience": "Lorem linguiça é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica,",
-      "projects": [0]
+      "about_experience": "Lorem linguiça é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica,"
     },
     {
       "slug": "primepass",
@@ -481,8 +485,7 @@
         "start": "Out 2020",
         "end": "Jan 2022"
       },
-      "about_experience": "Lorem linguiça é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica,",
-      "projects": [0]
+      "about_experience": "Lorem linguiça é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica,"
     },
     {
       "slug": "bizsys",
@@ -493,8 +496,7 @@
         "start": "Jul 2019",
         "end": "Jun 2020"
       },
-      "about_experience": "Lorem linguiça é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica,",
-      "projects": [0]
+      "about_experience": "Lorem linguiça é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica,"
     },
     {
       "slug": "leydev",
@@ -505,8 +507,7 @@
         "start": "---",
         "end": "---"
       },
-      "about_experience": "Lorem linguiça é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica,",
-      "projects": [0]
+      "about_experience": "Lorem linguiça é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica,"
     },
     {
       "slug": "sonda",
@@ -517,8 +518,7 @@
         "start": "Nov 2018",
         "end": "Mar 2019"
       },
-      "about_experience": "Lorem linguiça é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica,",
-      "projects": [0]
+      "about_experience": "Lorem linguiça é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica,"
     }
   ]
 }

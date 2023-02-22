@@ -16,9 +16,10 @@ import Image from 'next/image'
 
 interface CompanyProps {
   post: Awaited<ReturnType<typeof getDictionary>>["companies"][0]
+  projects: Awaited<ReturnType<typeof getDictionary>>["projects"]
 }
 
-const Company: FCT<CompanyProps> = ({ t, post }) => {
+const Company: FCT<CompanyProps> = ({ t, post, projects }) => {
 console.log(post)
 
   return (
@@ -49,18 +50,18 @@ console.log(post)
 
           <S.CarouselArea>
             <TitleH2>
-              Projetos
+              Projetos nesta empresa
             </TitleH2>
             <Carousel>
               <>
-                {t.projects.map((project, index) => (
+                {projects.map((project, index) => (
                   <Card
                     key={project.title}
                     title={project.title}
                     description={project.short_description}
                     background={project.cover}
                     buttons={<>
-                      <Button text={project.href_text} icon={<Eye size='20' />} href={`/project/${index}`} />
+                      <Button text={project.href_text} icon={<Eye size='20' />} href={`/project/${project.slug}`} />
                     </>}
                     profilePicture={<Image src={project.icon} alt="" fill />}
                   />
@@ -85,7 +86,8 @@ export const getStaticProps: GetStaticProps = async ({ locale, params }) => {
   return {
     props: {
       t,
-      post
+      post,
+      projects: t.projects.filter(({ company }) => company === post.slug )
     }
   }
 }
