@@ -100,12 +100,12 @@
       "cover": "/images/asher_acaiteria.png",
       "href_text": "Detalhes",
       "images": [
-        { "src": "/images/asher_acaiteria.png", "orientation": "horizontally"},
-        { "src": "/images/screenshots/asher_acaiteria/0.png", "orientation": "horizontally"},
-        { "src": "/images/screenshots/asher_acaiteria/1.png", "orientation": "horizontally"},
-        { "src": "/images/screenshots/asher_acaiteria/2.png", "orientation": "horizontally"},
-        { "src": "/images/screenshots/asher_acaiteria/3.png", "orientation": "horizontally"},
-        { "src": "/images/screenshots/asher_acaiteria/4.png", "orientation": "horizontally"}
+        { "type": "image", "src": "/images/asher_acaiteria.png", "orientation": "horizontally"},
+        { "type": "image", "src": "/images/screenshots/asher_acaiteria/0.png", "orientation": "horizontally"},
+        { "type": "image", "src": "/images/screenshots/asher_acaiteria/1.png", "orientation": "horizontally"},
+        { "type": "image", "src": "/images/screenshots/asher_acaiteria/2.png", "orientation": "horizontally"},
+        { "type": "image", "src": "/images/screenshots/asher_acaiteria/3.png", "orientation": "horizontally"},
+        { "type": "image", "src": "/images/screenshots/asher_acaiteria/4.png", "orientation": "horizontally"}
       ],
       "technologies": [
         {
@@ -156,11 +156,11 @@
       "cover": "/images/ticket_vantagens.png",
       "href_text": "Detalhes",
       "images": [
-        { "src": "/images/ticket_vantagens.png", "orientation": "horizontally"},
-        { "src": "/images/screenshots/ticket/0.png", "orientation": "horizontally"},
-        { "src": "/images/screenshots/ticket/1.png", "orientation": "horizontally"},
-        { "src": "/images/screenshots/ticket/2.png", "orientation": "horizontally"},
-        { "src": "/images/screenshots/ticket/3.png", "orientation": "horizontally"}
+        { "type": "image", "src": "/images/ticket_vantagens.png", "orientation": "horizontally"},
+        { "type": "image", "src": "/images/screenshots/ticket/0.png", "orientation": "horizontally"},
+        { "type": "image", "src": "/images/screenshots/ticket/1.png", "orientation": "horizontally"},
+        { "type": "image", "src": "/images/screenshots/ticket/2.png", "orientation": "horizontally"},
+        { "type": "image", "src": "/images/screenshots/ticket/3.png", "orientation": "horizontally"}
       ],
       "technologies": [
         {
@@ -191,12 +191,12 @@
       "cover": "/images/bitz.png",
       "href_text": "Detalhes",
       "images": [
-        { "src": "/images/bitz.png", "orientation": "horizontally"},
-        { "src": "/images/screenshots/bitz/0.png", "orientation": "vertically"},
-        { "src": "/images/screenshots/bitz/1.png", "orientation": "vertically"},
-        { "src": "/images/screenshots/bitz/2.png", "orientation": "vertically"},
-        { "src": "/images/screenshots/bitz/3.png", "orientation": "vertically"},
-        { "src": "/images/screenshots/bitz/3.png", "orientation": "vertically"}
+        { "type": "image", "src": "/images/bitz.png", "orientation": "horizontally"},
+        { "type": "image", "src": "/images/screenshots/bitz/0.png", "orientation": "vertically"},
+        { "type": "image", "src": "/images/screenshots/bitz/1.png", "orientation": "vertically"},
+        { "type": "image", "src": "/images/screenshots/bitz/2.png", "orientation": "vertically"},
+        { "type": "image", "src": "/images/screenshots/bitz/3.png", "orientation": "vertically"},
+        { "type": "image", "src": "/images/screenshots/bitz/3.png", "orientation": "vertically"}
       ],
       "technologies": [
         {
@@ -227,12 +227,12 @@
       "cover": "/images/claro_pay.png",
       "href_text": "Detalhes",
       "images": [
-        { "src": "/images/claro_pay.png", "orientation": "vertically"},
-        { "src": "/images/screenshots/claro/0.png", "orientation": "vertically"},
-        { "src": "/images/screenshots/claro/1.png", "orientation": "vertically"},
-        { "src": "/images/screenshots/claro/2.png", "orientation": "vertically"},
-        { "src": "/images/screenshots/claro/3.png", "orientation": "vertically"},
-        { "src": "/images/screenshots/claro/3.png", "orientation": "vertically"}
+        { "type": "image", "src": "/images/claro_pay.png", "orientation": "vertically"},
+        { "type": "image", "src": "/images/screenshots/claro/0.png", "orientation": "vertically"},
+        { "type": "image", "src": "/images/screenshots/claro/1.png", "orientation": "vertically"},
+        { "type": "image", "src": "/images/screenshots/claro/2.png", "orientation": "vertically"},
+        { "type": "image", "src": "/images/screenshots/claro/3.png", "orientation": "vertically"},
+        { "type": "image", "src": "/images/screenshots/claro/3.png", "orientation": "vertically"}
       ],
       "technologies": [
         {
@@ -263,12 +263,12 @@
       "cover": "/images/elo.png",
       "href_text": "Detalhes",
       "images": [
-        { "src": "/images/elo.png", "orientation": "horizontally"},
-        { "src": "/images/screenshots/elo/0.png", "orientation": "vertically"},
-        { "src": "/images/screenshots/elo/1.png", "orientation": "vertically"},
-        { "src": "/images/screenshots/elo/2.png", "orientation": "horizontally"},
-        { "src": "/images/screenshots/elo/3.png", "orientation": "horizontally"},
-        { "src": "/images/screenshots/elo/4.png", "orientation": "horizontally"}
+        { "type": "image", "src": "/images/elo.png", "orientation": "horizontally"},
+        { "type": "image", "src": "/images/screenshots/elo/0.png", "orientation": "vertically"},
+        { "type": "image", "src": "/images/screenshots/elo/1.png", "orientation": "vertically"},
+        { "type": "image", "src": "/images/screenshots/elo/2.png", "orientation": "horizontally"},
+        { "type": "image", "src": "/images/screenshots/elo/3.png", "orientation": "horizontally"},
+        { "type": "image", "src": "/images/screenshots/elo/4.png", "orientation": "horizontally"}
       ],
       "technologies": [
         {
@@ -299,12 +299,12 @@
       "cover": "/images/primepass.png",
       "href_text": "Detalhes",
       "images": [
-        { "src": "/images/primepass.png", "orientation": "horizontally"},
-        { "src": "/images/screenshots/primepass/0.png", "orientation": "horizontally"},
-        { "src": "/images/screenshots/primepass/1.png", "orientation": "horizontally"},
-        { "src": "/images/screenshots/primepass/2.png", "orientation": "horizontally"},
-        { "src": "/images/screenshots/primepass/3.png", "orientation": "horizontally"},
-        { "src": "/images/screenshots/primepass/4.png", "orientation": "horizontally"}
+        { "type": "image", "src": "/images/primepass.png", "orientation": "horizontally"},
+        { "type": "image", "src": "/images/screenshots/primepass/0.png", "orientation": "horizontally"},
+        { "type": "image", "src": "/images/screenshots/primepass/1.png", "orientation": "horizontally"},
+        { "type": "image", "src": "/images/screenshots/primepass/2.png", "orientation": "horizontally"},
+        { "type": "image", "src": "/images/screenshots/primepass/3.png", "orientation": "horizontally"},
+        { "type": "image", "src": "/images/screenshots/primepass/4.png", "orientation": "horizontally"}
       ],
       "technologies": [
         {
@@ -335,11 +335,11 @@
       "cover": "/images/the_witcher.png",
       "href_text": "Detalhes",
       "images": [
-        { "src": "/images/the_witcher.png", "orientation": "horizontally"},
-        { "src": "/images/screenshots/netflix/the_witcher/0.jpeg", "orientation": "vertically"},
-        { "src": "/images/screenshots/netflix/the_witcher/1.jpeg", "orientation": "vertically"},
-        { "src": "/images/screenshots/netflix/the_witcher/2.jpeg", "orientation": "vertically"},
-        { "src": "/images/screenshots/netflix/the_witcher/3.jpeg", "orientation": "vertically"}
+        { "type": "image", "src": "/images/the_witcher.png", "orientation": "horizontally"},
+        { "type": "image", "src": "/images/screenshots/netflix/the_witcher/0.jpeg", "orientation": "vertically"},
+        { "type": "image", "src": "/images/screenshots/netflix/the_witcher/1.jpeg", "orientation": "vertically"},
+        { "type": "image", "src": "/images/screenshots/netflix/the_witcher/2.jpeg", "orientation": "vertically"},
+        { "type": "image", "src": "/images/screenshots/netflix/the_witcher/3.jpeg", "orientation": "vertically"}
       ],
       "technologies": [
         {
@@ -370,10 +370,10 @@
       "cover": "/images/natura_todo_dia.png",
       "href_text": "Detalhes",
       "images": [
-        { "src": "/images/natura_todo_dia.png", "orientation": "horizontally"},
-        { "src": "/images/screenshots/natura/0.jpeg", "orientation": "vertically"},
-        { "src": "/images/screenshots/natura/1.jpeg", "orientation": "vertically"},
-        { "src": "/images/screenshots/natura/2.jpeg", "orientation": "vertically"}
+        { "type": "image", "src": "/images/natura_todo_dia.png", "orientation": "horizontally"},
+        { "type": "image", "src": "/images/screenshots/natura/0.jpeg", "orientation": "vertically"},
+        { "type": "image", "src": "/images/screenshots/natura/1.jpeg", "orientation": "vertically"},
+        { "type": "image", "src": "/images/screenshots/natura/2.jpeg", "orientation": "vertically"}
       ],
       "technologies": [
         {
@@ -404,12 +404,12 @@
       "cover": "/images/irmandade_out_of_home.png",
       "href_text": "Detalhes",
       "images": [
-        { "src": "/images/irmandade_out_of_home.png", "orientation": "horizontally"},
-        { "src": "/images/screenshots/netflix/irmandade/0.jpg", "orientation": "vertically"},
-        { "src": "/images/screenshots/netflix/irmandade/1.jpg", "orientation": "vertically"},
-        { "src": "/images/screenshots/netflix/irmandade/2.jpeg", "orientation": "horizontally"},
-        { "src": "/images/screenshots/netflix/irmandade/3.jpg", "orientation": "vertically"},
-        { "src": "/images/screenshots/netflix/irmandade/4.jpeg", "orientation": "vertically"}
+        { "type": "image", "src": "/images/irmandade_out_of_home.png", "orientation": "horizontally"},
+        { "type": "image", "src": "/images/screenshots/netflix/irmandade/0.jpg", "orientation": "vertically"},
+        { "type": "image", "src": "/images/screenshots/netflix/irmandade/1.jpg", "orientation": "vertically"},
+        { "type": "image", "src": "/images/screenshots/netflix/irmandade/2.jpeg", "orientation": "horizontally"},
+        { "type": "image", "src": "/images/screenshots/netflix/irmandade/3.jpg", "orientation": "vertically"},
+        { "type": "image", "src": "/images/screenshots/netflix/irmandade/4.jpeg", "orientation": "vertically"}
       ],
       "technologies": [
         {
@@ -440,10 +440,46 @@
       "cover": "/images/caneta_azul.png",
       "href_text": "Detalhes",
       "images": [
-        { "src": "/images/caneta_azul.png", "orientation": "horizontally"},
-        { "src": "/images/screenshots/caixa_economica_federal/0.jpeg", "orientation": "vertically"},
-        { "src": "/images/screenshots/caixa_economica_federal/1.jpeg", "orientation": "vertically"},
-        { "src": "/images/screenshots/caixa_economica_federal/2.jpeg", "orientation": "vertically"}
+        { "type": "image", "src": "/images/caneta_azul.png", "orientation": "horizontally"},
+        { "type": "image", "src": "/images/screenshots/caixa_economica_federal/0.jpeg", "orientation": "vertically"},
+        { "type": "image", "src": "/images/screenshots/caixa_economica_federal/1.jpeg", "orientation": "vertically"},
+        { "type": "image", "src": "/images/screenshots/caixa_economica_federal/2.jpeg", "orientation": "vertically"}
+      ],
+      "technologies": [
+        {
+          "icon": "/images/vectors/react.svg",
+          "name": "React",
+          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+        },
+        {
+          "icon": "/images/vectors/nodejs.svg",
+          "name": "Node JS",
+          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+        },
+        {
+          "icon": "/images/vectors/typescript.svg",
+          "name": "TypeScript",
+          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+        }
+      ]
+    },
+    {
+      "company": "leydev",
+      "slug": "afinador-active-tuner",
+      "title": "Afinador Active Tuner",
+      "client": "Open Source",
+      "icon": "/images/vectors/leydev.svg",
+      "short_description": "Esse é uma analizador de ondas sonoras, para auxiliar na afinação de instrumentos músicais de corda",
+      "description": "O Active Tuner tem como objetivo o aprendizado do funcionamento de ondas sonoras e sua representação digital. Foi necessário a compreensão básica de algoritmos para a conversão do sinal analógico para digital. O aprendizado do funcionamento da API de áudio utilizado pelos browsers, ex. Chrome e Firefox. E a construção de uma aplicação Web que pudesse representar a frequência e sua nota referente no momento da captação.",
+      "cover": "/images/active_tuner.png",
+      "href_text": "Detalhes",
+      "images": [
+        { "type": "image", "src": "/images/active_tuner.png", "orientation": "horizontally"},
+        { "type": "video", "src": ["/videos/active_tuner/active_tuner_desktop.mp4", "/videos/active_tuner/active_tuner_desktop.webm"] },
+        { "type": "video", "src": ["/videos/active_tuner/active_tuner_mobile.mp4", "/videos/active_tuner/active_tuner_mobile.webm"] },
+        { "type": "image", "src": "/images/screenshots/caixa_economica_federal/0.jpeg", "orientation": "vertically"},
+        { "type": "image", "src": "/images/screenshots/caixa_economica_federal/1.jpeg", "orientation": "vertically"},
+        { "type": "image", "src": "/images/screenshots/caixa_economica_federal/2.jpeg", "orientation": "vertically"}
       ],
       "technologies": [
         {

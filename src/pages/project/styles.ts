@@ -177,6 +177,33 @@ export const TechnologyShortName = styled.span`
   }
 `
 
+export const VideoCard = styled.video`
+  position: relative;
+  height: 18rem;
+
+  .expand & {
+    height: 35rem;
+  }
+
+  /* sm applies to x-small devices (portrait phones, less than 576px) */
+  @media (max-width: 576px) { 
+    height: 12rem;
+
+    .expand &  {
+      width: 100vw;
+    }
+  }
+
+  /* xxl applies to x-large devices (large desktops, less than 1400px) */
+  @media (min-width: 1400px) { 
+    height: 18rem;
+
+    .expand &  {
+      width: 100vw;
+    }
+  }
+`;
+
 interface ImageCardProps {
   readonly $display?: "vertically" | "horizontally" | string
 }

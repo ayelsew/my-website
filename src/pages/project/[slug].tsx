@@ -59,11 +59,22 @@ const Project: FCT<ProjectProps> = ({ t, post }) => {
             <ExpandOnScreeen expand={expand} onClose={() => setExpand(false)}>
               <Carousel>
                 <>
-                  {post.images.map((item) => (
-                    <S.ImageCard key={item.src} className={item.orientation} onClick={() => setExpand(true)}>
-                      <Image src={item.src} alt="Tela de caixa" fill />
-                    </S.ImageCard>
-                  ))}
+                  {post.images.map((item) => {
+                    if (item.type === "video") return (
+                      <S.VideoCard controls>
+                        {(item.src as string[]).map((src) => {
+                          const type = src.slice(-4).replace(".","")
+                         return <source type={`video/${type}`} src={src} />
+                        })}
+                      </S.VideoCard>
+                    );
+
+                    return (
+                      <S.ImageCard key={item.src as string} className={item.orientation} onClick={() => setExpand(true)}>
+                        <Image src={item.src as string} alt="Tela de caixa" fill />
+                      </S.ImageCard>
+                    )
+                  })}
                 </>
               </Carousel>
             </ExpandOnScreeen>
@@ -84,7 +95,7 @@ const Project: FCT<ProjectProps> = ({ t, post }) => {
 
 export const getStaticProps: GetStaticProps = async ({ locale, params }) => {
   const t = await getDictionary();
-  const post = t.projects.find(({ slug }) => slug === params?.slug )
+  const post = t.projects.find(({ slug }) => slug === params?.slug)
 
   if (!post) return {
     notFound: true,
