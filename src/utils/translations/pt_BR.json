@@ -475,8 +475,8 @@
       "href_text": "Detalhes",
       "images": [
         { "type": "image", "src": "/images/active_tuner.png", "orientation": "horizontally"},
-        { "type": "video", "src": ["/videos/active_tuner/active_tuner_desktop.mp4", "/videos/active_tuner/active_tuner_desktop.webm"] },
-        { "type": "video", "src": ["/videos/active_tuner/active_tuner_mobile.mp4", "/videos/active_tuner/active_tuner_mobile.webm"] },
+        { "type": "video", "src": ["/videos/active_tuner/active_tuner_desktop.mp4", "/videos/active_tuner/active_tuner_desktop.webm"], "orientation": "horizontally" },
+        { "type": "video", "src": ["/videos/active_tuner/active_tuner_mobile.mp4", "/videos/active_tuner/active_tuner_mobile.webm"], "orientation": "vertically" },
         { "type": "image", "src": "/images/screenshots/caixa_economica_federal/0.jpeg", "orientation": "vertically"},
         { "type": "image", "src": "/images/screenshots/caixa_economica_federal/1.jpeg", "orientation": "vertically"},
         { "type": "image", "src": "/images/screenshots/caixa_economica_federal/2.jpeg", "orientation": "vertically"}

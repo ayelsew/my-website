@@ -11,6 +11,7 @@ import Paragraph from '@/components/Paragraph'
 import TitleH2 from '@/components/TitleH2'
 import { GetStaticPaths, GetStaticProps } from 'next'
 import { getDictionary } from '@/utils/getDictionary'
+import VideoPlayer from '@/components/VideoPlayer'
 
 interface ProjectProps {
   post: Awaited<ReturnType<typeof getDictionary>>["projects"][0]
@@ -61,11 +62,13 @@ const Project: FCT<ProjectProps> = ({ t, post }) => {
                 <>
                   {post.images.map((item) => {
                     if (item.type === "video") return (
-                      <S.VideoCard controls>
-                        {(item.src as string[]).map((src) => {
-                          const type = src.slice(-4).replace(".","")
-                         return <source type={`video/${type}`} src={src} />
-                        })}
+                      <S.VideoCard key={`${item.src[0]}${item.orientation}`} className={item.orientation}>
+                        <VideoPlayer
+                          srcs={
+                            (item.src as string[]).map((src) => ({ src, type: src.slice(-4).replace(".","") }))
+                          }
+                          t={t}
+                        />
                       </S.VideoCard>
                     );
 
