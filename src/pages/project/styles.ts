@@ -177,9 +177,19 @@ export const TechnologyShortName = styled.span`
   }
 `
 
-export const VideoCard = styled.video`
+export const VideoCard = styled.div`
   position: relative;
   height: 18rem;
+  border-radius: 10px;
+  overflow: hidden;
+
+  &.horizontally {
+    width: 28rem;
+  }
+
+  &.vertically {
+    width: 10rem;
+  }
 
   .expand & {
     height: 35rem;
@@ -218,6 +228,19 @@ export const ImageCard = styled.div<ImageCardProps>`
   }};
   border-radius: 10px;
   overflow: hidden;
+
+  & img {
+    object-fit: cover;
+  }
+
+
+  &.horizontally {
+    width: 28rem;
+  }
+
+  &.vertically {
+    width: 10rem;
+  }
 
   .expand & {
     height: 35rem;
@@ -258,11 +281,11 @@ export const ImageCard = styled.div<ImageCardProps>`
     height: 18rem;
 
     &.horizontally {
-      width: 26rem;
+      width: 30rem;
     }
 
     &.vertically {
-      width: 14rem;
+      width: 10rem;
     }
 
     .expand &.horizontally  {
