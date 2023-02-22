@@ -99,6 +99,7 @@
       "cover": "/images/asher_acaiteria.png",
       "href_text": "Detalhes",
       "images": [
+        { "src": "/images/asher_acaiteria.png", "orientation": "horizontally"},
         { "src": "/images/screenshots/asher_acaiteria/0.png", "orientation": "horizontally"},
         { "src": "/images/screenshots/asher_acaiteria/1.png", "orientation": "horizontally"},
         { "src": "/images/screenshots/asher_acaiteria/2.png", "orientation": "horizontally"},
@@ -134,6 +135,313 @@
         {
           "icon": "/images/vectors/pm2.svg",
           "name": "PM2",
+          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+        },
+        {
+          "icon": "/images/vectors/typescript.svg",
+          "name": "TypeScript",
+          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+        }
+      ]
+    },
+    {
+      "slug": "white-label-ticket-vantagens",
+      "title": "White Label Ticket Vantagens",
+      "client": "Ticket",
+      "icon": "/images/vectors/ticket.svg",
+      "short_description": "Marketplace de descontos para Ticket",
+      "description": "Marketplace de descontos para Ticket",
+      "cover": "/images/ticket_vantagens.png",
+      "href_text": "Detalhes",
+      "images": [
+        { "src": "/images/ticket_vantagens.png", "orientation": "horizontally"},
+        { "src": "/images/screenshots/ticket/0.png", "orientation": "horizontally"},
+        { "src": "/images/screenshots/ticket/1.png", "orientation": "horizontally"},
+        { "src": "/images/screenshots/ticket/2.png", "orientation": "horizontally"},
+        { "src": "/images/screenshots/ticket/3.png", "orientation": "horizontally"}
+      ],
+      "technologies": [
+        {
+          "icon": "/images/vectors/react.svg",
+          "name": "React",
+          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+        },
+        {
+          "icon": "/images/vectors/nodejs.svg",
+          "name": "Node JS",
+          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+        },
+        {
+          "icon": "/images/vectors/typescript.svg",
+          "name": "TypeScript",
+          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+        }
+      ]
+    },
+    {
+      "slug": "white-label-bitz-beneficios",
+      "title": "White Label Bitz Benefícios",
+      "client": "Bitz",
+      "icon": "/images/vectors/bitz.svg",
+      "short_description": "Marketplace de descontos para Bitz",
+      "description": "Marketplace de descontos para Bitz",
+      "cover": "/images/bitz.png",
+      "href_text": "Detalhes",
+      "images": [
+        { "src": "/images/bitz.png", "orientation": "horizontally"},
+        { "src": "/images/screenshots/bitz/0.png", "orientation": "vertically"},
+        { "src": "/images/screenshots/bitz/1.png", "orientation": "vertically"},
+        { "src": "/images/screenshots/bitz/2.png", "orientation": "vertically"},
+        { "src": "/images/screenshots/bitz/3.png", "orientation": "vertically"},
+        { "src": "/images/screenshots/bitz/3.png", "orientation": "vertically"}
+      ],
+      "technologies": [
+        {
+          "icon": "/images/vectors/react.svg",
+          "name": "React",
+          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+        },
+        {
+          "icon": "/images/vectors/nodejs.svg",
+          "name": "Node JS",
+          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+        },
+        {
+          "icon": "/images/vectors/typescript.svg",
+          "name": "TypeScript",
+          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+        }
+      ]
+    },
+    {
+      "slug": "white-label-claro-pay",
+      "title": "White Label Claro Pay",
+      "client": "Claro",
+      "icon": "/images/vectors/claro.svg",
+      "short_description": "White Label de cupons para Claro Pay",
+      "description": "White Label de cupons para Claro Pay",
+      "cover": "/images/claro_pay.png",
+      "href_text": "Detalhes",
+      "images": [
+        { "src": "/images/claro_pay.png", "orientation": "vertically"},
+        { "src": "/images/screenshots/claro/0.png", "orientation": "vertically"},
+        { "src": "/images/screenshots/claro/1.png", "orientation": "vertically"},
+        { "src": "/images/screenshots/claro/2.png", "orientation": "vertically"},
+        { "src": "/images/screenshots/claro/3.png", "orientation": "vertically"},
+        { "src": "/images/screenshots/claro/3.png", "orientation": "vertically"}
+      ],
+      "technologies": [
+        {
+          "icon": "/images/vectors/react.svg",
+          "name": "React",
+          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+        },
+        {
+          "icon": "/images/vectors/nodejs.svg",
+          "name": "Node JS",
+          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+        },
+        {
+          "icon": "/images/vectors/typescript.svg",
+          "name": "TypeScript",
+          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+        }
+      ]
+    },
+    {
+      "slug": "white-label-elo",
+      "title": "White Label Elo",
+      "client": "Elo",
+      "icon": "/images/vectors/elo.svg",
+      "short_description": "White Label de cupons para Elo",
+      "description": "White Label de cupons para Elo",
+      "cover": "/images/elo.png",
+      "href_text": "Detalhes",
+      "images": [
+        { "src": "/images/elo.png", "orientation": "horizontally"},
+        { "src": "/images/screenshots/elo/0.png", "orientation": "vertically"},
+        { "src": "/images/screenshots/elo/1.png", "orientation": "vertically"},
+        { "src": "/images/screenshots/elo/2.png", "orientation": "horizontally"},
+        { "src": "/images/screenshots/elo/3.png", "orientation": "horizontally"},
+        { "src": "/images/screenshots/elo/4.png", "orientation": "horizontally"}
+      ],
+      "technologies": [
+        {
+          "icon": "/images/vectors/react.svg",
+          "name": "React",
+          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+        },
+        {
+          "icon": "/images/vectors/nodejs.svg",
+          "name": "Node JS",
+          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+        },
+        {
+          "icon": "/images/vectors/typescript.svg",
+          "name": "TypeScript",
+          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+        }
+      ]
+    },
+    {
+      "slug": "primepass-entretenimento",
+      "title": "Website & aplicativo",
+      "client": "Primepass",
+      "icon": "/images/vectors/primepass.svg",
+      "short_description": "A primepass oferece combos de pacotes de serviços de streaming com assinatura mensal ou anual",
+      "description": "A primepass oferece combos de pacotes de serviços de streaming com assinatura mensal ou anual",
+      "cover": "/images/primepass.png",
+      "href_text": "Detalhes",
+      "images": [
+        { "src": "/images/primepass.png", "orientation": "horizontally"},
+        { "src": "/images/screenshots/primepass/0.png", "orientation": "horizontally"},
+        { "src": "/images/screenshots/primepass/1.png", "orientation": "horizontally"},
+        { "src": "/images/screenshots/primepass/2.png", "orientation": "horizontally"},
+        { "src": "/images/screenshots/primepass/3.png", "orientation": "horizontally"},
+        { "src": "/images/screenshots/primepass/4.png", "orientation": "horizontally"}
+      ],
+      "technologies": [
+        {
+          "icon": "/images/vectors/react.svg",
+          "name": "React",
+          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+        },
+        {
+          "icon": "/images/vectors/nodejs.svg",
+          "name": "Node JS",
+          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+        },
+        {
+          "icon": "/images/vectors/typescript.svg",
+          "name": "TypeScript",
+          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+        }
+      ]
+    },
+    {
+      "slug": "maquina-de-posters-the-witcher",
+      "title": "Máquina de Posters The Witcher",
+      "client": "Netflix",
+      "icon": "/images/vectors/netflix.svg",
+      "short_description": "Uma máquina para promovor a serie The Witcher da Netflix, A mesma possuia um quiz que prmiava quem participava.",
+      "description": "Uma máquina para promovor a serie The Witcher da Netflix, A mesma possuia um quiz que prmiava quem participava.",
+      "cover": "/images/the_witcher.png",
+      "href_text": "Detalhes",
+      "images": [
+        { "src": "/images/the_witcher.png", "orientation": "horizontally"},
+        { "src": "/images/screenshots/netflix/the_witcher/0.jpeg", "orientation": "vertically"},
+        { "src": "/images/screenshots/netflix/the_witcher/1.jpeg", "orientation": "vertically"},
+        { "src": "/images/screenshots/netflix/the_witcher/2.jpeg", "orientation": "vertically"},
+        { "src": "/images/screenshots/netflix/the_witcher/3.jpeg", "orientation": "vertically"}
+      ],
+      "technologies": [
+        {
+          "icon": "/images/vectors/react.svg",
+          "name": "React",
+          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+        },
+        {
+          "icon": "/images/vectors/nodejs.svg",
+          "name": "Node JS",
+          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+        },
+        {
+          "icon": "/images/vectors/typescript.svg",
+          "name": "TypeScript",
+          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+        }
+      ]
+    },
+    {
+      "slug": "maquina-de-amostras-natura-todo-dia",
+      "title": "Máquina de Amostras Natura Todo Dia ",
+      "client": "Natura",
+      "icon": "/images/vectors/natura.svg",
+      "short_description": "Máquina de distribuição de amostras grátis para promover o novo creme corporal da Natura",
+      "description": "Máquina de distribuição de amostras grátis para promover o novo creme corporal da Natura",
+      "cover": "/images/natura_todo_dia.png",
+      "href_text": "Detalhes",
+      "images": [
+        { "src": "/images/natura_todo_dia.png", "orientation": "horizontally"},
+        { "src": "/images/screenshots/natura/0.jpeg", "orientation": "vertically"},
+        { "src": "/images/screenshots/natura/1.jpeg", "orientation": "vertically"},
+        { "src": "/images/screenshots/natura/2.jpeg", "orientation": "vertically"}
+      ],
+      "technologies": [
+        {
+          "icon": "/images/vectors/react.svg",
+          "name": "React",
+          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+        },
+        {
+          "icon": "/images/vectors/nodejs.svg",
+          "name": "Node JS",
+          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+        },
+        {
+          "icon": "/images/vectors/typescript.svg",
+          "name": "TypeScript",
+          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+        }
+      ]
+    },
+    {
+      "slug": "out-of-home-porta-de-cela-irmandade",
+      "title": "Porta de Cela, Irmanadade",
+      "client": "Netflix",
+      "icon": "/images/vectors/netflix.svg",
+      "short_description": "Com um sensor a laser, detectava quando uma pessoa entrava na frente e exibia um video simulando uma porta de prisão, para a série Irmandade.",
+      "description": "Um outdoor promocional da serie Irmandade da Netflix. Com um sensor a laser, detectava quando uma pessoa entrava na frente e exibia um video simulando uma porta de prisão",
+      "cover": "/images/irmandade_out_of_home.png",
+      "href_text": "Detalhes",
+      "images": [
+        { "src": "/images/irmandade_out_of_home.png", "orientation": "horizontally"},
+        { "src": "/images/screenshots/netflix/irmandade/0.jpeg", "orientation": "vertically"},
+        { "src": "/images/screenshots/netflix/irmandade/1.jpeg", "orientation": "horizontally"},
+        { "src": "/images/screenshots/netflix/irmandade/2.jpeg", "orientation": "vertically"}
+      ],
+      "technologies": [
+        {
+          "icon": "/images/vectors/react.svg",
+          "name": "React",
+          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+        },
+        {
+          "icon": "/images/vectors/nodejs.svg",
+          "name": "Node JS",
+          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+        },
+        {
+          "icon": "/images/vectors/typescript.svg",
+          "name": "TypeScript",
+          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+        }
+      ]
+    },
+    {
+      "slug": "maquina-de-caneta-azul-mega-da-virada",
+      "title": "Mega da Virada Caneta Azul",
+      "client": "Caixa Econômica Federal",
+      "icon": "/images/vectors/caixa_economica.svg",
+      "short_description": "Máquina de karaokê promover a Mega Sena da Caixa Economia Federal. A mesma prmiava quem participava",
+      "description": "Máquina de karaokê promover a Mega Sena da Caixa Economia Federal. A mesma prmiava quem participava",
+      "cover": "/images/caneta_azul.png",
+      "href_text": "Detalhes",
+      "images": [
+        { "src": "/images/caneta_azul.png", "orientation": "horizontally"},
+        { "src": "/images/screenshots/caixa_economica_federal/0.jpeg", "orientation": "vertically"},
+        { "src": "/images/screenshots/caixa_economica_federal/1.jpeg", "orientation": "vertically"},
+        { "src": "/images/screenshots/caixa_economica_federal/2.jpeg", "orientation": "vertically"}
+      ],
+      "technologies": [
+        {
+          "icon": "/images/vectors/react.svg",
+          "name": "React",
+          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+        },
+        {
+          "icon": "/images/vectors/nodejs.svg",
+          "name": "Node JS",
           "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
         },
         {
