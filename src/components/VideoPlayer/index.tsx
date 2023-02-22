@@ -62,7 +62,20 @@ const VideoPlayer: FCT<VideoPlayerProps> = ({
   return (
     <S.VideoPlayerWrapper ref={wrapperRef} onMouseMove={() => handleMouseMove()} style={showControls ? { cursor: "default" } : { cursor: "none" }}>
       <S.Content>
-        <S.VideosPlayer loop autoPlay controls={false} ref={playerRef} style={isFullScreen ? { maxWidth: "100vw", maxHeight: "100vh" } : undefined} >
+        <S.VideosPlayer
+          loop autoPlay
+          controls={false}
+          ref={playerRef}
+          style={isFullScreen ?
+            {
+              maxWidth: "100vw",
+              maxHeight: "100vh",
+              width: "auto"
+            } :
+            undefined
+          }
+          onPlay={() => setPlaying(true)}
+        >
           {srcs.map(({ type, src }) => <source key={src} type={`video/${type}`} src={src} />)}
         </S.VideosPlayer>
         <S.ControlLayer style={showControls ? { opacity: 1 } : undefined}>
