@@ -90,6 +90,7 @@
   },
   "projects": [
     {
+      "company": "leydev",
       "slug": "ponto-de-venda-e-estoque",
       "title": "Ponto de Venda & estoque",
       "client": "Asher Açaiteria",
@@ -145,6 +146,7 @@
       ]
     },
     {
+      "company": "cuponeria",
       "slug": "white-label-ticket-vantagens",
       "title": "White Label Ticket Vantagens",
       "client": "Ticket",
@@ -179,6 +181,7 @@
       ]
     },
     {
+      "company": "cuponeria",
       "slug": "white-label-bitz-beneficios",
       "title": "White Label Bitz Benefícios",
       "client": "Bitz",
@@ -214,6 +217,7 @@
       ]
     },
     {
+      "company": "cuponeria",
       "slug": "white-label-claro-pay",
       "title": "White Label Claro Pay",
       "client": "Claro",
@@ -249,6 +253,7 @@
       ]
     },
     {
+      "company": "cuponeria",
       "slug": "white-label-elo",
       "title": "White Label Elo",
       "client": "Elo",
@@ -396,9 +401,11 @@
       "href_text": "Detalhes",
       "images": [
         { "src": "/images/irmandade_out_of_home.png", "orientation": "horizontally"},
-        { "src": "/images/screenshots/netflix/irmandade/0.jpeg", "orientation": "vertically"},
-        { "src": "/images/screenshots/netflix/irmandade/1.jpeg", "orientation": "horizontally"},
-        { "src": "/images/screenshots/netflix/irmandade/2.jpeg", "orientation": "vertically"}
+        { "src": "/images/screenshots/netflix/irmandade/0.jpg", "orientation": "vertically"},
+        { "src": "/images/screenshots/netflix/irmandade/1.jpg", "orientation": "horizontally"},
+        { "src": "/images/screenshots/netflix/irmandade/2.jpeg", "orientation": "horizontally"},
+        { "src": "/images/screenshots/netflix/irmandade/3.jpg", "orientation": "vertically"},
+        { "src": "/images/screenshots/netflix/irmandade/4.jpeg", "orientation": "vertically"}
       ],
       "technologies": [
         {
