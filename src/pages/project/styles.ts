@@ -195,28 +195,58 @@ export const ImageCard = styled.div<ImageCardProps>`
   .expand & {
     height: 35rem;
     width: ${({ $display }) => {
-      if ($display === "horizontally") return "60rem"
-      if ($display === "vertically") return "10rem"
-      return "auto"
-    }};
+    if ($display === "horizontally") return "60rem"
+    if ($display === "vertically") return "10rem"
+    return "auto"
+  }};
   }
 
   /* sm applies to x-small devices (portrait phones, less than 576px) */
   @media (max-width: 576px) { 
     height: 12rem;
-    width: ${({ $display }) => {
-      if ($display === "horizontally") return "19rem"
-      if ($display === "vertically") return "10rem"
-      return "auto"
-    }};
 
-    .expand & {
-      height: 18rem;
-      width: ${({ $display }) => {
-        if ($display === "horizontally") return "100vw"
-        if ($display === "vertically") return "50vw"
-        return "auto"
-      }};
+    &.horizontally {
+      width: 19rem;
+    }
+
+    &.vertically {
+      width: 10rem;
+    }
+
+    .expand &.horizontally  {
+      height: 40vh;
+      width: 100vw;
+    }
+
+
+    .expand &.vertically {
+      height: 60vh;
+      width: 100vw;
+    }
+  }
+
+
+  /* xxl applies to x-large devices (large desktops, less than 1400px) */
+  @media (min-width: 1400px) { 
+    height: 18rem;
+
+    &.horizontally {
+      width: 26rem;
+    }
+
+    &.vertically {
+      width: 14rem;
+    }
+
+    .expand &.horizontally  {
+      height: 70vh;
+      width: 50vw;
+    }
+
+
+    .expand &.vertically {
+      height: 70vh;
+      width: 30vw;
     }
   }
 `;

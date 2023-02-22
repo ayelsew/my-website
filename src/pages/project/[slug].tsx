@@ -60,7 +60,7 @@ const Project: FCT<ProjectProps> = ({ t, post }) => {
               <Carousel>
                 <>
                   {post.images.map((item) => (
-                    <S.ImageCard key={item.src} $display={item.orientation} onClick={() => setExpand(true)}>
+                    <S.ImageCard key={item.src} className={item.orientation} onClick={() => setExpand(true)}>
                       <Image src={item.src} alt="Tela de caixa" fill />
                     </S.ImageCard>
                   ))}
