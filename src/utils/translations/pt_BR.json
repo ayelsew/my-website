@@ -181,19 +181,14 @@
     {
       "company": "cuponeria",
       "slug": "white-label-ticket-vantagens",
-      "title": "White Label Ticket Vantagens",
+      "title": "Marketplace Ticket Vantagens",
       "client": "Ticket",
       "icon": "/images/vectors/ticket.svg",
-      "short_description": "Marketplace de descontos para Ticket",
-      "description": "Marketplace de descontos para Ticket",
+      "short_description": "Marketplace com promoções exclusivas para clientes Ticket",
+      "description": "Marketplace o qual permite compra de produtos e/ou obtenção de cupons promocionais para os clientes da empresa TICKET SERVIÇOS S.A. Entendendo “white label” como uma template de layout com padrões pré estabelecidos, foi implementado toda a identidade visual a pedido da Ticket, em uma white label de estilo marketplace a qual é denominada Ticket Vantagens.<br><br>Todos os produtos exibidos neste marketplace são provenientes de integração com API REST da Cuponeria, a qual faz integração de sistema com sua parceira VIA S.A.<br><br>Na construção deste site foram utilizados: Nextjs para renderização do lado do servidor, garantindo SEO (Search Engine Optimization) e typescript para auxiliar no desenvolvimento do código.",
       "cover": "/images/ticket_vantagens.png",
       "href_text": "Detalhes",
       "images": [
-        {
-          "type": "image",
-          "src": "/images/ticket_vantagens.png",
-          "orientation": "horizontally"
-        },
         {
           "type": "image",
           "src": "/images/screenshots/ticket/0.png",
@@ -219,36 +214,31 @@
         {
           "icon": "/images/vectors/react.svg",
           "name": "React",
-          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
-        },
-        {
-          "icon": "/images/vectors/nodejs.svg",
-          "name": "Node JS",
-          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+          "description": "React utiliza para construção do sistema"
         },
         {
           "icon": "/images/vectors/typescript.svg",
           "name": "TypeScript",
           "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+        },
+        {
+          "icon": "/images/vectors/next.svg",
+          "name": "Nextjs",
+          "description": "Nextjs para renderização do lado do servidor com fins de SEO e Whitelabel"
         }
       ]
     },
     {
       "company": "cuponeria",
       "slug": "white-label-bitz-beneficios",
-      "title": "White Label Bitz Benefícios",
+      "title": "Marketplace Lojão do Bitz",
       "client": "Bitz",
       "icon": "/images/vectors/bitz.svg",
-      "short_description": "Marketplace de descontos para Bitz",
-      "description": "Marketplace de descontos para Bitz",
+      "short_description": "Marketplace com promoções exclusivas para clientes Bitz",
+      "description": "Marketplace o qual permite compra de produtos e/ou obtenção de cupons promocionais para os clientes da empresa BITZ SERVIÇOS FINANCEIROS. Entendendo “white label” como uma template de layout com padrões pré estabelecidos, foi implementado toda a identidade visual a pedido do BITZ, em uma white label de estilo marketplace a qual é denominada Lojão do Bitz. <br><br> Todos os produtos exibidos neste marketplace são provenientes de integração com API REST da Cuponeria. <br><br> Na construção deste site foram utilizados: Nextjs para renderização do lado do servidor, garantindo SEO (Search Engine Optimization) e typescript para auxiliar no desenvolvimento do código.",
       "cover": "/images/bitz.png",
       "href_text": "Detalhes",
       "images": [
-        {
-          "type": "image",
-          "src": "/images/bitz.png",
-          "orientation": "horizontally"
-        },
         {
           "type": "image",
           "src": "/images/screenshots/bitz/0.png",
@@ -279,17 +269,17 @@
         {
           "icon": "/images/vectors/react.svg",
           "name": "React",
-          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
-        },
-        {
-          "icon": "/images/vectors/nodejs.svg",
-          "name": "Node JS",
-          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+          "description": "React utiliza para construção do sistema"
         },
         {
           "icon": "/images/vectors/typescript.svg",
           "name": "TypeScript",
           "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+        },
+        {
+          "icon": "/images/vectors/next.svg",
+          "name": "Nextjs",
+          "description": "Nextjs para renderização do lado do servidor com fins de SEO e Whitelabel"
         }
       ]
     },
@@ -299,16 +289,11 @@
       "title": "White Label Claro Pay",
       "client": "Claro",
       "icon": "/images/vectors/claro.svg",
-      "short_description": "White Label de cupons para Claro Pay",
-      "description": "White Label de cupons para Claro Pay",
+      "short_description": "Página com promoções exclusivas para clientes Claro Pay",
+      "description": "White label o qual permite obtenção de cupons promocionais para os clientes da empresa Claro Pay. Entendendo “white label” como uma template de layout com padrões pré estabelecidos, foi implementado toda a identidade visual a pedido do Claro. Essa página é aberta dentro de uma WebView no aplicativo da Claro. <br><br> Todos os produtos exibidos neste, são provenientes de integração com API REST da Cuponeria. <br><br> Na construção deste site foram utilizados: Nextjs e typescript para auxiliar no desenvolvimento do código.",
       "cover": "/images/claro_pay.png",
       "href_text": "Detalhes",
       "images": [
-        {
-          "type": "image",
-          "src": "/images/claro_pay.png",
-          "orientation": "vertically"
-        },
         {
           "type": "image",
           "src": "/images/screenshots/claro/0.png",
@@ -339,17 +324,17 @@
         {
           "icon": "/images/vectors/react.svg",
           "name": "React",
-          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
-        },
-        {
-          "icon": "/images/vectors/nodejs.svg",
-          "name": "Node JS",
-          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+          "description": "React utiliza para construção do sistema"
         },
         {
           "icon": "/images/vectors/typescript.svg",
           "name": "TypeScript",
           "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+        },
+        {
+          "icon": "/images/vectors/next.svg",
+          "name": "Nextjs",
+          "description": "Nextjs para renderização do lado do servidor com fins de SEO e Whitelabel"
         }
       ]
     },
@@ -359,8 +344,8 @@
       "title": "White Label Elo",
       "client": "Elo",
       "icon": "/images/vectors/elo.svg",
-      "short_description": "White Label de cupons para Elo",
-      "description": "White Label de cupons para Elo",
+      "short_description": "Página com promoções exclusivas para clientes Elo",
+      "description": "White label o qual permite obtenção de cupons promocionais para os clientes da empresa Elo. Entendendo “white label” como uma template de layout com padrões pré estabelecidos, foi implementado toda a identidade visual a pedido da Elo. <br><br> Todos os produtos exibidos neste, são provenientes de integração com API REST da Cuponeria. <br><br> Na construção deste site foram utilizados: Nextjs e typescript para auxiliar no desenvolvimento do código.",
       "cover": "/images/elo.png",
       "href_text": "Detalhes",
       "images": [
@@ -399,17 +384,17 @@
         {
           "icon": "/images/vectors/react.svg",
           "name": "React",
-          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
-        },
-        {
-          "icon": "/images/vectors/nodejs.svg",
-          "name": "Node JS",
-          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+          "description": "React utiliza para construção do sistema"
         },
         {
           "icon": "/images/vectors/typescript.svg",
           "name": "TypeScript",
           "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+        },
+        {
+          "icon": "/images/vectors/next.svg",
+          "name": "Nextjs",
+          "description": "Nextjs para renderização do lado do servidor com fins de SEO e Whitelabel"
         }
       ]
     },
