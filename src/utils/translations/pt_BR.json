@@ -623,7 +623,7 @@
         "start": "Fev 2022",
         "end": "Fev 2023"
       },
-      "about_experience": "Lorem linguiça é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica,"
+      "about_experience": "Atuei como desenvolvedor no principal projeto da Cuponeria, White Label. Realizava  integração com APIs REST, manutenção, aperfeiçoamento, e codificação de componentes de UI e layouts para clientes como, Banco Bari, Sofisa, Ticket, Bitz, Claro Pay e dentre outros. Os quais oferecem descontos por meio de cupons e Cashback. Trabalhei também na migração da base do código legado, usando tecnologias como React, Next.js, Typescript, Nodejs, Jest e StoryBook."
     },
     {
       "slug": "primepass",
@@ -634,7 +634,7 @@
         "start": "Out 2020",
         "end": "Jan 2022"
       },
-      "about_experience": "Lorem linguiça é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica,"
+      "about_experience": "Atuei como desenvolvedor no website (Vuejs) e aplicativo (React Native). Realizava a integração de novas funcionalidades com API REST e Graph QL, correção de bugs na interface do usuário, integração com Firebase para login com Apple ID, Conta Google e login com parceiros (ISPs), os quais oferecem pacotes de entretenimento da Primepass dando acesso a ingressos de cinemas, e plataformas de streaming como HBO Max."
     },
     {
       "slug": "bizsys",
@@ -645,7 +645,7 @@
         "start": "Jul 2019",
         "end": "Jun 2020"
       },
-      "about_experience": "Lorem linguiça é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica,"
+      "about_experience": "Atuei como desenvolvedor em projetos publicitários (Mídia Out of Home), tendo como diferencial a implementação da tecnologia conceitual a IoT, tornando-os interativos, para clientes como Netflix, Natura, Caixa Econômica Federal, Ford, Unilever dentre outros. Realizava análises técnicas e propunha soluções usando Servidores Linux, Nodejs, React, Vue, Raspberry dentre outras. Além do desenvolvimento, fui responsável por monitoria e suporte tanto em campo quanto remoto dos projetos em período de campanha."
     },
     {
       "slug": "leydev",
@@ -653,10 +653,10 @@
       "name": "Leydev",
       "role": "Desenvolvedor Full Stack",
       "period": {
-        "start": "---",
-        "end": "---"
+        "start": "Jul 2019",
+        "end": "o momento"
       },
-      "about_experience": "Lorem linguiça é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica,"
+      "about_experience": "Como Leydev, já atuei sendo freelancer, desenvolvendo soluções para problemas simples como apontamentos de DNS, implementação de CDN dentre outros relacionados a infraestrutura e aplicações, até desenvolvimento de um sistema completo com API REST, banco de dados e integração com balanças de caixa de loja. Adquirir experiências gerenciando uma pequena equipe, projeto e lidando diretamente com clientes. Atualmente em meu tempo livre faço apenas projetos pessoais com fins experimentais, estudatil e open-source."
     },
     {
       "slug": "sonda",
@@ -667,7 +667,7 @@
         "start": "Nov 2018",
         "end": "Mar 2019"
       },
-      "about_experience": "Lorem linguiça é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica,"
+      "about_experience": "Atuei como técnico de suporte nível 1, atendendo aos colaboradores da instituição de pagamento Cielo. Auxiliando usuários remotamente em suas demandas como conexão de VPNs, acesso a sistemas, configuração de celulares corporativos. E quando necessário realizava a abertura e acompanhamentos de chamados, quando direcionados a outras equipes competentes como nível 2 e segurança da informação."
     }
   ]
 }
