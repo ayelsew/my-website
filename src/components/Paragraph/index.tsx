@@ -1,17 +1,24 @@
-import { CSSProperties, FC, ReactElement } from "react";
+import { CSSProperties, FC, ReactElement, useEffect } from "react";
 
 import * as S from "./styles";
 
 interface ParagraphProps {
   children: ReactElement | string
-  textAlign?: CSSProperties["textAlign"]
+  textAlign?: CSSProperties["textAlign"],
+  renderHTML?: boolean
 }
 
-const Paragraph: FC<ParagraphProps> = ({ children, textAlign }) => {
+const Paragraph: FC<ParagraphProps> = ({ children, textAlign, renderHTML }) => {
   return (
-    <S.ParagraphWrapper $textAlign={textAlign}>
-      {children}
-    </S.ParagraphWrapper>
+    <>
+      {renderHTML ?
+        <S.ParagraphWrapper $textAlign={textAlign} dangerouslySetInnerHTML={{ __html: children as string }} /> :
+        <S.ParagraphWrapper $textAlign={textAlign} >
+          {children}
+        </S.ParagraphWrapper>
+
+      }
+    </>
   )
 }
 

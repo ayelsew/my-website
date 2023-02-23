@@ -85,7 +85,7 @@ const Project: FCT<ProjectProps> = ({ t, post }) => {
               <TitleH2>
                 {t.project.about_project}
               </TitleH2>
-              <Paragraph>
+              <Paragraph renderHTML>
                 {post.description}
               </Paragraph>
             </S.Snippet>
