@@ -404,8 +404,8 @@
       "title": "Website & aplicativo",
       "client": "Primepass",
       "icon": "/images/vectors/primepass.svg",
-      "short_description": "A primepass oferece combos de pacotes de serviços de streaming com assinatura mensal ou anual",
-      "description": "A primepass oferece combos de pacotes de serviços de streaming com assinatura mensal ou anual",
+      "short_description": "A primepass oferece combos de pacotes de serviços de streaming e ingresso de cinema por assinatura",
+      "description": "Site feito com Nextjs e app com React Native, onde os cliente podem acessar para verificar termos, serviços, sobre a empresa e ainda assinar planos mensais ou anuais além de poderem consultar seu próprio perfil. Como extra no aplicativo, os usuários podem fazer check-in de sua localização no cinema, para validar o direito ao ingresso.",
       "cover": "/images/primepass.png",
       "href_text": "Detalhes",
       "images": [
@@ -510,6 +510,11 @@
           "icon": "/images/vectors/typescript.svg",
           "name": "TypeScript",
           "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+        },
+        {
+          "icon": "/images/vectors/next.svg",
+          "name": "Nextjs",
+          "description": "Nextjs para renderização do lado do servidor com fins de SEO"
         }
       ]
     },
@@ -574,6 +579,14 @@
       "cover": "/images/irmandade_out_of_home.png",
       "href_text": "Detalhes",
       "images": [
+        {
+          "type": "video",
+          "src": [
+            "/videos/netflix/irmandade/edson.webm",
+            "/videos/netflix/irmandade/edson.mp4"
+          ],
+          "orientation": "horizontally"
+        },
         {
           "type": "image",
           "src": "/images/irmandade_out_of_home.png",

@@ -65,7 +65,13 @@ const Project: FCT<ProjectProps> = ({ t, post }) => {
                       <S.VideoCard key={`${item.src[0]}${item.orientation}`} className={item.orientation}>
                         <VideoPlayer
                           srcs={
-                            (item.src as string[]).map((src) => ({ src, type: src.slice(-4).replace(".","") }))
+                            (item.src as string[]).map((src) => {
+                              const type = src.slice(-4).replace(".", "")
+                              if (/audio\.webm$/gi.test(src)) {
+                                return { src, type: `audio/${type}` }
+                              }
+                              return { src, type: `video/${type}` }
+                            })
                           }
                           t={t}
                         />
