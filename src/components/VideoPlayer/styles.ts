@@ -43,7 +43,7 @@ export const ButtonPlayPause = styled.button`
     display: none;
     width: 100%;
     height: 100%;
-    fill: ${({ theme }) => theme.button.fill };
+    fill: ${({ theme }) => theme.button.fill};
   }
 
   &.pause svg.play {
@@ -67,7 +67,7 @@ export const ButtonFullScreen = styled.button`
     display: none;
     width: 100%;
     height: 100%;
-    fill: ${({ theme }) => theme.button.fill };
+    fill: ${({ theme }) => theme.button.fill};
   }
 
   &.open svg.exit {
@@ -75,5 +75,23 @@ export const ButtonFullScreen = styled.button`
   }
   &.exit svg.open {
     display: inline-block !important;
+  }
+`
+export const VolumeControl = styled.div`
+  position: absolute;
+  background: transparent;
+  bottom: 1rem;
+  right: 1rem;
+  display: flex;
+  align-items: center;
+
+  & svg.volume-player {
+    width: 2rem;
+    height: 2rem;
+    fill: ${({ theme }) => theme.button.fill};
+  }
+
+  & svg.volume-input {
+    /* width: 8rem; */
   }
 `

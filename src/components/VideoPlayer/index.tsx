@@ -1,6 +1,75 @@
-import { FCT, useCallback, useEffect, useRef, useState } from "react";
+import { FC, FCT, MouseEvent, useCallback, useEffect, useRef, useState } from "react";
 
 import * as S from "./styles";
+
+interface AudioVolumeProps {
+  onChange: (value: number) => void
+  volume: number
+}
+
+const AudioVolume: FC<AudioVolumeProps> = ({ onChange }) => {
+  const conatinerRef = useRef<SVGSVGElement>(null)
+  const circleRef = useRef<SVGCircleElement>(null)
+  const railRef = useRef<SVGPathElement>(null)
+  const pathRef = useRef<SVGCircleElement>(null)
+
+  const handleMouseMovement = useCallback((event: MouseEvent<SVGSVGElement, globalThis.MouseEvent>) => {
+    if (
+      conatinerRef.current === null ||
+      circleRef.current === null ||
+      pathRef.current === null ||
+      event.buttons !== 1
+    ) return;
+
+    const { width: clientWidth } = conatinerRef.current.getBoundingClientRect()
+    const { width: viewWidth } = conatinerRef.current.viewBox.baseVal
+
+    const offset = viewWidth - clientWidth
+    const mouseX = event.nativeEvent.offsetX + offset;
+
+    if (((mouseX - 7) + 5.5) > 175) {
+      circleRef.current.setAttribute('cx', String(175 + 7 + 5.5));
+      pathRef.current.setAttribute("d", `M12.5 7 l${175} 0`)
+      onChange(175 * 100 / 175 * 0.01)
+      return;
+    }
+
+    circleRef.current.setAttribute('cx', String((mouseX - 7) + 5.5));
+    pathRef.current.setAttribute("d", `M12.5 7 l${mouseX - 11 - 7} 0`)
+    onChange((mouseX - 11 - 7) * 100 / 175 * 0.01)
+  }, [])
+
+
+  useEffect(() => {
+    if (
+      circleRef.current === null ||
+      pathRef.current === null
+    ) return;
+
+    circleRef.current.setAttribute('cx', String((17.5 - 7) + 5.5));
+    pathRef.current.setAttribute("d", `M12.5 7 l${17.5 - 11 - 7} 0`)
+  }, [])
+
+  return (
+    <S.VolumeControl>
+      <svg className="volume-player" xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 96 960 960" width="48">
+        <path d="M200 696V456h160l200-200v640L360 696H200Zm420 48V407q54 17 87 64t33 105q0 59-33 105t-87 63ZM500 408 387 516H260v120h127l113 109V408ZM378 576Z" />
+      </svg>
+      <svg
+        className="volume-input"
+        ref={conatinerRef}
+        xmlns="http://www.w3.org/2000/svg"
+        width="190" height="14"
+        viewBox="0 0 201 14" fill="none"
+        onMouseMove={(event) => handleMouseMovement(event)}
+      >
+        <path ref={railRef} strokeWidth="11" strokeLinecap="round" stroke="#2F2F2F" d="M12.5 7 l175 0" />
+        <path ref={pathRef} strokeWidth="11" strokeLinecap="round" stroke="#2FB5FF" d="M12.5 7 l50 0" />
+        <circle ref={circleRef} cx="62.5" cy="7" r="7" fill="#fff" />
+      </svg>
+    </S.VolumeControl>
+  )
+}
 
 interface VideoPlayerProps {
   srcs: {
@@ -50,6 +119,13 @@ const VideoPlayer: FCT<VideoPlayerProps> = ({
     setPlaying(false)
   }, []);
 
+  const changeVolume = useCallback((value: number) => {
+    if (playerRef.current === null) return;
+    const player = playerRef.current;
+
+    player.volume = Math.min(Math.max(value, 0), 1)
+  }, []);
+
   const handleMouseMove = useCallback(() => {
     clearTimeout(timeOutMouse.current);
     if (!showControls) setControls(true);
@@ -58,6 +134,10 @@ const VideoPlayer: FCT<VideoPlayerProps> = ({
       setControls(false);
     }, 1500) as unknown as number;
   }, [showControls]);
+
+  useEffect(() => {
+    changeVolume(0.1)
+  }, [])
 
   return (
     <S.VideoPlayerWrapper ref={wrapperRef} onMouseMove={() => handleMouseMove()} style={showControls ? { cursor: "default" } : { cursor: "none" }}>
@@ -74,9 +154,8 @@ const VideoPlayer: FCT<VideoPlayerProps> = ({
             } :
             undefined
           }
-          onPlay={() => setPlaying(true)}
         >
-          {srcs.map(({ type, src }) => <source key={src} type={`video/${type}`} src={src} />)}
+          {srcs.map(({ type, src }) => <source key={src} type={type} src={src} />)}
         </S.VideosPlayer>
         <S.ControlLayer style={showControls ? { opacity: 1 } : undefined}>
           <S.ButtonPlayPause
@@ -101,6 +180,7 @@ const VideoPlayer: FCT<VideoPlayerProps> = ({
               <path d="M333 856V723H200v-60h193v193h-60Zm234 0V663h193v60H627v133h-60ZM200 489v-60h133V296h60v193H200Zm367 0V296h60v133h133v60H567Z" />
             </svg>
           </S.ButtonFullScreen>
+          <AudioVolume volume={0} onChange={(value) => changeVolume(value)} />
         </S.ControlLayer>
       </S.Content>
     </S.VideoPlayerWrapper>
