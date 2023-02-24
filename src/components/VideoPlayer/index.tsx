@@ -154,6 +154,10 @@ const VideoPlayer: FCT<VideoPlayerProps> = ({
             } :
             undefined
           }
+          onPlay={() => {
+            setControls(false);
+            setPlaying(true);
+          }}
         >
           {srcs.map(({ type, src }) => <source key={src} type={type} src={src} />)}
         </S.VideosPlayer>
