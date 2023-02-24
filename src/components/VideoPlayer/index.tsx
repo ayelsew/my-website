@@ -85,7 +85,7 @@ const VideoPlayer: FCT<VideoPlayerProps> = ({
   const timeOutMouse = useRef<number>(0);
   const [isPlaying, setPlaying] = useState<boolean>(false);
   const [isFullScreen, setFullScreen] = useState<boolean>(false);
-  const [showControls, setControls] = useState<boolean>(false);
+  const [showControls, setControls] = useState<boolean>(true);
 
   const toggleFullScreen = useCallback(async () => {
     if (wrapperRef.current === null) return;

@@ -589,11 +589,6 @@
         },
         {
           "type": "image",
-          "src": "/images/irmandade_out_of_home.png",
-          "orientation": "horizontally"
-        },
-        {
-          "type": "image",
           "src": "/images/screenshots/netflix/irmandade/0.jpg",
           "orientation": "vertically"
         },
