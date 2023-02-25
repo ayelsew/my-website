@@ -46,8 +46,8 @@ const AudioVolume: FC<AudioVolumeProps> = ({ onChange }) => {
       pathRef.current === null
     ) return;
 
-    circleRef.current.setAttribute('cx', String((17.5 - 7) + 5.5));
-    pathRef.current.setAttribute("d", `M12.5 7 l${17.5 - 11 - 7} 0`)
+    circleRef.current.setAttribute('cx', String((87.5 - 7) + 5.5));
+    pathRef.current.setAttribute("d", `M12.5 7 l${87.5 - 11 - 7} 0`)
   }, [])
 
   return (
@@ -136,7 +136,7 @@ const VideoPlayer: FCT<VideoPlayerProps> = ({
   }, [showControls]);
 
   useEffect(() => {
-    changeVolume(0.1)
+    changeVolume(0.5)
   }, [])
 
   return (
