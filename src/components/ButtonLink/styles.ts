@@ -8,7 +8,7 @@ interface ButtonWrapperProps {
 
 export const ButtonWrapper = styled.a<ButtonWrapperProps>`
   min-width: ${({ $stretch }) => $stretch || "unset" };
-  width: 7rem;
+  width: fit-content;
   height: 1.5rem;
   border-radius: 30px;
   font-weight: ${({ $fill }) => $fill ? 500 : 700};
@@ -26,15 +26,19 @@ export const ButtonWrapper = styled.a<ButtonWrapperProps>`
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  padding: 0.5rem 1rem;
+  white-space: nowrap;
 
   &.medium {
-    width: 7rem;
     height: 2rem;
   }
 
   &.large {
-    width: 135px;
     height: 35px;
+  }
+
+  & > svg {
+    height: 1rem;
   }
 
   /* sm applies to x-small devices (portrait phones, less than 576px) */
@@ -52,7 +56,6 @@ export const ButtonWrapper = styled.a<ButtonWrapperProps>`
   /* xxl applies to x-large devices (large desktops, less than 1400px) */
   @media (min-width: 1400px) { 
     font-size: .87em;
-    width: 7.4rem;
     height: 1.7rem;
   }
 `;

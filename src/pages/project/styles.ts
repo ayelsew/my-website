@@ -50,7 +50,7 @@ export const Content = styled.div`
 
   /* xxl applies to x-large devices (large desktops, less than 1400px) */
   @media (min-width: 1400px) { 
-    padding: 1rem 10rem 4.4rem 10rem;
+    padding: 3rem 10rem 4.4rem 10rem;
   }
 `
 

@@ -35,6 +35,7 @@ const Project: FCT<ProjectProps> = ({ t, post }) => {
           company={post.client}
           title={post.title}
           clientLogo={post.icon}
+          actions={post.actions ?? []}
           t={t}
         />
         <S.Content>

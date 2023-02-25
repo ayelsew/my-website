@@ -110,7 +110,7 @@ export const Content = styled.div`
 
   /* xxl applies to x-large devices (large desktops, less than 1400px) */
   @media (min-width: 1400px) { 
-    padding: 11.5rem 10rem 0rem 10rem;
+    padding: 12.6rem 10rem 0rem 10rem;
   }
 `;
 
@@ -141,7 +141,11 @@ export const ProfilePicture = styled.img`
   width: 100%;
 `
 
-export const HeaderContent = styled.div``
+export const HeaderContent = styled.div`
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+`
 
 export const Title = styled.h1`
   font-weight: 700;
@@ -183,4 +187,12 @@ export const Company = styled.p`
   @media (min-width: 1200px) { 
     font-size: 1.1em;
   }
+`
+
+
+export const ContainerButtons = styled.div`
+  display: flex;
+  gap: 1rem;
+  flex-grow: 1;
+  align-items: center;
 `

@@ -790,6 +790,11 @@
           "icon": "/images/vectors/github.svg",
           "name": "CI/CD",
           "description": "Github com serviço de entrega continua integrado à hospedagem no Firebase"
+        },
+        {
+          "icon": "/images/vectors/pwa.svg",
+          "name": "PWA",
+          "description": "PWA - Progressive Web App"
         }
       ]
     },
@@ -803,6 +808,10 @@
       "description": "Agendador para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare",
       "cover": "/images/ip_sync_cloudflare.png",
       "href_text": "Detalhes",
+      "actions": [
+        {"href": "https://raw.githubusercontent.com/ayelsew/ddns-cloudflare/main/setup-linux.sh", "label": "For Linux", "icon": "download"},
+        {"href": "https://github.com/ayelsew/ddns-cloudflare", "label": "Código fonte", "icon": "code"}
+      ],
       "images": [
         {
           "type": "image",
