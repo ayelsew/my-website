@@ -104,8 +104,8 @@
       "title": "Ponto de Venda & estoque",
       "client": "Asher Açaiteria",
       "icon": "/images/vectors/asher_acaiteria.svg",
-      "short_description": "Com este, o operador do caixa pode gerenciar produtos em estoque, registrar vendas, e fazer a pesagem em uma sorveteria self-service.",
-      "description": "A Asher Açaiteria, é uma sorveteria por quilo self-service, a qual realiza suas vendas por pesagem. A loja precisava de um programa, com integração com as balanças, gerenciamento de estoque com produtos unitários e pesáveis e emissões de relatórios dos lucros. <br/><br/> Utilizei o Electron o qual provê um ecossistema com Nodejs junto de uma instância do google chrome, para desenvolver o programa que viria a ser instalado no computador do caixa independente de sistema operacional. Fiz uso de React para desenvolver o sistema, typescript no auxílio da programação, Material-UI na construção da interface do usuário. <br/><br/> Para garantir a escalabilidade do uso do programa em caso de novas franquias da loja, o sistema conta com o armazenamento dos dados em servidores e comunicação por meio de API REST, e com os quais foram construídos usando Nodejs e MariaDB.",
+      "short_description": "Com este programa, o operador do caixa pode gerenciar produtos em estoque, registrar vendas, e fazer a pesagem em uma sorveteria self-service.",
+      "description": "A Asher Açaiteria, é uma sorveteria por quilo self-service, a qual realiza suas vendas por pesagem. A loja precisava de um programa, com integração com as balanças, gerenciamento de estoque com produtos unitários e pesáveis e emissões de relatórios dos lucros. <br> <br> Utilizei o Electron o qual provê um ecossistema com Nodejs e ter acesso ao protocolo RS-232 (porta serial), e permitir execução no computador do caixa independente de sistema operacional. Fiz uso de React para desenvolver o sistema, typescript no auxílio da programação, Material-UI na construção da interface do usuário. <br> <br> Para garantir a escalabilidade do uso do programa em caso de novas franquias da loja, o sistema conta com o armazenamento dos dados em servidores e comunicação por meio de API REST, a qual foi desenvolvida usando Nodejs e MariaDB. ",
       "cover": "/images/asher_acaiteria.png",
       "href_text": "Detalhes",
       "images": [
@@ -464,8 +464,8 @@
       "title": "Máquina de Posters The Witcher",
       "client": "Netflix",
       "icon": "/images/vectors/netflix.svg",
-      "short_description": "Uma máquina para promovor a serie The Witcher da Netflix, A mesma possuia um quiz que prmiava quem participava.",
-      "description": "Uma máquina para promovor a serie The Witcher da Netflix, A mesma possuia um quiz que prmiava quem participava.",
+      "short_description": "Um quiz para promover a série The Witcher da Netflix. Caso os participantes respondessem corretamente às perguntas, a máquina entregava um pôster da série.",
+      "description": "Um quiz para promover a série The Witcher da Netflix. Caso os participantes respondessem corretamente às perguntas, a máquina entregava um pôster da série. <br><br> A máquina foi construída usando Chromium em modo kiosk, React para compor a interface do usuário. Nodejs para fazer a interface “software/hardware” por meio do protocolo RS-232 (porta serial) e arduino.",
       "cover": "/images/the_witcher.png",
       "href_text": "Detalhes",
       "images": [
@@ -499,22 +499,27 @@
         {
           "icon": "/images/vectors/react.svg",
           "name": "React",
-          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+          "description": "React usado para compor a interface"
         },
         {
           "icon": "/images/vectors/nodejs.svg",
-          "name": "Node JS",
-          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+          "name": "Nodejs",
+          "description": "NodeJs intermediario entre o react e o arduino"
         },
         {
           "icon": "/images/vectors/typescript.svg",
           "name": "TypeScript",
-          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+          "description": "Typescript para auxiliar no desenvolvimento do código"
         },
         {
-          "icon": "/images/vectors/next.svg",
-          "name": "Nextjs",
-          "description": "Nextjs para renderização do lado do servidor com fins de SEO"
+          "icon": "/images/vectors/arduino.svg",
+          "name": "Arduino",
+          "description": "Arduino para controle mecânimo"
+        },
+        {
+          "icon": "/images/vectors/zabbix.svg",
+          "name": "Zabbix",
+          "description": "Zabbix para monitoramento"
         }
       ]
     },
@@ -524,8 +529,8 @@
       "title": "Máquina de Amostras Natura Todo Dia ",
       "client": "Natura",
       "icon": "/images/vectors/natura.svg",
-      "short_description": "Máquina de distribuição de amostras grátis para promover o novo creme corporal da Natura",
-      "description": "Máquina de distribuição de amostras grátis para promover o novo creme corporal da Natura",
+      "short_description": "Máquina de amostragem para promover o novo creme corporal da Natura",
+      "description": "Máquina de amostragem(<i>sampling machine</i>), para distribuição do novo creme corporal da Natura, chamado Natura Todo Dia <br><br> A máquina foi construída usando Chromium em modo kiosk, React para compor a interface do usuário. Nodejs para fazer a interface “software/hardware” por meio do protocolo RS-232 (porta serial) e arduino.",
       "cover": "/images/natura_todo_dia.png",
       "href_text": "Detalhes",
       "images": [
@@ -554,28 +559,38 @@
         {
           "icon": "/images/vectors/react.svg",
           "name": "React",
-          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+          "description": "React usado para compor a interface"
         },
         {
           "icon": "/images/vectors/nodejs.svg",
-          "name": "Node JS",
-          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+          "name": "Nodejs",
+          "description": "NodeJs intermediario entre o react e o arduino"
         },
         {
           "icon": "/images/vectors/typescript.svg",
           "name": "TypeScript",
-          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+          "description": "Typescript para auxiliar no desenvolvimento do código"
+        },
+        {
+          "icon": "/images/vectors/arduino.svg",
+          "name": "Arduino",
+          "description": "Arduino para controle mecânimo"
+        },
+        {
+          "icon": "/images/vectors/zabbix.svg",
+          "name": "Zabbix",
+          "description": "Zabbix para monitoramento"
         }
       ]
     },
     {
       "company": "bizsys",
       "slug": "out-of-home-porta-de-cela-irmandade",
-      "title": "Porta de Cela, Irmanadade",
+      "title": "Out of Home para série Irmanadade",
       "client": "Netflix",
       "icon": "/images/vectors/netflix.svg",
-      "short_description": "Com um sensor a laser, detectava quando uma pessoa entrava na frente e exibia um video simulando uma porta de prisão, para a série Irmandade.",
-      "description": "Um outdoor promocional da serie Irmandade da Netflix. Com um sensor a laser, detectava quando uma pessoa entrava na frente e exibia um video simulando uma porta de prisão",
+      "short_description": "Mídia out of home para promover a série Irmandade da Netflix",
+      "description": "Mídia <i>out of home</i> para promover a série Irmandade da Netflix. A porta temática possuía um sensor infravermelho para detectar a presença de uma pessoa à frente, e consequentemente reproduzir vídeos gravados como no modelo acima, em um monitor curvo para dar sensação de profundidade. Foram 7 mídias espalhadas pelo centro de São Paulo ao longo de uma semana. <br><br> A máquina foi construída usando VLC Player, Raspberry PI e Nodejs para interagir com sensor por intermédio de um Arduino.",
       "cover": "/images/irmandade_out_of_home.png",
       "href_text": "Detalhes",
       "images": [
@@ -617,28 +632,38 @@
         {
           "icon": "/images/vectors/react.svg",
           "name": "React",
-          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+          "description": "React usado para compor a interface"
         },
         {
           "icon": "/images/vectors/nodejs.svg",
-          "name": "Node JS",
-          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+          "name": "Nodejs",
+          "description": "NodeJs intermediario entre o react e o arduino"
         },
         {
           "icon": "/images/vectors/typescript.svg",
           "name": "TypeScript",
-          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+          "description": "Typescript para auxiliar no desenvolvimento do código"
+        },
+        {
+          "icon": "/images/vectors/arduino.svg",
+          "name": "Arduino",
+          "description": "Arduino para controle mecânimo"
+        },
+        {
+          "icon": "/images/vectors/zabbix.svg",
+          "name": "Zabbix",
+          "description": "Zabbix para monitoramento"
         }
       ]
     },
     {
       "company": "bizsys",
-      "slug": "maquina-de-caneta-azul-mega-da-virada",
-      "title": "Mega da Virada Caneta Azul",
+      "slug": "karaoke-caneta-azul-mega-da-virada",
+      "title": "Karaokê Mega da Virada, Caneta Azul",
       "client": "Caixa Econômica Federal",
       "icon": "/images/vectors/caixa_economica.svg",
-      "short_description": "Máquina de karaokê promover a Mega Sena da Caixa Economia Federal. A mesma prmiava quem participava",
-      "description": "Máquina de karaokê promover a Mega Sena da Caixa Economia Federal. A mesma prmiava quem participava",
+      "short_description": "Máquina de karaokê para promover o evento Mega da Virada",
+      "description": "Karaokê (<i>out of home</i>) para promover o evento Mega da Virada da Caixa Econômica Federal. Os participantes cantavam e ganhavam literalmente uma caneta azul como parte da abordagem publicitária envolvendo a parceria do cantor Manoel Gomes. <br><br> A máquina foi construída usando Chromium em modo kiosk, React para compor a interface do usuário. Nodejs para fazer a interface “software/hardware” por meio do protocolo RS-232 (porta serial) e arduino.",
       "cover": "/images/caneta_azul.png",
       "href_text": "Detalhes",
       "images": [
@@ -667,17 +692,27 @@
         {
           "icon": "/images/vectors/react.svg",
           "name": "React",
-          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+          "description": "React usado para compor a interface"
         },
         {
           "icon": "/images/vectors/nodejs.svg",
-          "name": "Node JS",
-          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+          "name": "Nodejs",
+          "description": "NodeJs intermediario entre o react e o arduino"
         },
         {
           "icon": "/images/vectors/typescript.svg",
           "name": "TypeScript",
-          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+          "description": "Typescript para auxiliar no desenvolvimento do código"
+        },
+        {
+          "icon": "/images/vectors/arduino.svg",
+          "name": "Arduino",
+          "description": "Arduino para controle mecânimo"
+        },
+        {
+          "icon": "/images/vectors/zabbix.svg",
+          "name": "Zabbix",
+          "description": "Zabbix para monitoramento"
         }
       ]
     },
@@ -688,29 +723,16 @@
       "client": "Open Source",
       "icon": "/images/vectors/leydev.svg",
       "short_description": "Esse é uma analizador de ondas sonoras, para auxiliar na afinação de instrumentos músicais de corda",
-      "description": "O Active Tuner tem como objetivo o aprendizado do funcionamento de ondas sonoras e sua representação digital. Foi necessário a compreensão básica de algoritmos para a conversão do sinal analógico para digital. O aprendizado do funcionamento da API de áudio utilizado pelos browsers, ex. Chrome e Firefox. E a construção de uma aplicação Web que pudesse representar a frequência e sua nota referente no momento da captação.",
+      "description": "Analisador de frequ\u00EAncias sonoras, para aux\u00EDlio na afina\u00E7\u00E3o de instrumentos musicais. Ele detecta frequ\u00EAncias entre C\u2080 (16,35 Hertz) e B\u2088 (7902,13 Hertz), e exibe a nota referente a frequ\u00EAncia captada. <br> <br> O Active Tuner tem como objetivo o aprendizado do funcionamento de ondas sonoras e sua representa\u00E7\u00E3o digital. Foi necess\u00E1rio a compreens\u00E3o b\u00E1sica de algoritmos para a convers\u00E3o do sinal anal\u00F3gico para digital. O aprendizado do funcionamento da API de \u00E1udio utilizado pelos browsers, ex. Chrome e Firefox. E a constru\u00E7\u00E3o de uma aplica\u00E7\u00E3o Web que pudesse representar a frequ\u00EAncia e sua nota referente no momento da capta\u00E7\u00E3o. <br> <br> Foram utilizados a API de Web \u00E1udio para processamento das frequ\u00EAncias sonoras, algoritmo de detec\u00E7\u00E3o de tom (<i><abbr title=\"Pitch detection algorithm\">PDA<\/abbr> - Pitch detection algorithm<\/i>), API Canvas para desenhos de gr\u00E1fico, React para composi\u00E7\u00E3o da interface do usu\u00E1rio e typescript\/javascript para programa\u00E7\u00E3o. <br> <br> Outros autores: <br> <br> <a href=\"https:\/\/www.linkedin.com\/in\/renanlopes77\/\" rel=\"nofollow\" target=\u201D_blank\u201D>Renan Lopes<\/a> atou na pesquisa e desenvolvimento deste projeto, <a href=\"https:\/\/github.com\/freirezinho\" target=\u201D_blank\u201D>Saulo Freire<\/a> atou na corre\u00E7\u00E3o de bugs no navegador Safari para Mac e iPhone e <a href=\"https:\/\/www.behance.net\/luizgusiqueir\" rel=\"nofollow\" target=\u201D_blank\u201D>Luiz Gustavo<\/a> designer respons\u00E1vel pelas artes e interface do aplicativo.",
       "cover": "/images/active_tuner.png",
       "href_text": "Detalhes",
       "images": [
         {
           "type": "video",
           "src": [
-            "/videos/active_tuner/active_tuner_desktop.mp4",
-            "/videos/active_tuner/active_tuner_desktop.webm"
+            "/videos/active_tuner/tuner.webm",
+            "/videos/active_tuner/tuner.mp4"
           ],
-          "orientation": "horizontally"
-        },
-        {
-          "type": "video",
-          "src": [
-            "/videos/active_tuner/active_tuner_mobile.mp4",
-            "/videos/active_tuner/active_tuner_mobile.webm"
-          ],
-          "orientation": "vertically"
-        },
-        {
-          "type": "image",
-          "src": "/images/active_tuner.png",
           "orientation": "horizontally"
         },
         {
@@ -738,22 +760,37 @@
         {
           "icon": "/images/vectors/react.svg",
           "name": "React",
-          "description": "React é uma biblioteca JavaScript para criar interfaces de usuário."
+          "description": "React usado para criar a interface de usuário."
         },
         {
           "icon": "/images/vectors/nodejs.svg",
-          "name": "Node.js",
-          "description": "Node.js é um ambiente de execução JavaScript multiplataforma e de código aberto."
+          "name": "Nodejs",
+          "description": "Nodejs para desenvolvimento é build"
         },
         {
           "icon": "/images/vectors/typescript.svg",
           "name": "TypeScript",
-          "description": "TypeScript implementa sintaxe para suportar inferência de tipos em JS."
+          "description": "TypeScript para auxilio na programação com Javascript"
         },
         {
           "icon": "/images/vectors/webpack.svg",
           "name": "Webpack",
-          "description": "Webpack é um empacotador de módulos estáticos para aplicativos JavaScript"
+          "description": "Webpack usado para transpilação, minificação e empacotamento do código"
+        },
+        {
+          "icon": "/images/vectors/html5.svg",
+          "name": "HTML 5 APIs",
+          "description": "HTML5 para uso das APIs Web Áudio, Canvas e Service Worker"
+        },
+        {
+          "icon": "/images/vectors/firebase.svg",
+          "name": "Firebase",
+          "description": "Firebase para hospedagem em produção"
+        },
+        {
+          "icon": "/images/vectors/github.svg",
+          "name": "CI/CD",
+          "description": "Github com serviço de entrega continua integrado à hospedagem no Firebase"
         }
       ]
     },
@@ -818,11 +855,11 @@
     {
       "company": "leydev",
       "slug": "agenda-de-visita-magma",
-      "title": "Agenda de visitas técnica",
-      "client": "Open Source",
+      "title": "Aplicativo para agendamento de visitas técnica",
+      "client": "Magma",
       "icon": "/images/vectors/magma.svg",
-      "short_description": "PWA usado para realizar agendamento de visitas pelos técnicos de uma empresa de marmoraria.",
-      "description": "PWA usado para realizar agendamento de visitas pelos técnicos de uma empresa de marmoraria.",
+      "short_description": "PWA usado para realizar agendamento de visitas pelos técnicos da Magma, empresa de marmoraria.",
+      "description": "Aplicativo Web Progressivo (<i><abbr title=\"Progressive Web App\">PWA</abbr></i>), para empresa de mármore Magma, Os técnicos dessa empresa podem ao longo da jornada de trabalho verificar quais clientes eles precisam visitar e realizar agendamentos. <br><br> O aplicativo foi feito utilizando componentes de interface do Bootstrap, Javascript em sua programação, e a API Service Worker para permitir sua execução offline, além de permitir uma experiência próxima de um aplicativo nativo para Android. O mesmo também foi integrado a uma API REST, onde os dados de agendamento são centralizado permitindo login e gerenciamento das informações pela empresa",
       "cover": "/images/magma.png",
       "href_text": "Detalhes",
       "images": [
@@ -859,19 +896,24 @@
       ],
       "technologies": [
         {
-          "icon": "/images/vectors/shellscript.svg",
-          "name": "Shell Script",
-          "description": "Shell Script para automatizar a instalação do programa no Systemd do Linux"
+          "icon": "/images/vectors/javascript.svg",
+          "name": "Javascript",
+          "description": "Javascript para programação do app"
         },
         {
           "icon": "/images/vectors/nodejs.svg",
-          "name": "Node.js",
-          "description": "Node.js é um ambiente de execução JavaScript multiplataforma e de código aberto."
+          "name": "Nodejs",
+          "description": "Nodejs para desenvolvimento e build"
         },
         {
-          "icon": "/images/vectors/typescript.svg",
-          "name": "TypeScript",
-          "description": "TypeScript implementa sintaxe para suportar inferência de tipos em JS."
+          "icon": "/images/vectors/gulp.svg",
+          "name": "Gulp",
+          "description": "Gulp usado para minificação e empacotamento do código"
+        },
+        {
+          "icon": "/images/vectors/pwa.svg",
+          "name": "PWA",
+          "description": "PWA - Progressive Web App"
         }
       ]
     },
@@ -882,7 +924,7 @@
       "client": "Open Source",
       "icon": "/images/vectors/leydev.svg",
       "short_description": "O clássico jogo da velha em PWA, você pode jogar: contra as máquina ou mutiplayer com deus amigos",
-      "description": "O clássico jogo da velha em PWA, você pode jogar: contra as máquina ou mutiplayer com deus amigos",
+      "description": "Um dos meus primeiros projetos experimentais (<i><abbr title=\"Progressive Web App\">PWA</abbr></i>), clássico jogo da velha. Meu objetivo aqui foi entender como funcionava o protocolo WebSocket, para comunicação bidirecional (<i>full duplex</i>). <br><br> Os modelos de comunicação entre 2 ou mais dispositivos normalmente exige a reconexão com o servidor todas as vezes para consultar novas informações. Isso em aplicações escaláveis causa um aumento de tráfego, processamento e sobrecarrega no servidor, além de atraso na obtenção de informações críticas, pois o protocolo TCP exige que o processo <i>Three-way Handshake</i> seja realizado a cada nova conexão. Fora as demais validações que deverão ocorrer por outros protocolos acima do TCP de acordo com o modelo do Sistemas Abertos de Interconexão <i><abbr title=\"Open Systems Interconnection\">OSI</abbr></i>. <br><br> Com o protocolo WebSocket é possível conectar diversos dispositivos ao servidor, e solicitar que a mesma conexão se mantenha aberta até que 1 dos correspondentes não responda em tempo hábil as requisições de status (ping), obstrução a nível físico da rede ou encerramento da comunicação por um dos correspondentes. Com a conexão aberta e permitindo troca de mensagens bidirecionais, a comunicação passa a ser orientada a eventos, permitindo que qualquer um dos correspondentes (cliente ou servidor) enviem mensagem entre si a qualquer momento <br><br> O aplicativo foi feito utilizando componentes de interface do Bootstrap, Javascript em sua programação, e a API nativa WebSocket. <br><br> Do lado do servidor foi utilizado o módulo <a href=\"https://www.npmjs.com/package/ws\">ws</a>, que ajuda na implementação do protocolo WebSocket sobre o HTTP e TCP em ambiente Nodejs, pois até o presente momento, esse ambiente não tem o protocolo nativamente implementado",
       "cover": "/images/hash_game.png",
       "href_text": "Detalhes",
       "images": [
@@ -919,19 +961,24 @@
       ],
       "technologies": [
         {
-          "icon": "/images/vectors/shellscript.svg",
-          "name": "Shell Script",
-          "description": "Shell Script para automatizar a instalação do programa no Systemd do Linux"
+          "icon": "/images/vectors/javascript.svg",
+          "name": "Javascript",
+          "description": "Javascript para programação do app"
+        },
+        {
+          "icon": "/images/vectors/pwa.svg",
+          "name": "PWA",
+          "description": "PWA - Progressive Web App"
+        },
+        {
+          "icon": "/images/vectors/html5.svg",
+          "name": "HTML5",
+          "description": "HTML5 para uso da API Websocket"
         },
         {
           "icon": "/images/vectors/nodejs.svg",
-          "name": "Node.js",
-          "description": "Node.js é um ambiente de execução JavaScript multiplataforma e de código aberto."
-        },
-        {
-          "icon": "/images/vectors/typescript.svg",
-          "name": "TypeScript",
-          "description": "TypeScript implementa sintaxe para suportar inferência de tipos em JS."
+          "name": "Nodejs",
+          "description": "Nodejs para desenvolvimento do servidor"
         }
       ]
     }

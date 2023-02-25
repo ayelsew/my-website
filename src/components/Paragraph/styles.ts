@@ -12,6 +12,10 @@ export const ParagraphWrapper = styled.p<ParagraphWrapperProps>`
   color: ${({ theme }) => theme.color.text};
   text-align: ${({ $textAlign }) => $textAlign ?? "left" };
 
+  & a {
+    color: ${({ theme }) => theme.color.highlight};
+  }
+
   /* sm applies to x-small devices (portrait phones, less than 576px) */
   @media (max-width: 576px) { 
     font-size: 1em;
