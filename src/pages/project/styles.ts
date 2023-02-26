@@ -114,6 +114,7 @@ export const ListTechnologies = styled.ul`
     width: 100%;
     overflow-x: scroll;
     padding: 0 1.2rem;
+    grid-column-gap: 0.5rem;
   }
 
   /* lg applies to medium devices (tablets, less than 992px) */
