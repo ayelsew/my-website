@@ -805,7 +805,7 @@
       "client": "Open Source",
       "icon": "/images/vectors/leydev.svg",
       "short_description": "Agendador para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare",
-      "description": "Agendador para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare",
+      "description": "Dynamic DNS Cloudflare é um serviço que roda em segundo plano no sistema operacional e periodicamente se comunica com o serviço de DNS da Cloudflare para atualizar a referência do <i><abbr title=\"internet Protocol\">IP</abbr></i> com o domínio. <br> <br> Esse programa é útil quando se precisa fazer servidores caseiros ou não, seja para jogar Minecraft e CS 1.6 com os amigos, configurar <i><abbr title=\"Virtual Private Network\">VPN</abbr></i>, <i><abbr title=\"Digital Video Recorder\">DVR</abbr></i> para câmeras de segurança, dentre outros serviços. Porém a internet disponível só tem endereçamento IP dinâmico. <br> <br> Para evitar a queda do servidor na internet nesse tipo de situação e não ter de pagar caro por um IP estático, é necessário a implementação de um Sistema de Nomes de Domínio Dinâmico (<i><abbr title=\"Dynamic Domain Name System\">DDNS</abbr></i>). Você pode mover o controle do seu domínio para o serviço de DNS da Cloudflare e instalar esse programa para ficar atualizando o DNS com o atual IP do servidor. <br> <br> <b>OBS</b>: Apesar de eu ter disponibilizado para download só a versão Linux, você mesmo pode baixar o projeto e modificar para ter uma versão Windows ou para qualquer outro sistema. <br> <br> O programa é feito com Nodejs e empacotado independente. Você pode criar um shell script que, durante a instalação do programa, vai configurar o mesmo para rodar em background toda vez que o sistema for iniciado.",
       "cover": "/images/ip_sync_cloudflare.png",
       "href_text": "Detalhes",
       "actions": [
@@ -819,28 +819,29 @@
           "orientation": "horizontally"
         },
         {
+          "type": "image",
+          "src": "/images/screenshots/ip_sync_cloudflare/1.png",
+          "orientation": "horizontally"
+        },
+        {
+          "type": "image",
+          "src": "/images/screenshots/ip_sync_cloudflare/2.png",
+          "orientation": "horizontally"
+        },
+        {
           "type": "video",
           "src": [
-            "/videos/active_tuner/active_tuner_desktop.mp4",
-            "/videos/active_tuner/active_tuner_desktop.webm"
+            "/videos/ip_sync_cloudflare/ip_sync.webm",
+            "/videos/ip_sync_cloudflare/ip_sync.mp4"
           ],
           "orientation": "horizontally"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/active_tuner/1.png",
-          "orientation": "horizontally"
-        },
-        {
-          "type": "image",
-          "src": "/images/screenshots/active_tuner/2.png",
-          "orientation": "horizontally"
-        },
-        {
-          "type": "image",
-          "src": "/images/screenshots/active_tuner/3.png",
+          "src": "/images/screenshots/ip_sync_cloudflare/0.png",
           "orientation": "horizontally"
         }
+
       ],
       "technologies": [
         {

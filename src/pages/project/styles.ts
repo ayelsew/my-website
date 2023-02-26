@@ -224,18 +224,20 @@ export const VideoCard = styled.div`
   @media (min-width: 1400px) { 
     height: 18rem;
 
+    &.horizontally  {
+      width: 27rem;
+    }
+
     .expand &  {
-      width: 100vw;
+      height: 70vh;
     }
 
     .expand &.horizontally  {
-      height: 70vh;
-      width: 50vw;
+      width: 60vw;
     }
 
 
     .expand &.vertically {
-      height: 70vh;
       width: 30vw;
     }
   }
@@ -311,22 +313,24 @@ export const ImageCard = styled.div<ImageCardProps>`
     height: 18rem;
 
     &.horizontally {
-      width: 30rem;
+      width: 27rem;
     }
 
     &.vertically {
       width: 10rem;
     }
 
-    .expand &.horizontally  {
+    .expand &  {
       height: 70vh;
-      width: 50vw;
+    }
+
+    .expand &.horizontally  {
+      width: 60vw;
     }
 
 
     .expand &.vertically {
-      height: 70vh;
-      width: 30vw;
+      width: 22vw;
     }
   }
 `;
