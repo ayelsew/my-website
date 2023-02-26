@@ -13,7 +13,7 @@ export const FooterWrapper = styled.footer`
 
 export const Content = styled.div`
   display: flex;
-  padding: 0 1.2rem;
+  padding: 0 .5rem;
   padding-top: 1.2rem;
 `
 

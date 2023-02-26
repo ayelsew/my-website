@@ -19,8 +19,9 @@ export const NavbarMobileWrapper = styled.nav`
 
 export const Content = styled.div`
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   height: 100%;
+  padding: 0 .5rem;
 `
 
 export const NavItem = styled(Link)`

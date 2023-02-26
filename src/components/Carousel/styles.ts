@@ -55,7 +55,7 @@ export const Content = styled.div`
   /* sm applies to x-small devices (portrait phones, less than 576px) */
   @media (max-width: 576px) { 
     overflow-x: scroll;
-    padding: 0 1.2rem;
+    padding: 0 .5rem;
     gap: .9rem;
   }
 

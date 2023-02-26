@@ -73,7 +73,7 @@ export const ColumnTwo = styled.div`
     width: 100vw;
 
     & h2, & p {
-      padding: 0 1.2rem;
+      padding: 0 .5rem;
     }
   }
 
@@ -91,7 +91,7 @@ export const ColumnOne = styled.div`
     width: 100vw;
 
     & h2 {
-      padding: 0 1.2rem;
+      padding: 0 .5rem;
     }
   }
 
@@ -113,7 +113,7 @@ export const ListTechnologies = styled.ul`
     grid-auto-flow: column;
     width: 100%;
     overflow-x: scroll;
-    padding: 0 1.2rem;
+    padding: 0 .5rem;
     grid-column-gap: 0.5rem;
   }
 
