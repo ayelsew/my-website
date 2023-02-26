@@ -207,9 +207,14 @@ export const VideoCard = styled.div`
   /* sm applies to x-small devices (portrait phones, less than 576px) */
   @media (max-width: 576px) { 
     height: 12rem;
+    width: 90vw;
+
+    &.horizontally {
+      width: 85vw;
+    }
 
     .expand &  {
-      width: 100vw;
+      width: 90vw;
 
     .expand &.horizontally {
       width: 28rem;
@@ -289,7 +294,7 @@ export const ImageCard = styled.div<ImageCardProps>`
     height: 12rem;
 
     &.horizontally {
-      width: 19rem;
+      width: 85vw;
     }
 
     &.vertically {
