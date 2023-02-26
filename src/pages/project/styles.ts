@@ -8,6 +8,7 @@ export const SectionWrapper = styled.div`
   /* sm applies to x-small devices (portrait phones, less than 576px) */
   @media (max-width: 576px) { 
     height: fit-content;
+    padding-bottom: 4.5rem;
   }
 
 

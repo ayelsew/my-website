@@ -25,6 +25,7 @@ const roboto = localFont({
 export const GlobalStyle = createGlobalStyle`
   * {
     font-family: ${roboto.style.fontFamily};
+    scroll-behavior: smooth !important;
   }
 `;
 

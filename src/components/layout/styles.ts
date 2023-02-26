@@ -46,6 +46,7 @@ export const MainWrapper = styled.main`
     overflow-y: scroll;
     grid-auto-flow: row;
     scroll-snap-type: none;
+    scroll-behavior: smooth;
   }
 
   /* md applies to small devices (landscape phones, less than 768px) */

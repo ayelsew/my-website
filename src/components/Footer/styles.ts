@@ -2,7 +2,13 @@ import styled from "styled-components"
 
 export const FooterWrapper = styled.footer`
   background-color: #151515;
-  padding-bottom: 4rem;
+  padding-bottom: 4.5rem;
+  display: none;
+
+  /* sm applies to x-small devices (portrait phones, less than 576px) */
+  @media (max-width: 576px) {  
+    display: inline-block;
+  }
 `
 
 export const Content = styled.div`
@@ -58,6 +64,7 @@ export const FooterLogo = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-grow: 1;
 `
 
 export const brand = styled.span`
