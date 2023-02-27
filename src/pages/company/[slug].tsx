@@ -20,7 +20,6 @@ interface CompanyProps {
 }
 
 const Company: FCT<CompanyProps> = ({ t, post, projects }) => {
-console.log(post)
 
   return (
     <>

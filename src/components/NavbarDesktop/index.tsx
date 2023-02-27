@@ -29,7 +29,7 @@ const NavbarDesktop: FCT<NavbarDesktopProps> = ({ t }) => {
         </S.ProfilePicture>
         <S.Navgation>
           <>
-            {t.menu.nav.map((item) => (
+            {t?.menu.nav.map((item) => (
               <S.NavItem
               key={`${item.href}${item.label}`}
                 $active={false}
