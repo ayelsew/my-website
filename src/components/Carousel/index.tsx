@@ -98,7 +98,6 @@ export const Carousel: FC<CarouselProps> = ({ children, salveScroll }) => {
 
     return () => {
       if (salveScroll) {
-        console.log(scrollHistoryRef.current)
         localStorage.setItem(`${salveScroll}-carousel-scroll`, scrollHistoryRef.current.toString())
       }
     }
