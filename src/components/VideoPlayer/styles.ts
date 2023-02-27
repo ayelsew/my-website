@@ -11,6 +11,8 @@ export const Content = styled.div`
   position: relative;
   display: flex;
   justify-content: center;
+  background-color: black;
+  align-items: center;
 `;
 
 export const VideosPlayer = styled.video`
@@ -18,6 +20,12 @@ export const VideosPlayer = styled.video`
   width: 100%;
   height: 100%;
   object-fit: fill;
+
+  /* sm applies to x-small devices (portrait phones, less than 576px) */
+  @media (max-width: 576px) {
+    height: auto;
+    max-width: 100vw;
+  }
 `;
 
 export const ControlLayer = styled.div`
