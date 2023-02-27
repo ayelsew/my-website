@@ -1,0 +1,59 @@
+._ContainerBackground2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+._cloudBackground2 {
+  --size-_cloudBackground2: .9;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: calc(var(--size-_cloudBackground2) * 343px);
+  width: calc(var(--size-_cloudBackground2) * 447px);
+}
+
+.strokeCloudEletric {
+  animation: anime_stream 7s linear 0s reverse infinite;
+
+  stroke-dasharray: 60 2000;
+  stroke-dashoffset: 2060;
+}
+
+@keyframes anime_stream {
+  100% {
+    stroke-dashoffset: -2060;
+  }
+
+  50% {
+    stroke-dashoffset: 0;
+  }
+
+  0% {
+    stroke-dashoffset: 2060;
+  }
+}
+
+._gearBackground2 {
+  --size-_gearBackground2: .6;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: calc(var(--size-_gearBackground2) * 621px);
+  width: calc(var(--size-_gearBackground2) * 621px);
+
+}
+
+._spinGearBackground2 {
+  animation: spin_anim 60s linear 0s infinite reverse;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+
+@keyframes spin_anim {
+  100% {
+    transform: rotate(720deg)
+  }
+}

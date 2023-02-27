@@ -38,11 +38,6 @@ export const Background = styled.div`
   height: 100%;
   display: flex;
 
-  svg {
-    width: 100%;
-    height: 100%;
-  }
-
   /* sm applies to x-small devices (portrait phones, less than 576px) */
   @media (max-width: 576px) { 
     display: none;

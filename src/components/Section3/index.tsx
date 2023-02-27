@@ -7,12 +7,13 @@ import Paragraph from "../Paragraph";
 import TitleH2 from "../TitleH2";
 import { FCT } from "react";
 import Image from "next/image";
+import { Background3 } from "../images/backgrounds/vectors";
 
 const Section3: FCT = ({ t }) => {
   return (
     <S.Section1Wrapper>
       <S.Background>
-        {/* Adicionar ?? */}
+        <Background3 />
       </S.Background>
       <S.Content>
 
