@@ -8,7 +8,7 @@ export const HeaderCompanyWrapper = styled.header`
   /* sm applies to x-small devices (portrait phones, less than 576px) */
   @media (max-width: 576px) {
     grid-column-gap: 1rem;
-    padding: 2rem 1.2rem;
+    padding: .5rem .5rem;
   }
 
   /* lg applies to medium devices (tablets, less than 992px) */

@@ -112,7 +112,7 @@ export const CarouselArea = styled.div`
   /* sm applies to x-small devices (portrait phones, less than 576px) */
   @media (max-width: 576px) {
     & h2 {
-      padding: 0 1.2rem;
+      padding: 0 .5rem;
     }
   }
 
@@ -144,7 +144,7 @@ export const Snippet = styled.article`
 
     &.open-source {
       width: 100%;
-      padding: 0 1.2rem;
+      padding: 0 .5rem;
     }
 
     &.open-source a {
@@ -187,7 +187,7 @@ export const FavCard = styled.div`
 
   /* sm applies to x-small devices (portrait phones, less than 576px) */
   @media (max-width: 576px) { 
-    padding: 0 1.2rem;
+    padding: 0 .5rem;
     width: 100vw;
     flex-direction: column;
 

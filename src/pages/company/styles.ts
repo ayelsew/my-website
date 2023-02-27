@@ -62,7 +62,7 @@ export const Snippet = styled.article`
 
   /* sm applies to x-small devices (portrait phones, less than 576px) */
   @media (max-width: 576px) { 
-    padding: 0 1.2rem;
+    padding: 0 .5rem;
   }
 
   /* lg applies to medium devices (tablets, less than 992px) */
@@ -75,7 +75,7 @@ export const CarouselArea = styled.div`
   /* sm applies to x-small devices (portrait phones, less than 576px) */
   @media (max-width: 576px) {
     & h2 {
-      padding: 0 1.2rem;
+      padding: 0 .5rem;
     }
   }
 
