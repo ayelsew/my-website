@@ -14,13 +14,14 @@ export const FooterWrapper = styled.footer`
 export const Content = styled.div`
   display: flex;
   padding: 0 .5rem;
-  padding-top: 1.2rem;
+  padding-top: 2.5rem;
 `
 
 
 export const ContactArea = styled.div`
   display: flex;
   flex-direction: column;
+  gap: .2rem;
 
   a:nth-child(2) {
     padding: 0.3rem 0;
