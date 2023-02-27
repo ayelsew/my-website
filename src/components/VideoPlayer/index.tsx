@@ -37,7 +37,7 @@ const AudioVolume: FC<AudioVolumeProps> = ({ onChange }) => {
     circleRef.current.setAttribute('cx', String((mouseX - 7) + 5.5));
     pathRef.current.setAttribute("d", `M12.5 7 l${mouseX - 11 - 7} 0`)
     onChange((mouseX - 11 - 7) * 100 / 175 * 0.01)
-  }, [])
+  }, [onChange])
 
 
   useEffect(() => {
@@ -137,7 +137,7 @@ const VideoPlayer: FCT<VideoPlayerProps> = ({
 
   useEffect(() => {
     changeVolume(0.5)
-  }, [])
+  }, [changeVolume])
 
   return (
     <S.VideoPlayerWrapper ref={wrapperRef} onMouseMove={() => handleMouseMove()} style={showControls ? { cursor: "default" } : { cursor: "none" }}>

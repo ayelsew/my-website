@@ -102,7 +102,7 @@ export const Carousel: FC<CarouselProps> = ({ children, salveScroll }) => {
         localStorage.setItem(`${salveScroll}-carousel-scroll`, scrollHistoryRef.current.toString())
       }
     }
-  }, [])
+  }, [salveScroll])
 
   useEffect(() => {
     firstRender.current = false

@@ -42,6 +42,7 @@ const HeaderProject: FCT<HeaderProjectProps> = ({
           <S.ContainerButtons>
             {actions.map(({ href, icon, label }) => (
               <Button
+                key={`${href}-${label}`}
                 text={label}
                 icon={icons[icon]}
                 outline
