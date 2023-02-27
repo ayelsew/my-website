@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import NotFound from "./404";
 
 interface SectionProps {
   readonly $bgColor?: string
@@ -36,3 +37,5 @@ export const Section = styled.section<SectionProps>`
 
   }
 `
+
+export default NotFound;
