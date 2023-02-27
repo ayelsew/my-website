@@ -225,6 +225,18 @@ export const VideoCard = styled.div`
         width: 10rem;
       }
     }
+
+  
+    .expand &.horizontally  {
+      height: 40vh;
+      width: 100vw;
+    }
+
+
+    .expand &.vertically {
+      height: 60vh;
+      width: 100vw;
+    }
   }
 
   /* xxl applies to x-large devices (large desktops, less than 1400px) */
