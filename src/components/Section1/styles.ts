@@ -276,8 +276,13 @@ export const ContentPictureLogo = styled.div`
 `;
 
 export const HeaderMobile = styled.div`
-  display: flex;
+  display: none;
   align-items: center;
   width: 100%;
   justify-content: space-between;
+
+  /* sm applies to x-small devices (portrait phones, less than 576px) */
+  @media (max-width: 576px) { 
+    display: flex;
+  }
 `
