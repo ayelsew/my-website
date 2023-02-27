@@ -67,7 +67,7 @@ const Section3: FCT = ({ t }) => {
               buttons={
                 <>
                   <Button text="Detalhes" icon={<Eye size='20' />} href={`/project/afinador-active-tuner`} />
-                  <Button text='Abrir app' icon={<External size='16' />} href={t.portfolio.open_souce.favorite_card.href_app} target="_blank" />
+                  <Button text='Abrir app' icon={<External size='16' color="black" />} href={t.portfolio.open_souce.favorite_card.href_app} target="_blank" />
                 </>
               }
             />
