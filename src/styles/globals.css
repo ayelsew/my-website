@@ -34,3 +34,10 @@ a {
     color-scheme: dark;
   }
 }
+
+
+.gear-background {
+  animation: styles_spin__dVIJz 60s linear infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
