@@ -7,8 +7,8 @@ interface IconProps {
 
 const Icon: FC<IconProps> = ({ color, size }) => {
   return (
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M7.4 18.9421L0.5 12L7.4575 5L8.69375 6.2438L2.9725 12L8.63625 17.6983L7.4 18.9421ZM16.5425 19L15.3062 17.7562L21.0275 12L15.3637 6.30165L16.6 5.05785L23.5 12L16.5425 19Z" fill={color || "black"} />
+    <svg width={size} height={size} viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M3.6 9.96691L0 6L3.63 2L4.275 2.71074L1.29 6L4.245 9.25617L3.6 9.96691ZM8.37 10L7.72497 9.28926L10.71 6L7.75497 2.7438L8.4 2.03306L12 6L8.37 10Z" fill="white" />
     </svg>
   )
 }

@@ -2,7 +2,7 @@ import * as S from "./styles";
 import { Carousel } from "../Carousel";
 import Card from "../Card";
 import Button from "../ButtonLink";
-import { Eye, Github } from "../images/icons/vectors";
+import { External, Eye, Github } from "../images/icons/vectors";
 import Paragraph from "../Paragraph";
 import TitleH2 from "../TitleH2";
 import { FCT } from "react";
@@ -67,7 +67,7 @@ const Section3: FCT = ({ t }) => {
               buttons={
                 <>
                   <Button text="Detalhes" icon={<Eye size='20' />} href={`/project/afinador-active-tuner`} />
-                  <Button text='Abrir app' icon={<Eye size='20' />} href={t.portfolio.open_souce.favorite_card.href_app} target="_blank" />
+                  <Button text='Abrir app' icon={<External size='16' />} href={t.portfolio.open_souce.favorite_card.href_app} target="_blank" />
                 </>
               }
             />

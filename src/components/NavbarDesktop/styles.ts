@@ -119,13 +119,10 @@ export const ContactArea = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
-
-  a:nth-child(2) {
-    padding: 0.3rem 0;
-  }
+  gap: .3rem;
 `;
 
-export const Contact = styled.a`
+export const Contact = styled(Link)`
   display: flex;
   font-weight: 500;
   font-size: .8em;
@@ -158,3 +155,16 @@ export const Contact = styled.a`
   }
 `;
 
+export const ContentPictureLogo = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.4rem;
+  margin-top: 2rem;
+
+  & svg {
+    width: 10rem;
+    height: 1.5rem;
+  }
+`;

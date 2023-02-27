@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { FCT } from "react";
 
 import * as S from "./styles";
-import { Discord, Email, Linkedin } from "@/components/images/icons/vectors";
+import { Discord, Email, Leydev, Linkedin, Youtube } from "@/components/images/icons/vectors";
 
 interface NavbarDesktopProps {
 
@@ -20,19 +20,22 @@ const NavbarDesktop: FCT<NavbarDesktopProps> = ({ t }) => {
   return (
     <S.NavbarDesktopWrapper>
       <S.Content>
-        <S.ProfilePicture>
-          <Image
-            src="https://avatars.githubusercontent.com/u/33585141"
-            alt="Wesley"
-            fill
-          />
-        </S.ProfilePicture>
+        <S.ContentPictureLogo>
+          <S.ProfilePicture>
+            <Image
+              src="https://avatars.githubusercontent.com/u/33585141"
+              alt="Wesley"
+              fill
+            />
+          </S.ProfilePicture>
+          <Leydev size="18" />
+        </S.ContentPictureLogo>
         <S.Navgation>
           <>
             {t?.menu.nav.map((item) => (
               <S.NavItem
-              key={`${item.href}${item.label}`}
-                $active={false}
+                key={`${item.href}${item.label}`}
+                $active={true}
                 href={item.href}
 
               >
@@ -42,16 +45,20 @@ const NavbarDesktop: FCT<NavbarDesktopProps> = ({ t }) => {
           </>
         </S.Navgation>
         <S.ContactArea>
-          <S.Contact href="https://www.linkedin.com/in/wesley-a/" target="_blank">
-            <Linkedin color="#7D7D7D" size="18" />
+          <S.Contact href="https://www.linkedin.com/in/wesley-a/" target="_blank" title="Perfil no Linkedin">
+            <Linkedin color="#7D7D7D" size="19" />
             /wesley-a
           </S.Contact>
-          <S.Contact href="https://discordapp.com/users/266586838410461184" target="_blank">
-            <Discord color="#7D7D7D" size="18" />
+          <S.Contact href="https://www.youtube.com/@leydevsh" target="_blank" title="Canal no Youtube">
+            <Youtube color="#7D7D7D" size="19" />
+            /@leydevsh
+          </S.Contact>
+          <S.Contact href="https://discordapp.com/users/266586838410461184" target="_blank" title="Perfil no Discord">
+            <Discord color="#7D7D7D" size="19" />
             leydev#8372
           </S.Contact>
-          <S.Contact href="mailto://contato@leydev.com.br" target="_blank">
-            <Email color="#7D7D7D" size="18" />
+          <S.Contact href="mailto://contato@leydev.com.br" target="_blank" title="Endereço de email">
+            <Email color="#7D7D7D" size="19" />
             contato@leydev.com.br
           </S.Contact>
         </S.ContactArea>
