@@ -201,15 +201,29 @@ export const ContainerButtons = styled.div`
   gap: 1rem;
   flex-grow: 1;
   align-items: center;
-  flex-grow: unset;
 
   & a {
     padding: 0.5rem 0.8rem;
     height: 0.8em;
-    font-size: .70em;
+    font-size: .80em;
   }
-
+  
   & a > svg {
     height: 0.8rem;
+  }
+
+  /* sm applies to x-small devices (portrait phones, less than 576px) */
+  @media (max-width: 576px) { 
+    flex-grow: unset;
+    
+    & a {
+      padding: 0.5rem 0.8rem;
+      height: 0.8em;
+      font-size: .70em;
+    }
+
+    & a > svg {
+      height: 0.8rem;
+    }
   }
 `
