@@ -60,7 +60,7 @@ const Company: FCT<CompanyProps> = ({ t, post, projects }) => {
                     description={project.short_description}
                     background={project.cover}
                     buttons={<>
-                      <Button text={project.href_text} icon={<Eye size='20' />} href={`/project/${project.slug}`} />
+                      <Button title={`Ver detalhes sobre o projeto ${project.title}`} text={project.href_text} icon={<Eye size='20' />} href={`/project/${project.slug}`} />
                     </>}
                     profilePicture={<Image src={project.icon} alt="" fill />}
                   />

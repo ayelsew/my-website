@@ -14,6 +14,7 @@ interface ButtonLinkProps {
   href: Url | string
   target?: HTMLAnchorElement["target"],
   circle?: boolean
+  title?: string
 }
 
 const ButtonLink: FC<ButtonLinkProps> = ({
@@ -25,11 +26,12 @@ const ButtonLink: FC<ButtonLinkProps> = ({
   stretch,
   href,
   target,
-  circle
+  circle,
+  title
 }) => {
   return (
     <Link href={href} passHref legacyBehavior>
-      <S.ButtonWrapper className={`${size ?? ""} ${circle ? "circle" : ""}`} $stretch={stretch} $fill={!outline} $color={color} target={target}>
+      <S.ButtonWrapper title={title} className={`${size ?? ""} ${circle ? "circle" : ""}`} $stretch={stretch} $fill={!outline} $color={color} target={target}>
         {icon}
         {text}
       </S.ButtonWrapper>

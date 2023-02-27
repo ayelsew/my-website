@@ -163,6 +163,7 @@ const VideoPlayer: FCT<VideoPlayerProps> = ({
         </S.VideosPlayer>
         <S.ControlLayer style={showControls ? { opacity: 1 } : undefined}>
           <S.ButtonPlayPause
+            aria-label="Pausar ou dar play no vídeo"
             className={isPlaying ? "play" : "pause"}
             onClick={() => togglePlayPause()}
           >
@@ -174,6 +175,7 @@ const VideoPlayer: FCT<VideoPlayerProps> = ({
             </svg>
           </S.ButtonPlayPause>
           <S.ButtonFullScreen
+            aria-label="Colocar em tela cheia"
             className={isFullScreen ? "open" : "exit"}
             onClick={() => toggleFullScreen()}
           >

@@ -31,7 +31,7 @@ const ExpandOnScreeen: FC<ExpandOnScreeenProps> = ({ children, expand, onClose }
       <S.Content>
         {children}
       </S.Content>
-      <S.CloseButton type="button" aria-label="Close viewer" onClick={onClose}>
+      <S.CloseButton type="button" aria-label="Fechar visualização em tela cheia" onClick={onClose}>
         <Close size="16" />
       </S.CloseButton>
     </S.ExpandOnScreenWrapper>

@@ -112,10 +112,10 @@ export const Carousel: FC<CarouselProps> = ({ children, salveScroll }) => {
       <S.Content ref={containerRef} onScroll={onScroll}>
         {children}
       </S.Content>
-      <S.Button className={`PrevCarouselButton ${hideLeftButton ? "hide" : ""}`} onClick={goToPrev}>
+      <S.Button aria-label="Retroceder carrosel de projetos" className={`PrevCarouselButton ${hideLeftButton ? "hide" : ""}`} onClick={goToPrev}>
         <ArrowLeft size="40" />
       </S.Button>
-      <S.Button className={`NextCarouselButton ${hideRightButton ? "hide" : ""}`} onClick={goToNext}>
+      <S.Button aria-label="Avançar carrosel de projetos" className={`NextCarouselButton ${hideRightButton ? "hide" : ""}`} onClick={goToNext}>
         <ArrowRight size="40" />
       </S.Button>
     </S.CarouselWrapper>

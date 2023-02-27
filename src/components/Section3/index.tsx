@@ -30,7 +30,7 @@ const Section3: FCT = ({ t }) => {
                   description={project.short_description}
                   background={project.cover}
                   buttons={<>
-                    <Button text={project.href_text} icon={<Eye size='20' />} href={`/project/${project.slug}`} />
+                    <Button title={`Ver detalhes sobre o projeto ${project.title}`} text={project.href_text} icon={<Eye size='20' />} href={`/project/${project.slug}`} />
                   </>}
                   profilePicture={<Image src={project.icon} alt="" fill />}
                 />
@@ -49,6 +49,7 @@ const Section3: FCT = ({ t }) => {
             </Paragraph>
 
             <Button
+              title="Ir para perfil no Github"
               text="Ver Github"
               icon={<Github size="18" color="#fff" />}
               outline
@@ -67,12 +68,13 @@ const Section3: FCT = ({ t }) => {
               background={t.portfolio.open_souce.favorite_card.background}
               buttons={
                 <>
-                  <Button text="Detalhes" icon={<Eye size='20' />} href={`/project/afinador-active-tuner`} />
-                  <Button text='Abrir app' icon={<External size='16' color="black" />} href={t.portfolio.open_souce.favorite_card.href_app} target="_blank" />
+                  <Button title="Ver detalhes sobre o projeto afinador active tuner" text="Detalhes" icon={<Eye size='20' />} href={`/project/afinador-active-tuner`} />
+                  <Button title="Abrir aplicativo afinador active tuner" text='Abrir app' icon={<External size='16' color="black" />} href={t.portfolio.open_souce.favorite_card.href_app} target="_blank" />
                 </>
               }
             />
             <Button
+              title="Ir para perfil no Github"
               text="Ver Github"
               icon={<Github size="18" color="#fff" />}
               outline
