@@ -41,6 +41,23 @@ export const ButtonWrapper = styled.a<ButtonWrapperProps>`
     height: 1rem;
   }
 
+  &.circle {
+    --size-circle: 2.4rem;
+    width: var(--size-circle);
+    height: var(--size-circle);
+    padding: 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: ${({  $color }) =>  $color};
+
+    > svg {
+      --size-icon: 100%;
+      height: var(--size-icon);
+      width: var(--size-icon);
+    }
+  }
+
   /* sm applies to x-small devices (portrait phones, less than 576px) */
   @media (min-width: 576px) {  }
 

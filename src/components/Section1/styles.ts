@@ -257,6 +257,28 @@ export const ProfilePicture = styled.div`
   /* sm applies to x-small devices (portrait phones, less than 576px) */
   @media (max-width: 576px) { 
     display: inline-block;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
   }
 `;
+
+export const ContentPictureLogo = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.4rem;
+  margin-top: 2rem;
+  width: 100%;
+
+  & svg {
+    width: 10rem;
+    height: 1.5rem;
+  }
+`;
+
+export const HeaderMobile = styled.div`
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+`

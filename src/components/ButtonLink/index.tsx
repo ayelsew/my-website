@@ -6,13 +6,14 @@ import * as S from "./styles"
 
 interface ButtonLinkProps {
   outline?: boolean
-  text: string
+  text?: string
   icon?: ReactElement
   color?: string
   size?: "medium" | "large"
   stretch?: string
   href: Url | string
-  target?: HTMLAnchorElement["target"]
+  target?: HTMLAnchorElement["target"],
+  circle?: boolean
 }
 
 const ButtonLink: FC<ButtonLinkProps> = ({
@@ -23,11 +24,12 @@ const ButtonLink: FC<ButtonLinkProps> = ({
   size,
   stretch,
   href,
-  target
+  target,
+  circle
 }) => {
   return (
     <Link href={href} passHref legacyBehavior>
-      <S.ButtonWrapper className={`${size}`} $stretch={stretch} $fill={!outline} $color={color} target={target}>
+      <S.ButtonWrapper className={`${size ?? ""} ${circle ? "circle" : ""}`} $stretch={stretch} $fill={!outline} $color={color} target={target}>
         {icon}
         {text}
       </S.ButtonWrapper>
