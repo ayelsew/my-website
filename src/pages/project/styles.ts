@@ -311,7 +311,7 @@ export const ImageCard = styled.div<ImageCardProps>`
     }
 
     &.vertically {
-      width: 10rem;
+      width: 7rem;
     }
 
     .expand &.horizontally  {
@@ -321,7 +321,7 @@ export const ImageCard = styled.div<ImageCardProps>`
 
 
     .expand &.vertically {
-      height: 60vh;
+      height: 100vh;
       width: 100vw;
     }
   }
