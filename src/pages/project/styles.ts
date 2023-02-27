@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import NotFound from "../404";
 
 export const SectionWrapper = styled.div`
   width: 100%;
@@ -353,3 +354,5 @@ export const ImageCard = styled.div<ImageCardProps>`
     }
   }
 `;
+
+export default NotFound;

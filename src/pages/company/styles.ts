@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import NotFound from "../404";
 
 export const Section1Wrapper = styled.div`
   width: inherit;
@@ -86,3 +87,5 @@ export const CarouselArea = styled.div`
     }
   }
 `
+
+export default NotFound;
