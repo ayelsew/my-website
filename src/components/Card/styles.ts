@@ -11,7 +11,7 @@ export const CardWrapper = styled.article<CardWrapperProps>`
   border-radius: 10px;
   background: ${({ $background }) => `url(${$background})` || "#383838"};
   background-position: center;
-  background-size: 100%;
+  background-size: cover;
   overflow: hidden;
 
   /* sm applies to x-small devices (portrait phones, less than 576px) */
