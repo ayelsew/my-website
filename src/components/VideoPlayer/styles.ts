@@ -94,4 +94,9 @@ export const VolumeControl = styled.div`
   & svg.volume-input {
     /* width: 8rem; */
   }
+
+    /* sm applies to x-small devices (portrait phones, less than 576px) */
+    @media (max-width: 576px) {
+      display: none;
+    }
 `
