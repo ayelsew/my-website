@@ -267,7 +267,6 @@ export const ContentPictureLogo = styled.div`
   align-items: center;
   justify-content: center;
   gap: 1.4rem;
-  margin-top: 2rem;
   width: 100%;
 
   & svg {

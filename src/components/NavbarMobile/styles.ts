@@ -29,11 +29,11 @@ export const NavItem = styled(Link)`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: .8em;
+  font-size: .7em;
   gap: 0.3rem;
 
   & svg {
-    --svg-size: 1.44rem;
+    --svg-size: 1.2rem;
     width: var(--svg-size);
     height: var(--svg-size);
   }
