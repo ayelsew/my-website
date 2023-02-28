@@ -244,7 +244,7 @@ export const Selo = styled.span`
   }
 `;
 
-export const ProfilePicture = styled.div`
+export const ProfilePicture = styled.picture`
   --size-picture: 12rem;
   width: var(--size-picture);
   height: var(--size-picture);

@@ -1,6 +1,6 @@
 {
   "menu": {
-    "profilePicture": "/images/wesley.avif",
+    "profilePicture": ["/images/wesley.avif", "/images/wesley.png"],
     "nav": [
       {
         "label": "Sobre mim",

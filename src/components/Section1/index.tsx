@@ -31,8 +31,9 @@ const Section1: FCT = ({ t }) => {
             />
           </S.HeaderMobile>
           <S.ProfilePicture>
+            {t?.menu.profilePicture.map((img) => <source key={`header-${img}`} srcSet={img} type={`image/${img.split(".")[1]}`} />)}
             <Image
-              src={t?.menu.profilePicture}
+              src={t?.menu.profilePicture[0]}
               alt="Wesley"
               fill
             />

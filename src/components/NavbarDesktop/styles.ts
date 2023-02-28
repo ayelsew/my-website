@@ -99,7 +99,7 @@ export const NavItem = styled(Link) <NavItemProps>`
   }
 `;
 
-export const ProfilePicture = styled.div`
+export const ProfilePicture = styled.picture`
   --size-picture: 12rem;
   width: var(--size-picture);
   height: var(--size-picture);
@@ -107,6 +107,7 @@ export const ProfilePicture = styled.div`
   border: 0.4rem solid #FFFFFF;
   border-radius: var(--size-picture);
   overflow: hidden;
+  display: inline-block;
 
   /* lg applies to medium devices (tablets, less than 992px) */
   @media (max-width: 992px) { 

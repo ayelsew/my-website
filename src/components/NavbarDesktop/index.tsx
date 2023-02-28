@@ -22,8 +22,9 @@ const NavbarDesktop: FCT<NavbarDesktopProps> = ({ t }) => {
       <S.Content>
         <S.ContentPictureLogo>
           <S.ProfilePicture>
+            {t?.menu.profilePicture.map((img) => <source key={`header-${img}`} srcSet={img} type={`image/${img.split(".")[1]}`} />)}
             <Image
-              src={t?.menu.profilePicture}
+              src={t?.menu.profilePicture[0]}
               alt="Wesley"
               fill
             />

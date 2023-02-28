@@ -127,7 +127,7 @@ export const Description = styled.p`
   }
 `;
 
-export const ProfilePicture = styled.span`
+export const ProfilePicture = styled.picture`
   --size-picture: 3.2rem;
   width: var(--size-picture);
   height: var(--size-picture);
