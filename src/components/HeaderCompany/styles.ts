@@ -18,11 +18,12 @@ export const HeaderCompanyWrapper = styled.header`
   }
 `;
 
-export const ProfilePicture = styled.div`
+export const ProfilePicture = styled.picture`
   --size-picture: 6rem; 
   width: var(--size-picture);
   height: var(--size-picture);
   position: relative;
+  display: inline-block;
 
 
   /* sm applies to x-small devices (portrait phones, less than 576px) */

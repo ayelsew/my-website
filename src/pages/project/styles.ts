@@ -161,8 +161,10 @@ export const Technology = styled.li`
   }
 `
 
-export const TechnologyIcon = styled.img`
+export const TechnologyIcon = styled.picture`
   width: 2.5rem;
+  position: relative;
+  display: inline-block;
 `
 
 export const TechnologyShortName = styled.span`
@@ -267,7 +269,7 @@ interface ImageCardProps {
   readonly $display?: "vertically" | "horizontally" | string
 }
 
-export const ImageCard = styled.div<ImageCardProps>`
+export const ImageCard = styled.picture<ImageCardProps>`
   position: relative;
   height: 18rem;
   width: ${({ $display }) => {

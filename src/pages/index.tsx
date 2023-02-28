@@ -9,17 +9,21 @@ import { FCT } from 'react';
 
 import * as S from "./styles";
 
-interface HomeProps {}
+interface HomeProps { }
 
 const Home: FCT<HomeProps> = ({ t }) => {
   const router = useRouter();
-  
+
   return (
     <>
       <Head>
         <title>{t.who_am_I.head.title}</title>
         <meta name="description" content={t.who_am_I.head.description} />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:url" content="https://leydev.com.br" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content={t.who_am_I.head.title} />
+        <meta property="og:description" content={t.who_am_I.head.description} />
+        <meta property="og:image" content={t.who_am_I.head.cover} />
       </Head>
       <S.Section id="who-am-I">
         <Section1 t={t} />

@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 interface CardWrapperProps {
-  readonly $background?: string
 }
 
 export const CardWrapper = styled.article<CardWrapperProps>`
@@ -9,7 +8,7 @@ export const CardWrapper = styled.article<CardWrapperProps>`
   width: 21.5rem;
   height: 12.8rem;
   border-radius: 10px;
-  background: ${({ $background }) => `url(${$background})` || "#383838"};
+  background-color: #1a6589;
   background-position: center;
   background-size: cover;
   overflow: hidden;
@@ -34,7 +33,21 @@ export const CardWrapper = styled.article<CardWrapperProps>`
     height: 15.8rem;
   }
 `
+
+export const Wrapper = styled.div`
+  width: 100%;
+  height: 100%;
+  position: relative;
+`
+
+export const background = styled.picture`
+  width: 100%;
+  height: 100%;
+  position: absolute;
+`
+
 export const Content = styled.div`
+  position: absolute;
   width: 100%;
   height: 100%;
   padding: 1.25rem;

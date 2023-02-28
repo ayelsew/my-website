@@ -32,7 +32,7 @@ const Section1: FCT = ({ t }) => {
           </S.HeaderMobile>
           <S.ProfilePicture>
             <Image
-              src="https://avatars.githubusercontent.com/u/33585141"
+              src={t?.menu.profilePicture}
               alt="Wesley"
               fill
             />

@@ -1,4 +1,5 @@
 import { getDictionary } from "@/utils/getDictionary"
+import Image from "next/image"
 import { FCT, ProjectAction } from "react"
 import Button from "../ButtonLink"
 import { Code, Download, External, Github } from "../images/icons/vectors"
@@ -6,7 +7,7 @@ import { Code, Download, External, Github } from "../images/icons/vectors"
 import * as S from "./styles"
 
 interface HeaderProjectProps {
-  background: string
+  background: string[]
   clientLogo: string
   title: string
   company: string
@@ -30,11 +31,18 @@ const HeaderProject: FCT<HeaderProjectProps> = ({
 
   return (
     <S.HeaderProjectWrapper>
-      <S.Background $bgSrc={background} />
+      <S.Background>
+        <S.Picture>
+          {background.map((img) => <source key={`header-${img}`} srcSet={img} type={`image/${img.split(".")[1]}`} />)}
+          <Image src={background[0]} fill alt={`Imagem de capa do projeto ${title}`} />
+        </S.Picture>
+      </S.Background>
       <S.Filter />
       <S.Content>
         <S.ProfilePictureContent>
-          <S.ProfilePicture src={clientLogo} />
+          <S.ProfilePicture>
+            <Image src={clientLogo} fill alt={`Logo do cliente`} />
+          </S.ProfilePicture>
         </S.ProfilePictureContent>
         <S.HeaderContent>
           <S.Title>{title}</S.Title>

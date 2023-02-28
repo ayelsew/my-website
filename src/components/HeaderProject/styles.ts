@@ -30,7 +30,6 @@ export const HeaderProjectWrapper = styled.header`
 `
 
 interface BackgroundProps {
-  readonly $bgSrc?: string
 }
 
 export const Background = styled.div<BackgroundProps>`
@@ -38,11 +37,6 @@ export const Background = styled.div<BackgroundProps>`
   width: 52%;
   height: 80%;
   right: 0;
-  background-image: url(${({ $bgSrc }) => $bgSrc });
-  background-repeat: no-repeat;
-  background-position-x: right;
-  background-size: 100%;
-  background-position-y: top;
 
   /* sm applies to x-small devices (portrait phones, less than 576px) */
   @media (max-width: 576px) { 
@@ -137,8 +131,11 @@ export const ProfilePictureContent = styled.div`
   }
 `
 
-export const ProfilePicture = styled.img`
+export const ProfilePicture = styled.picture`
   width: 100%;
+  height: 100%;
+  position: relative;
+  display: inline-block;
 `
 
 export const HeaderContent = styled.div`
@@ -227,3 +224,14 @@ export const ContainerButtons = styled.div`
     }
   }
 `
+
+export const Picture = styled.picture`
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: inline-block;
+
+  & > img {
+    object-fit: cover;
+  }
+`;
