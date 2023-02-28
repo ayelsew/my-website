@@ -53,18 +53,21 @@ const Company: FCT<CompanyProps> = ({ t, post, projects }) => {
             </TitleH2>
             <Carousel>
               <>
-                {projects.map((project, index) => (
-                  <Card
-                    key={project.title}
-                    title={project.title}
-                    description={project.short_description}
-                    background={project.cover}
-                    buttons={<>
-                      <Button title={`Ver detalhes sobre o projeto ${project.title}`} text={project.href_text} icon={<Eye size='20' />} href={`/project/${project.slug}`} />
-                    </>}
-                    profilePicture={<Image src={project.icon} alt="" fill />}
-                  />
-                ))}
+                {projects.length ?
+                  projects.map((project, index) => (
+                    <Card
+                      key={project.title}
+                      title={project.title}
+                      description={project.short_description}
+                      background={project.cover}
+                      buttons={<>
+                        <Button title={`Ver detalhes sobre o projeto ${project.title}`} text={project.href_text} icon={<Eye size='20' />} href={`/project/${project.slug}`} />
+                      </>}
+                      profilePicture={<Image src={project.icon} alt="" fill />}
+                    />
+                  )) :
+                  <S.projectsNotFound>Não há projeto para exibir :(</S.projectsNotFound>
+                }
               </>
             </Carousel>
           </S.CarouselArea>
@@ -76,7 +79,7 @@ const Company: FCT<CompanyProps> = ({ t, post, projects }) => {
 
 export const getStaticProps: GetStaticProps = async ({ locale, params }) => {
   const t = await getDictionary();
-  const post = t.companies.find(({ slug }) => slug === params?.slug )
+  const post = t.companies.find(({ slug }) => slug === params?.slug)
 
   if (!post) return {
     notFound: true,
@@ -86,7 +89,7 @@ export const getStaticProps: GetStaticProps = async ({ locale, params }) => {
     props: {
       t,
       post,
-      projects: t.projects.filter(({ company }) => company === post.slug )
+      projects: t.projects.filter(({ company }) => company === post.slug)
     }
   }
 }

@@ -1,5 +1,6 @@
 {
   "menu": {
+    "profilePicture": "/images/wesley.avif",
     "nav": [
       {
         "label": "Sobre mim",
@@ -87,7 +88,7 @@
       "favorite_card": {
         "title": "Afinador Active Tuner",
         "description": "Esse é uma analizador de ondas sonoras, para auxiliar na afinação de instrumentos músicais de corda",
-        "background": "/images/active_tuner.png",
+        "background": "/images/covers/active_tuner.avif",
         "href_app": "https://active-tuner.web.app/",
         "href_code": "https://github.com/leydev/Active-Tuner"
       }
@@ -106,32 +107,37 @@
       "icon": "/images/vectors/asher_acaiteria.svg",
       "short_description": "Com este programa, o operador do caixa pode gerenciar produtos em estoque, registrar vendas, e fazer a pesagem em uma sorveteria self-service.",
       "description": "A Asher Açaiteria, é uma sorveteria por quilo self-service, a qual realiza suas vendas por pesagem. A loja precisava de um programa, com integração com as balanças, gerenciamento de estoque com produtos unitários e pesáveis e emissões de relatórios dos lucros. <br> <br> Utilizei o Electron o qual provê um ecossistema com Nodejs e ter acesso ao protocolo RS-232 (porta serial), e permitir execução no computador do caixa independente de sistema operacional. Fiz uso de React para desenvolver o sistema, typescript no auxílio da programação, Material-UI na construção da interface do usuário. <br> <br> Para garantir a escalabilidade do uso do programa em caso de novas franquias da loja, o sistema conta com o armazenamento dos dados em servidores e comunicação por meio de API REST, a qual foi desenvolvida usando Nodejs e MariaDB. ",
-      "cover": "/images/asher_acaiteria.png",
+      "cover": "/images/covers/asher_acaiteria.avif",
       "href_text": "Detalhes",
       "images": [
         {
           "type": "image",
-          "src": "/images/screenshots/asher_acaiteria/0.png",
+          "src": "/images/covers/asher_acaiteria.avif",
           "orientation": "horizontally"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/asher_acaiteria/1.png",
+          "src": "/images/screenshots/asher_acaiteria/0.avif",
           "orientation": "horizontally"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/asher_acaiteria/2.png",
+          "src": "/images/screenshots/asher_acaiteria/1.avif",
           "orientation": "horizontally"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/asher_acaiteria/3.png",
+          "src": "/images/screenshots/asher_acaiteria/2.avif",
           "orientation": "horizontally"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/asher_acaiteria/4.png",
+          "src": "/images/screenshots/asher_acaiteria/3.avif",
+          "orientation": "horizontally"
+        },
+        {
+          "type": "image",
+          "src": "/images/screenshots/asher_acaiteria/4.avif",
           "orientation": "horizontally"
         }
       ],
@@ -186,27 +192,32 @@
       "icon": "/images/vectors/ticket.svg",
       "short_description": "Marketplace com promoções exclusivas para clientes Ticket",
       "description": "Marketplace o qual permite compra de produtos e/ou obtenção de cupons promocionais para os clientes da empresa TICKET SERVIÇOS S.A. Entendendo “white label” como uma template de layout com padrões pré estabelecidos, foi implementado toda a identidade visual a pedido da Ticket, em uma white label de estilo marketplace a qual é denominada Ticket Vantagens.<br><br>Todos os produtos exibidos neste marketplace são provenientes de integração com API REST da Cuponeria, a qual faz integração de sistema com sua parceira VIA S.A.<br><br>Na construção deste site foram utilizados: Nextjs para renderização do lado do servidor, garantindo SEO (Search Engine Optimization) e typescript para auxiliar no desenvolvimento do código.",
-      "cover": "/images/ticket_vantagens.png",
+      "cover": "/images/covers/ticket_vantagens.avif",
       "href_text": "Detalhes",
       "images": [
         {
           "type": "image",
-          "src": "/images/screenshots/ticket/0.png",
+          "src": "/images/covers/ticket_vantagens.avif",
           "orientation": "horizontally"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/ticket/1.png",
+          "src": "/images/screenshots/ticket/0.avif",
           "orientation": "horizontally"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/ticket/2.png",
+          "src": "/images/screenshots/ticket/1.avif",
           "orientation": "horizontally"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/ticket/3.png",
+          "src": "/images/screenshots/ticket/2.avif",
+          "orientation": "horizontally"
+        },
+        {
+          "type": "image",
+          "src": "/images/screenshots/ticket/3.avif",
           "orientation": "horizontally"
         }
       ],
@@ -236,32 +247,32 @@
       "icon": "/images/vectors/bitz.svg",
       "short_description": "Marketplace com promoções exclusivas para clientes Bitz",
       "description": "Marketplace o qual permite compra de produtos e/ou obtenção de cupons promocionais para os clientes da empresa BITZ SERVIÇOS FINANCEIROS. Entendendo “white label” como uma template de layout com padrões pré estabelecidos, foi implementado toda a identidade visual a pedido do BITZ, em uma white label de estilo marketplace a qual é denominada Lojão do Bitz. <br><br> Todos os produtos exibidos neste marketplace são provenientes de integração com API REST da Cuponeria. <br><br> Na construção deste site foram utilizados: Nextjs para renderização do lado do servidor, garantindo SEO (Search Engine Optimization) e typescript para auxiliar no desenvolvimento do código.",
-      "cover": "/images/bitz.png",
+      "cover": "/images/covers/bitz.avif",
       "href_text": "Detalhes",
       "images": [
         {
           "type": "image",
-          "src": "/images/screenshots/bitz/0.png",
+          "src": "/images/screenshots/bitz/0.avif",
           "orientation": "vertically"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/bitz/1.png",
+          "src": "/images/screenshots/bitz/1.avif",
           "orientation": "vertically"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/bitz/2.png",
+          "src": "/images/screenshots/bitz/2.avif",
           "orientation": "vertically"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/bitz/3.png",
+          "src": "/images/screenshots/bitz/3.avif",
           "orientation": "vertically"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/bitz/3.png",
+          "src": "/images/screenshots/bitz/3.avif",
           "orientation": "vertically"
         }
       ],
@@ -291,32 +302,32 @@
       "icon": "/images/vectors/claro.svg",
       "short_description": "Página com promoções exclusivas para clientes Claro Pay",
       "description": "White label o qual permite obtenção de cupons promocionais para os clientes da empresa Claro Pay. Entendendo “white label” como uma template de layout com padrões pré estabelecidos, foi implementado toda a identidade visual a pedido do Claro. Essa página é aberta dentro de uma WebView no aplicativo da Claro. <br><br> Todos os produtos exibidos neste, são provenientes de integração com API REST da Cuponeria. <br><br> Na construção deste site foram utilizados: Nextjs e typescript para auxiliar no desenvolvimento do código.",
-      "cover": "/images/claro_pay.png",
+      "cover": "/images/covers/claro_pay.avif",
       "href_text": "Detalhes",
       "images": [
         {
           "type": "image",
-          "src": "/images/screenshots/claro/0.png",
+          "src": "/images/screenshots/claro/0.avif",
           "orientation": "vertically"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/claro/1.png",
+          "src": "/images/screenshots/claro/1.avif",
           "orientation": "vertically"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/claro/2.png",
+          "src": "/images/screenshots/claro/2.avif",
           "orientation": "vertically"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/claro/3.png",
+          "src": "/images/screenshots/claro/3.avif",
           "orientation": "vertically"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/claro/3.png",
+          "src": "/images/screenshots/claro/3.avif",
           "orientation": "vertically"
         }
       ],
@@ -346,7 +357,7 @@
       "icon": "/images/vectors/elo.svg",
       "short_description": "Página com promoções exclusivas para clientes Elo",
       "description": "White label o qual permite obtenção de cupons promocionais para os clientes da empresa Elo. Entendendo “white label” como uma template de layout com padrões pré estabelecidos, foi implementado toda a identidade visual a pedido da Elo. <br><br> Todos os produtos exibidos neste, são provenientes de integração com API REST da Cuponeria. <br><br> Na construção deste site foram utilizados: Nextjs e typescript para auxiliar no desenvolvimento do código.",
-      "cover": "/images/elo.png",
+      "cover": "/images/covers/elo.avif",
       "href_text": "Detalhes",
       "images": [
         {
@@ -356,27 +367,27 @@
         },
         {
           "type": "image",
-          "src": "/images/screenshots/elo/0.png",
+          "src": "/images/screenshots/elo/0.avif",
           "orientation": "vertically"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/elo/1.png",
+          "src": "/images/screenshots/elo/1.avif",
           "orientation": "vertically"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/elo/2.png",
+          "src": "/images/screenshots/elo/2.avif",
           "orientation": "horizontally"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/elo/3.png",
+          "src": "/images/screenshots/elo/3.avif",
           "orientation": "horizontally"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/elo/4.png",
+          "src": "/images/screenshots/elo/4.avif",
           "orientation": "horizontally"
         }
       ],
@@ -406,7 +417,7 @@
       "icon": "/images/vectors/primepass.svg",
       "short_description": "A primepass oferece combos de pacotes de serviços de streaming e ingresso de cinema por assinatura",
       "description": "Site feito com Nextjs e app com React Native, onde os cliente podem acessar para verificar termos, serviços, sobre a empresa e ainda assinar planos mensais ou anuais além de poderem consultar seu próprio perfil. Como extra no aplicativo, os usuários podem fazer check-in de sua localização no cinema, para validar o direito ao ingresso.",
-      "cover": "/images/primepass.png",
+      "cover": "/images/covers/primepass.avif",
       "href_text": "Detalhes",
       "images": [
         {
@@ -416,27 +427,27 @@
         },
         {
           "type": "image",
-          "src": "/images/screenshots/primepass/0.png",
+          "src": "/images/screenshots/primepass/0.avif",
           "orientation": "horizontally"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/primepass/1.png",
+          "src": "/images/screenshots/primepass/1.avif",
           "orientation": "horizontally"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/primepass/2.png",
+          "src": "/images/screenshots/primepass/2.avif",
           "orientation": "horizontally"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/primepass/3.png",
+          "src": "/images/screenshots/primepass/3.avif",
           "orientation": "horizontally"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/primepass/4.png",
+          "src": "/images/screenshots/primepass/4.avif",
           "orientation": "horizontally"
         }
       ],
@@ -466,32 +477,32 @@
       "icon": "/images/vectors/netflix.svg",
       "short_description": "Um quiz para promover a série The Witcher da Netflix. Caso os participantes respondessem corretamente às perguntas, a máquina entregava um pôster da série.",
       "description": "Um quiz para promover a série The Witcher da Netflix. Caso os participantes respondessem corretamente às perguntas, a máquina entregava um pôster da série. <br><br> A máquina foi construída usando Chromium em modo kiosk, React para compor a interface do usuário. Nodejs para fazer a interface “software/hardware” por meio do protocolo RS-232 (porta serial) e arduino.",
-      "cover": "/images/the_witcher.png",
+      "cover": "/images/covers/the_witcher.avif",
       "href_text": "Detalhes",
       "images": [
         {
           "type": "image",
-          "src": "/images/the_witcher.png",
+          "src": "/images/covers/the_witcher.avif",
           "orientation": "horizontally"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/netflix/the_witcher/0.jpeg",
+          "src": "/images/screenshots/netflix/the_witcher/0.avif",
           "orientation": "vertically"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/netflix/the_witcher/1.jpeg",
+          "src": "/images/screenshots/netflix/the_witcher/1.avif",
           "orientation": "vertically"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/netflix/the_witcher/2.jpeg",
+          "src": "/images/screenshots/netflix/the_witcher/2.avif",
           "orientation": "vertically"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/netflix/the_witcher/3.jpeg",
+          "src": "/images/screenshots/netflix/the_witcher/3.avif",
           "orientation": "vertically"
         }
       ],
@@ -531,7 +542,7 @@
       "icon": "/images/vectors/natura.svg",
       "short_description": "Máquina de amostragem para promover o novo creme corporal da Natura",
       "description": "Máquina de amostragem(<i>sampling machine</i>), para distribuição do novo creme corporal da Natura, chamado Natura Todo Dia <br><br> A máquina foi construída usando Chromium em modo kiosk, React para compor a interface do usuário. Nodejs para fazer a interface “software/hardware” por meio do protocolo RS-232 (porta serial) e arduino.",
-      "cover": "/images/natura_todo_dia.png",
+      "cover": "/images/covers/natura_todo_dia.avif",
       "href_text": "Detalhes",
       "images": [
         {
@@ -541,17 +552,17 @@
         },
         {
           "type": "image",
-          "src": "/images/screenshots/natura/0.jpeg",
+          "src": "/images/screenshots/natura/0.avif",
           "orientation": "vertically"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/natura/1.jpeg",
+          "src": "/images/screenshots/natura/1.avif",
           "orientation": "vertically"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/natura/2.jpeg",
+          "src": "/images/screenshots/natura/2.avif",
           "orientation": "vertically"
         }
       ],
@@ -591,7 +602,7 @@
       "icon": "/images/vectors/netflix.svg",
       "short_description": "Mídia out of home para promover a série Irmandade da Netflix",
       "description": "Mídia <i>out of home</i> para promover a série Irmandade da Netflix. A porta temática possuía um sensor infravermelho para detectar a presença de uma pessoa à frente, e consequentemente reproduzir vídeos gravados como no modelo acima, em um monitor curvo para dar sensação de profundidade. Foram 7 mídias espalhadas pelo centro de São Paulo ao longo de uma semana. <br><br> A máquina foi construída usando VLC Player, Raspberry PI e Nodejs para interagir com sensor por intermédio de um Arduino.",
-      "cover": "/images/irmandade_out_of_home.png",
+      "cover": "/images/covers/irmandade.avif",
       "href_text": "Detalhes",
       "images": [
         {
@@ -604,27 +615,27 @@
         },
         {
           "type": "image",
-          "src": "/images/screenshots/netflix/irmandade/0.jpg",
+          "src": "/images/screenshots/netflix/irmandade/0.avif",
           "orientation": "vertically"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/netflix/irmandade/1.jpg",
+          "src": "/images/screenshots/netflix/irmandade/1.avif",
           "orientation": "vertically"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/netflix/irmandade/2.jpeg",
+          "src": "/images/screenshots/netflix/irmandade/2.avif",
           "orientation": "horizontally"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/netflix/irmandade/3.jpg",
+          "src": "/images/screenshots/netflix/irmandade/3.avif",
           "orientation": "vertically"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/netflix/irmandade/4.jpeg",
+          "src": "/images/screenshots/netflix/irmandade/4.avif",
           "orientation": "vertically"
         }
       ],
@@ -664,7 +675,7 @@
       "icon": "/images/vectors/caixa_economica.svg",
       "short_description": "Máquina de karaokê para promover o evento Mega da Virada",
       "description": "Karaokê (<i>out of home</i>) para promover o evento Mega da Virada da Caixa Econômica Federal. Os participantes cantavam e ganhavam literalmente uma caneta azul como parte da abordagem publicitária envolvendo a parceria do cantor Manoel Gomes. <br><br> A máquina foi construída usando Chromium em modo kiosk, React para compor a interface do usuário. Nodejs para fazer a interface “software/hardware” por meio do protocolo RS-232 (porta serial) e arduino.",
-      "cover": "/images/caneta_azul.png",
+      "cover": "/images/covers/caneta_azul.avif",
       "href_text": "Detalhes",
       "images": [
         {
@@ -674,17 +685,17 @@
         },
         {
           "type": "image",
-          "src": "/images/screenshots/caixa_economica_federal/0.jpeg",
+          "src": "/images/screenshots/caixa_economica_federal/0.avif",
           "orientation": "vertically"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/caixa_economica_federal/1.jpeg",
+          "src": "/images/screenshots/caixa_economica_federal/1.avif",
           "orientation": "vertically"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/caixa_economica_federal/2.jpeg",
+          "src": "/images/screenshots/caixa_economica_federal/2.avif",
           "orientation": "vertically"
         }
       ],
@@ -724,7 +735,7 @@
       "icon": "/images/vectors/leydev.svg",
       "short_description": "Esse é uma analizador de ondas sonoras, para auxiliar na afinação de instrumentos músicais de corda",
       "description": "Analisador de frequ\u00EAncias sonoras, para aux\u00EDlio na afina\u00E7\u00E3o de instrumentos musicais. Ele detecta frequ\u00EAncias entre C\u2080 (16,35 Hertz) e B\u2088 (7902,13 Hertz), e exibe a nota referente a frequ\u00EAncia captada. <br> <br> O Active Tuner tem como objetivo o aprendizado do funcionamento de ondas sonoras e sua representa\u00E7\u00E3o digital. Foi necess\u00E1rio a compreens\u00E3o b\u00E1sica de algoritmos para a convers\u00E3o do sinal anal\u00F3gico para digital. O aprendizado do funcionamento da API de \u00E1udio utilizado pelos browsers, ex. Chrome e Firefox. E a constru\u00E7\u00E3o de uma aplica\u00E7\u00E3o Web que pudesse representar a frequ\u00EAncia e sua nota referente no momento da capta\u00E7\u00E3o. <br> <br> Foram utilizados a API de Web \u00E1udio para processamento das frequ\u00EAncias sonoras, algoritmo de detec\u00E7\u00E3o de tom (<i><abbr title=\"Pitch detection algorithm\">PDA<\/abbr> - Pitch detection algorithm<\/i>), API Canvas para desenhos de gr\u00E1fico, React para composi\u00E7\u00E3o da interface do usu\u00E1rio e typescript\/javascript para programa\u00E7\u00E3o. <br> <br> Outros autores: <br> <br> <a href=\"https:\/\/www.linkedin.com\/in\/renanlopes77\/\" rel=\"nofollow\" target=\u201D_blank\u201D>Renan Lopes<\/a> atuou na pesquisa e desenvolvimento deste projeto, <a href=\"https:\/\/github.com\/freirezinho\" target=\u201D_blank\u201D>Saulo Freire<\/a> atuou na corre\u00E7\u00E3o de bugs no navegador Safari para Mac e iPhone e <a href=\"https:\/\/www.behance.net\/luizgusiqueir\" rel=\"nofollow\" target=\u201D_blank\u201D>Luiz Gustavo<\/a> designer respons\u00E1vel pelas artes e interface do aplicativo.",
-      "cover": "/images/active_tuner.png",
+      "cover": "/images/covers/active_tuner.avif",
       "href_text": "Detalhes",
       "actions": [
         {"href": "https://active-tuner.web.app/", "label": "Abrir app", "icon": "external"},
@@ -741,17 +752,17 @@
         },
         {
           "type": "image",
-          "src": "https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/149ab7136971703.6205e51286488.png",
+          "src": "/images/screenshots/active_tuner/0.avif",
           "orientation": "horizontally"
         },
         {
           "type": "image",
-          "src": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/d01d94136971703.6205e5128568f.png",
+          "src": "/images/screenshots/active_tuner/1.avif",
           "orientation": "horizontally"
         },
         {
           "type": "image",
-          "src": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/af22ec136971703.6205e51285d84.png",
+          "src": "/images/screenshots/active_tuner/2.avif",
           "orientation": "horizontally"
         }
       ],
@@ -806,7 +817,7 @@
       "icon": "/images/vectors/leydev.svg",
       "short_description": "Agendador para realizar a sincronização periódica de endereços IPs de servidores sem endereçamento estático na Cloudflare",
       "description": "Dynamic DNS Cloudflare é um serviço que roda em segundo plano no sistema operacional e periodicamente se comunica com o serviço de DNS da Cloudflare para atualizar a referência do <i><abbr title=\"internet Protocol\">IP</abbr></i> com o domínio. <br> <br> Esse programa é útil quando se precisa fazer servidores caseiros ou não, seja para jogar Minecraft e CS 1.6 com os amigos, configurar <i><abbr title=\"Virtual Private Network\">VPN</abbr></i>, <i><abbr title=\"Digital Video Recorder\">DVR</abbr></i> para câmeras de segurança, dentre outros serviços. Porém a internet disponível só tem endereçamento IP dinâmico. <br> <br> Para evitar a queda do servidor na internet nesse tipo de situação e não ter de pagar caro por um IP estático, é necessário a implementação de um Sistema de Nomes de Domínio Dinâmico (<i><abbr title=\"Dynamic Domain Name System\">DDNS</abbr></i>). Você pode mover o controle do seu domínio para o serviço de DNS da Cloudflare e instalar esse programa para ficar atualizando o DNS com o atual IP do servidor. <br> <br> <b>OBS</b>: Apesar de eu ter disponibilizado para download só a versão Linux, você mesmo pode baixar o projeto e modificar para ter uma versão Windows ou para qualquer outro sistema. <br> <br> O programa é feito com Nodejs e empacotado independente. Você pode criar um shell script que, durante a instalação do programa, vai configurar o mesmo para rodar em background toda vez que o sistema for iniciado.",
-      "cover": "/images/ip_sync_cloudflare.png",
+      "cover": "/images/covers/ip_sync_cloudflare.avif",
       "href_text": "Detalhes",
       "actions": [
         {"href": "https://raw.githubusercontent.com/ayelsew/ddns-cloudflare/main/setup-linux.sh", "label": "For Linux", "icon": "download"},
@@ -815,17 +826,17 @@
       "images": [
         {
           "type": "image",
-          "src": "/images/ip_sync_cloudflare.png",
+          "src": "/images/ip_sync_cloudflare.avif",
           "orientation": "horizontally"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/ip_sync_cloudflare/1.png",
+          "src": "/images/screenshots/ip_sync_cloudflare/1.avif",
           "orientation": "horizontally"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/ip_sync_cloudflare/2.png",
+          "src": "/images/screenshots/ip_sync_cloudflare/2.avif",
           "orientation": "horizontally"
         },
         {
@@ -838,7 +849,7 @@
         },
         {
           "type": "image",
-          "src": "/images/screenshots/ip_sync_cloudflare/0.png",
+          "src": "/images/screenshots/ip_sync_cloudflare/0.avif",
           "orientation": "horizontally"
         }
 
@@ -869,7 +880,7 @@
       "icon": "/images/vectors/magma.svg",
       "short_description": "PWA usado para realizar agendamento de visitas pelos técnicos da Magma, empresa de marmoraria.",
       "description": "Aplicativo Web Progressivo (<i><abbr title=\"Progressive Web App\">PWA</abbr></i>), para empresa de mármore Magma, Os técnicos dessa empresa podem ao longo da jornada de trabalho verificar quais clientes eles precisam visitar e realizar agendamentos. <br><br> O aplicativo foi feito utilizando componentes de interface do Bootstrap, Javascript em sua programação, e a API Service Worker para permitir sua execução offline, além de permitir uma experiência próxima de um aplicativo nativo para Android. O mesmo também foi integrado a uma API REST, onde os dados de agendamento são centralizado permitindo login e gerenciamento das informações pela empresa",
-      "cover": "/images/magma.png",
+      "cover": "/images/covers/magma.avif",
       "href_text": "Detalhes",
       "images": [
         {
@@ -879,27 +890,27 @@
         },
         {
           "type": "image",
-          "src": "/images/screenshots/magma/0.png",
+          "src": "/images/screenshots/magma/0.avif",
           "orientation": "vertically"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/magma/1.png",
+          "src": "/images/screenshots/magma/1.avif",
           "orientation": "vertically"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/magma/2.png",
+          "src": "/images/screenshots/magma/2.avif",
           "orientation": "vertically"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/magma/3.png",
+          "src": "/images/screenshots/magma/3.avif",
           "orientation": "vertically"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/magma/4.png",
+          "src": "/images/screenshots/magma/4.avif",
           "orientation": "vertically"
         }
       ],
@@ -934,37 +945,37 @@
       "icon": "/images/vectors/leydev.svg",
       "short_description": "O clássico jogo da velha em PWA, você pode jogar: contra as máquina ou mutiplayer com deus amigos",
       "description": "Um dos meus primeiros projetos experimentais (<i><abbr title=\"Progressive Web App\">PWA</abbr></i>), clássico jogo da velha. Meu objetivo aqui foi entender como funcionava o protocolo WebSocket, para comunicação bidirecional (<i>full duplex</i>). <br><br> Os modelos de comunicação entre 2 ou mais dispositivos normalmente exige a reconexão com o servidor todas as vezes para consultar novas informações. Isso em aplicações escaláveis causa um aumento de tráfego, processamento e sobrecarrega no servidor, além de atraso na obtenção de informações críticas, pois o protocolo TCP exige que o processo <i>Three-way Handshake</i> seja realizado a cada nova conexão. Fora as demais validações que deverão ocorrer por outros protocolos acima do TCP de acordo com o modelo do Sistemas Abertos de Interconexão <i><abbr title=\"Open Systems Interconnection\">OSI</abbr></i>. <br><br> Com o protocolo WebSocket é possível conectar diversos dispositivos ao servidor, e solicitar que a mesma conexão se mantenha aberta até que 1 dos correspondentes não responda em tempo hábil as requisições de status (ping), obstrução a nível físico da rede ou encerramento da comunicação por um dos correspondentes. Com a conexão aberta e permitindo troca de mensagens bidirecionais, a comunicação passa a ser orientada a eventos, permitindo que qualquer um dos correspondentes (cliente ou servidor) enviem mensagem entre si a qualquer momento <br><br> O aplicativo foi feito utilizando componentes de interface do Bootstrap, Javascript em sua programação, e a API nativa WebSocket. <br><br> Do lado do servidor foi utilizado o módulo <a href=\"https://www.npmjs.com/package/ws\">ws</a>, que ajuda na implementação do protocolo WebSocket sobre o HTTP e TCP em ambiente Nodejs, pois até o presente momento, esse ambiente não tem o protocolo nativamente implementado",
-      "cover": "/images/hash_game.png",
+      "cover": "/images/covers/hash_game.avif",
       "href_text": "Detalhes",
       "images": [
         {
           "type": "image",
-          "src": "/images/screenshots/hash_game/0.jpeg",
+          "src": "/images/screenshots/hash_game/0.avif",
           "orientation": "vertically"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/hash_game/1.jpeg",
+          "src": "/images/screenshots/hash_game/1.avif",
           "orientation": "vertically"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/hash_game/2.jpeg",
+          "src": "/images/screenshots/hash_game/2.avif",
           "orientation": "vertically"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/hash_game/3.jpeg",
+          "src": "/images/screenshots/hash_game/3.avif",
           "orientation": "vertically"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/hash_game/4.jpeg",
+          "src": "/images/screenshots/hash_game/4.avif",
           "orientation": "vertically"
         },
         {
           "type": "image",
-          "src": "/images/screenshots/hash_game/5.jpeg",
+          "src": "/images/screenshots/hash_game/5.avif",
           "orientation": "vertically"
         }
       ],

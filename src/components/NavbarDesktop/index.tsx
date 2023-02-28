@@ -23,7 +23,7 @@ const NavbarDesktop: FCT<NavbarDesktopProps> = ({ t }) => {
         <S.ContentPictureLogo>
           <S.ProfilePicture>
             <Image
-              src="https://avatars.githubusercontent.com/u/33585141"
+              src={t.menu.profilePicture}
               alt="Wesley"
               fill
             />

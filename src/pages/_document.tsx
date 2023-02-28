@@ -26,7 +26,9 @@ export default class MyDocument extends Document {
   render() {
     return (
       <Html lang="pt-BR">
-        <Head />
+        <Head>
+          <meta http-equiv="Content-Security-Policy" content="base-uri 'self'" />
+        </Head>
         <body>
           <Main />
           <NextScript />

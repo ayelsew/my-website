@@ -88,4 +88,8 @@ export const CarouselArea = styled.div`
   }
 `
 
+export const projectsNotFound = styled.p`
+  color: ${({ theme }) => theme.color.text };
+`
+
 export default NotFound;

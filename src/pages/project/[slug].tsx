@@ -81,7 +81,7 @@ const Project: FCT<ProjectProps> = ({ t, post }) => {
 
                     return (
                       <S.ImageCard key={item.src as string} className={item.orientation} onClick={() => setExpand(true)}>
-                        <Image src={item.src as string} alt="Tela de caixa" fill />
+                        <Image src={item.src as string} alt={`${post.title} imagem ${item.src}`} fill />
                       </S.ImageCard>
                     )
                   })}
