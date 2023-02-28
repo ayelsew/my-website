@@ -32,7 +32,9 @@ const Project: FCT<ProjectProps> = ({ t, post }) => {
         <meta property="og:type" content="article" />
         <meta property="og:title" content={post.title} />
         <meta property="og:description" content={post.short_description} />
-        <meta property="og:image" content={t.who_am_I.head.cover} />
+        <meta property="og:image" content={`https://leydev.com.br/${post.cover[1]}`} />
+        <meta property="og:image:width" content="711" />
+        <meta property="og:image:height" content="432" />
       </Head>
       <S.SectionWrapper>
         <HeaderProject

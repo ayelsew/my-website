@@ -17,6 +17,7 @@ const Home: FCT<HomeProps> = ({ t }) => {
   return (
     <>
       <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{t.who_am_I.head.title}</title>
         <meta name="description" content={t.who_am_I.head.description} />
         <meta property="og:url" content="https://leydev.com.br" />
@@ -24,6 +25,8 @@ const Home: FCT<HomeProps> = ({ t }) => {
         <meta property="og:title" content={t.who_am_I.head.title} />
         <meta property="og:description" content={t.who_am_I.head.description} />
         <meta property="og:image" content={t.who_am_I.head.cover} />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
       </Head>
       <S.Section id="who-am-I">
         <Section1 t={t} />

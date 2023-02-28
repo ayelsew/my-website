@@ -27,6 +27,14 @@ const Company: FCT<CompanyProps> = ({ t, post, projects }) => {
         <title>{post.name}</title>
         <meta name="description" content={post.about_experience} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <meta property="og:url" content={`https://leydev.com.br/company/${post.slug}`} />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content={post.name} />
+        <meta property="og:description" content={post.about_experience} />
+        <meta property="og:image" content={`https://leydev.com.br/${projects[0]?.cover[1]}`} />
+        <meta property="og:image:width" content="711" />
+        <meta property="og:image:height" content="432" />
       </Head>
       <S.Section1Wrapper>
         <S.Content>

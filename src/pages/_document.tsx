@@ -27,12 +27,9 @@ export default class MyDocument extends Document {
     return (
       <Html lang="pt-BR">
         <Head>
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.ico" />
           <meta http-equiv="Content-Security-Policy" content="base-uri 'self'" />
           <meta property="og:site_name" content="leydev" />
-          <meta property="og:image:width" content="1200" />
-          <meta property="og:image:height" content="630" />
         </Head>
         <body>
           <Main />
