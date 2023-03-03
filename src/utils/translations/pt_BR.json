@@ -19,11 +19,11 @@
   "who_am_I": {
     "head": {
       "title": "Leydev - Desenvolvedor de sistemas",
-      "description": "Olá, me chamo Wesley, sou desenvolvedor há mais de 6 anos e já implementei soluções como programas, sites, webapps e IoT para diversos clientes",
+      "description": "Sou desenvolvedor há 4 anos, implementando soluções como programas, sites, aplicações web e IoT. Já trabalhei por meio de agências para diversos clientes como: Netflix, Natura, Caixa Econômica Federal, Ford Motor e etc. Como programador uso Javascript/Typescript e Rust, além de ferramentas que possuo domínio como Nextjs/React e Vue. Tenho entendimento de banco de dados SQL e NoSQL, arquitetura de sistemas Linux e Windows e também redes de computadores sendo seus protocolos, topologias e segurança.",
       "cover": "https://leydev.com.br/images/leydev_cover.png"
     },
     "my_name_is": "Olá, sou ",
-    "about": "Sou desenvolvedor há mais de 6 anos, Já implementei soluções como programas, sites, webapps e IoT para diversos clientes, alguns deles sendo Netflix, Natura, Elo, Ticket, Ford Motor. Tenho habilidades com programação (Node/Javascript/Typescript, PHP, Rust), banco de dados SQL e NoSQL (MySQL, Postgres; Mongo, Rethink), sistemas operacionais Linux e Windows e redes de computadores (UDP e TCP/IP, DNS; Proxy, Firewall e outros servidores).",
+    "about": "Sou desenvolvedor há 4 anos, implementando soluções como programas, sites, aplicações web e IoT. Já trabalhei por meio de agências para diversos clientes como: Netflix, Natura, Caixa Econômica Federal, Ford Motor e etc. Como programador uso Javascript/Typescript e Rust, além de ferramentas que possuo domínio como Nextjs/React e Vue. Tenho entendimento de banco de dados SQL e NoSQL, arquitetura de sistemas Linux e Windows e também redes de computadores sendo seus protocolos, topologias e segurança.",
     "my_experience": "Veja minhas experiências"
   },
   "skills": {
@@ -556,7 +556,7 @@
     {
       "company": "bizsys",
       "slug": "out-of-home-porta-de-cela-irmandade",
-      "title": "Out of Home para série Irmanadade",
+      "title": "Out of Home para série Irmandade",
       "client": "Netflix",
       "icon": "/images/vectors/netflix.svg",
       "short_description": "Mídia out of home para promover a série Irmandade da Netflix",
@@ -966,46 +966,46 @@
     {
       "slug": "cuponeria",
       "icon": "/images/vectors/cuponeria.svg",
-      "name": "Innoventures Ideias em Soluções S.A (Cuponeria)",
-      "role": "Desenvolvedor Front End",
+      "name": "Cuponeria - Innoventures Ideias em Soluções S.A",
+      "role": "Desenvolvedor Front-End",
       "period": {
         "start": "Fev 2022",
         "end": "Fev 2023"
       },
-      "about_experience": "Atuei como desenvolvedor no principal projeto da Cuponeria, White Label. Realizava  integração com APIs REST, manutenção, aperfeiçoamento, e codificação de componentes de UI e layouts para clientes como, Banco Bari, Sofisa, Ticket, Bitz, Claro Pay e dentre outros. Os quais oferecem descontos por meio de cupons e Cashback. Trabalhei também na migração da base do código legado, usando tecnologias como React, Next.js, Typescript, Nodejs, Jest e StoryBook."
+      "about_experience": "Trabalhei em projetos white label, os principais da empresa. Realizava integração de sistemas, aperfeiçoamento, e codificação de componentes da interface de usuário nas white labels de clientes como Banco Bari, Sofisa, Ticket, Bitz e outros. Atuei também na atualização de código legado, usando tecnologias como Typescript, Nodejs e outras."
     },
     {
       "slug": "primepass",
       "icon": "/images/vectors/primepass.svg",
       "name": "Primepass Entretenimento Interativo Ltda",
-      "role": "Desenvolvedor Front End",
+      "role": "Desenvolvedor Front-End",
       "period": {
         "start": "Out 2020",
         "end": "Jan 2022"
       },
-      "about_experience": "Atuei como desenvolvedor no website (Vuejs) e aplicativo (React Native). Realizava a integração de novas funcionalidades com API REST e Graph QL, correção de bugs na interface do usuário, integração com Firebase para login com Apple ID, Conta Google e login com parceiros (ISPs), os quais oferecem pacotes de entretenimento da Primepass dando acesso a ingressos de cinemas, e plataformas de streaming como HBO Max."
+      "about_experience": "Atuei no web site em Vuejs e aplicativo em React Native da empresa. Realizava a integração com back-end por API REST e Graph QL, correção de falhas na interface do usuário, integração com protocolo OAuth 2.0 para login com redes sociais e com parceiros provedores de internet."
     },
     {
       "slug": "bizsys",
       "icon": "/images/vectors/bizsys.svg",
-      "name": "Biz & Sys Consultoria de negócios e tecnologia de informação LTDA",
-      "role": "Desenvolvedor Full Stack",
+      "name": "Bizsys - Consultoria de negócios e tecnologia de informação LTDA",
+      "role": "Desenvolvedor Full-Stack",
       "period": {
         "start": "Jul 2019",
         "end": "Jun 2020"
       },
-      "about_experience": "Atuei como desenvolvedor em projetos publicitários (Mídia Out of Home), tendo como diferencial a implementação da tecnologia conceitual a IoT, tornando-os interativos, para clientes como Netflix, Natura, Caixa Econômica Federal, Ford, Unilever dentre outros. Realizava análises técnicas e propunha soluções usando Servidores Linux, Nodejs, React, Vue, Raspberry dentre outras. Além do desenvolvimento, fui responsável por monitoria e suporte tanto em campo quanto remoto dos projetos em período de campanha."
+      "about_experience": "Atuei em projetos publicitários out-of-home, usando o conceito IoT (Internet of Things). Realizava análises técnicas e propunha soluções front-end e back-end. Além de responsável por monitoria e suporte tanto em campo quanto remoto dos projetos em período de campanha."
     },
     {
       "slug": "leydev",
       "icon": "/images/vectors/leydev.svg",
       "name": "Leydev",
-      "role": "Desenvolvedor Full Stack",
+      "role": "Desenvolvedor Full-Stack",
       "period": {
         "start": "Mai 2019",
         "end": "Dez 2021"
       },
-      "about_experience": "Como Leydev, já atuei sendo freelancer, desenvolvendo soluções para problemas simples como apontamentos de DNS, implementação de CDN dentre outros relacionados a infraestrutura e aplicações, até desenvolvimento de um sistema completo com API REST, banco de dados e integração com balanças de caixa de loja. Adquirir experiências gerenciando uma pequena equipe, projeto e lidando diretamente com clientes. Atualmente em meu tempo livre faço apenas projetos pessoais com fins experimentais, estudatil e open-source."
+      "about_experience": "Já atuei sendo freelancer, desenvolvendo soluções para diverso clientes. Adquiri experiências gerenciando projetos, lidando diretamente com clientes e traduzindo demandas para uma pequena equipe. Atualmente em meu tempo livre faço apenas projetos pessoais com fins experimentais, estudantil e de código aberto."
     },
     {
       "slug": "sonda",

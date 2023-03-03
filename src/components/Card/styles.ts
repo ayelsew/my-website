@@ -44,6 +44,10 @@ export const background = styled.picture`
   width: 100%;
   height: 100%;
   position: absolute;
+
+  & > img {
+    object-fit: cover;
+  }
 `
 
 export const Content = styled.div`

@@ -30,6 +30,7 @@ export default class MyDocument extends Document {
           <link rel="icon" href="/favicon.ico" />
           <meta http-equiv="Content-Security-Policy" content="base-uri 'self'" />
           <meta property="og:site_name" content="leydev" />
+          <link rel="canonical" href="https://leydev.com.br"/>
         </Head>
         <body>
           <Main />

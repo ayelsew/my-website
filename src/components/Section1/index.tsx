@@ -21,6 +21,7 @@ const Section1: FCT = ({ t }) => {
               href="https://github.com/ayelsew"
               color="#2D2D2D"
               circle
+              title="Perfil no github"
             />
             <Leydev size="18" />
             <ButtonLink
@@ -28,6 +29,7 @@ const Section1: FCT = ({ t }) => {
               href="#"
               color="#202123"
               circle
+              title="Mudar a página de idioma"
             />
           </S.HeaderMobile>
           <S.ProfilePicture>
