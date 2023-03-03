@@ -68,6 +68,10 @@
       "description": "A Asher Açaiteria, é uma sorveteria por quilo self-service, a qual realiza suas vendas por pesagem. A loja precisava de um programa, com integração com as balanças, gerenciamento de estoque com produtos unitários e pesáveis e emissões de relatórios dos lucros. <br> <br> Utilizei o Electron o qual provê um ecossistema com Nodejs e ter acesso ao protocolo RS-232 (porta serial), e permitir execução no computador do caixa independente de sistema operacional. Fiz uso de React para desenvolver o sistema, typescript no auxílio da programação, Material-UI na construção da interface do usuário. <br> <br> Para garantir a escalabilidade do uso do programa em caso de novas franquias da loja, o sistema conta com o armazenamento dos dados em servidores e comunicação por meio de API REST, a qual foi desenvolvida usando Nodejs e MariaDB. ",
       "cover": [ "/images/covers/asher_acaiteria.avif", "/images/covers/png/asher_acaiteria.png" ],
       "href_text": "Detalhes",
+      "actions": [
+        {"href": "https://www.google.com/search?q=Asher+a%C3%A7aiteria", "label": "Sobre o cliente", "icon": "external"}
+
+      ],
       "images": [
         {
           "type": "image",
@@ -906,6 +910,10 @@
       "description": "Um dos meus primeiros projetos experimentais (<i><abbr title=\"Progressive Web App\">PWA</abbr></i>), clássico jogo da velha. Meu objetivo aqui foi entender como funcionava o protocolo WebSocket, para comunicação bidirecional (<i>full duplex</i>). <br><br> Os modelos de comunicação entre 2 ou mais dispositivos normalmente exige a reconexão com o servidor todas as vezes para consultar novas informações. Isso em aplicações escaláveis causa um aumento de tráfego, processamento e sobrecarrega no servidor, além de atraso na obtenção de informações críticas, pois o protocolo TCP exige que o processo <i>Three-way Handshake</i> seja realizado a cada nova conexão. Fora as demais validações que deverão ocorrer por outros protocolos acima do TCP de acordo com o modelo do Sistemas Abertos de Interconexão <i><abbr title=\"Open Systems Interconnection\">OSI</abbr></i>. <br><br> Com o protocolo WebSocket é possível conectar diversos dispositivos ao servidor, e solicitar que a mesma conexão se mantenha aberta até que 1 dos correspondentes não responda em tempo hábil as requisições de status (ping), obstrução a nível físico da rede ou encerramento da comunicação por um dos correspondentes. Com a conexão aberta e permitindo troca de mensagens bidirecionais, a comunicação passa a ser orientada a eventos, permitindo que qualquer um dos correspondentes (cliente ou servidor) enviem mensagem entre si a qualquer momento <br><br> O aplicativo foi feito utilizando componentes de interface do Bootstrap, Javascript em sua programação, e a API nativa WebSocket. <br><br> Do lado do servidor foi utilizado o módulo <a href=\"https://www.npmjs.com/package/ws\">ws</a>, que ajuda na implementação do protocolo WebSocket sobre o HTTP e TCP em ambiente Nodejs, pois até o presente momento, esse ambiente não tem o protocolo nativamente implementado",
       "cover": [ "/images/covers/hash_game.avif", "/images/covers/png/hash_game.png" ],
       "href_text": "Detalhes",
+      "actions": [
+        {"href": "https://tictactoe-1l0t.onrender.com/", "label": "Abrir app", "icon": "external"},
+        {"href": "https://github.com/ayelsew/jogo-da-velha", "label": "Código fonte", "icon": "code"}
+      ],
       "images": [
         {
           "type": "image",
