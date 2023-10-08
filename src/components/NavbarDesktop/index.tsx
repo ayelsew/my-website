@@ -3,7 +3,10 @@ import Image from 'next/image'
 import { FCT } from "react";
 
 import * as S from "./styles";
+
 import { Discord, Email, Leydev, Linkedin, Youtube } from "@/components/images/icons/vectors";
+
+import SwitchLanguage from "@/components/SwitchLanguage"
 
 interface NavbarDesktopProps {
 
@@ -21,6 +24,9 @@ const NavbarDesktop: FCT<NavbarDesktopProps> = ({ t }) => {
     <S.NavbarDesktopWrapper>
       <S.Content>
         <S.ContentPictureLogo>
+          <S.AlignerButtons>
+            <SwitchLanguage />
+          </S.AlignerButtons>
           <S.ProfilePicture>
             {t?.menu.profilePicture.map((img) => <source key={`header-${img}`} srcSet={img} type={`image/${img.split(".")[1]}`} />)}
             <Image

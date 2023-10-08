@@ -127,7 +127,7 @@ export const Contact = styled(Link)`
   display: flex;
   font-weight: 500;
   font-size: .8em;
-  color: ${({ theme }) => theme.color.text };
+  color: ${({ theme }) => theme.color.text};
   align-items: center;
   
   svg {
@@ -163,9 +163,16 @@ export const ContentPictureLogo = styled.div`
   justify-content: center;
   gap: 1.4rem;
   margin-top: 2rem;
+  width: 100%;
 
   & svg {
     width: 10rem;
     height: 1.5rem;
   }
 `;
+
+export const AlignerButtons = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+`
