@@ -19,11 +19,11 @@
   "who_am_I": {
     "head": {
       "title": "Leydev - Desenvolvedor de sistemas",
-      "description": "Sou desenvolvedor há 4 anos, implementando soluções como programas, sites, aplicações web e IoT. Já trabalhei por meio de agências para diversos clientes como: Netflix, Natura, Caixa Econômica Federal, Ford Motor e etc. Como programador uso Javascript/Typescript e Rust, além de ferramentas que possuo domínio como Nextjs/React e Vue. Tenho entendimento de banco de dados SQL e NoSQL, arquitetura de sistemas Linux e Windows e também redes de computadores sendo seus protocolos, topologias e segurança.",
+      "description": "Sou desenvolvedor há 5 anos, implementando soluções como programas, sites, aplicações web e IoT. Já trabalhei por meio de agências para diversos clientes como: Netflix, Natura, Caixa Econômica Federal, Ford Motor e etc. Como programador uso Javascript/Typescript e Rust, além de ferramentas que possuo domínio como Nextjs/React e Vue. Tenho entendimento de banco de dados SQL e NoSQL, arquitetura de sistemas Linux e Windows e também redes de computadores sendo seus protocolos, topologias e segurança.",
       "cover": "https://leydev.com.br/images/leydev_cover.png"
     },
     "my_name_is": "Olá, sou ",
-    "about": "Sou desenvolvedor há 4 anos, implementando soluções como programas, sites, aplicações web e IoT. Já trabalhei por meio de agências para diversos clientes como: Netflix, Natura, Caixa Econômica Federal, Ford Motor e etc. Como programador uso Javascript/Typescript e Rust, além de ferramentas que possuo domínio como Nextjs/React e Vue. Tenho entendimento de banco de dados SQL e NoSQL, arquitetura de sistemas Linux e Windows e também redes de computadores sendo seus protocolos, topologias e segurança.",
+    "about": "Sou desenvolvedor há 5 anos, implementando soluções como programas, sites, aplicações web e IoT. Já trabalhei por meio de agências para diversos clientes como: Netflix, Natura, Caixa Econômica Federal, Ford Motor e etc. Como programador uso Javascript/Typescript e Rust, além de ferramentas que possuo domínio como Nextjs/React e Vue. Tenho entendimento de banco de dados SQL e NoSQL, arquitetura de sistemas Linux e Windows e também redes de computadores sendo seus protocolos, topologias e segurança.",
     "my_experience": "Veja minhas experiências"
   },
   "skills": {

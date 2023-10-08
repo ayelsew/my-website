@@ -29,7 +29,7 @@ const Company: FCT<CompanyProps> = ({ t, post, projects }) => {
         <meta name="description" content={post.about_experience} />
         <meta property="og:url" content={utils.resolveURL({ path: `/company/${post.slug}` })} />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content={post.name} />
+        <meta property="og:title" content={`${post.name} - Leydev`} />
         <meta property="og:description" content={post.about_experience} />
         <meta property="og:image" content={utils.resolveURL({ path: projects[0]?.cover[1] })} />
         <meta property="og:image:width" content="711" />

@@ -29,7 +29,7 @@ const Project: FCT<ProjectProps> = ({ t, post }) => {
         <meta name="description" content={post.short_description} />
         <meta property="og:url" content={utils.resolveURL({ path: `/project/${post.slug}` })} />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content={post.title} />
+        <meta property="og:title" content={`${post.title} - Leydev`} />
         <meta property="og:description" content={post.short_description} />
         <meta property="og:image" content={utils.resolveURL({ path: post.cover[1] })} />
         <meta property="og:image:width" content="711" />
