@@ -12,6 +12,7 @@ import TitleH2 from '@/components/TitleH2'
 import { GetStaticPaths, GetStaticProps } from 'next'
 import { getDictionary } from '@/utils/getDictionary'
 import VideoPlayer from '@/components/VideoPlayer'
+import * as utils from '@/utils'
 
 interface ProjectProps {
   post: Awaited<ReturnType<typeof getDictionary>>["projects"][0]
@@ -26,13 +27,11 @@ const Project: FCT<ProjectProps> = ({ t, post }) => {
       <Head>
         <title>{post.title} - Leydev</title>
         <meta name="description" content={post.short_description} />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-        <meta property="og:url" content={`https://leydev.com.br/project/${post.slug}`} />
+        <meta property="og:url" content={utils.resolveURL({ path: `/project/${post.slug}` })} />
         <meta property="og:type" content="article" />
         <meta property="og:title" content={post.title} />
         <meta property="og:description" content={post.short_description} />
-        <meta property="og:image" content={`https://leydev.com.br/${post.cover[1]}`} />
+        <meta property="og:image" content={utils.resolveURL({ path: post.cover[1] })} />
         <meta property="og:image:width" content="711" />
         <meta property="og:image:height" content="432" />
       </Head>
